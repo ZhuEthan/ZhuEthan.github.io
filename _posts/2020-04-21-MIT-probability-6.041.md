@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: [MIT, ML]
-share-img: "https://deanattali.com/img/blog/beautiful-jekyll.png"
+ext-js: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
 ---
 
 Probability notes from MIT 6.041
