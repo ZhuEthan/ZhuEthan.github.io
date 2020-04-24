@@ -18,7 +18,7 @@ Sample Space: \\(\Omega\\)
 Axioms:
 - Nonnegativity: \\(P(A) \geq 0\\)
 - Normalization: \\(P(\Omega) = 1\\)
-- Additivity: if \\(A \cap B = \empty \\), then \\(P(A\cup B) = P(A) + P(B) \\)
+- Additivity: if \\(A \cap B = \emptyset \\), then \\(P(A\cup B) = P(A) + P(B) \\)
 
 
 
@@ -33,5 +33,5 @@ Definition: Assuming \\(P(B) \not = 0\\)
 \\[P(A \cap B) = P(B) * P(A | B) \\]
 
 * Conditional probablity still obey Axioms, e.g.
-\\(A \cap B = \empty\\)
+\\(A \cap B = \emptyset\\)
 \\(P(A \cup B | C) = P(A|C) + P(B|C)\\)
