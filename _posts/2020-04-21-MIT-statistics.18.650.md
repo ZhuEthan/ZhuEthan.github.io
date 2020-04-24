@@ -12,11 +12,11 @@ Probability deals with predicting the likelihood of future events, while statist
 **Some interesting fact**
 * You replace any estimation by average.
 
-$E(X) = 1/n * \sum_{i=1}^n(X_n-\hat{p})$
+$$E(X) = 1/n * \sum_{i=1}^n(X_n-\hat{p})$$
 
-$ 2^{\frac{n-1}{3}} $
+$$ 2^{\frac{n-1}{3}} $$
 
-$ E(X) = 1/n * \sum_{i=1}^n(X_n-\hat{p}) $
+$$ E(X) = 1/n * \sum_{i=1}^n(X_n-\hat{p}) $$
 
 **Diff between probablity and statistics:**
 Probability deals with predicting the likelihood of future events, while statistics involves the analysis of the frequency of past events. Probability is primarily a theoretical branch of mathematics, which studies the consequences of mathematical definitions.
