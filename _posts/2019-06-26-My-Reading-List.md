@@ -1,5 +1,6 @@
 ---
 layout: post
+image: /img/hello_world.jpeg
 title: My Reading List
 ---
 
