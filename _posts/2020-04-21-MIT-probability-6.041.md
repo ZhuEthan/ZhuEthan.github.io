@@ -18,7 +18,7 @@ Sample Space: \\(\Omega\\)
 Axioms:
 - Nonnegativity: \\(P(A) \geq 0\\)
 - Normalization: \\(P(\Omega) = 1\\)
-- Additivity: if \\(A \cap B = \empty\\), then \\(P(A\cup B) = P(A) + P(B)\\)
+- Additivity: if \\(A \cap B = \empty \\), then \\(P(A\cup B) = P(A) + P(B) \\)
 
 
 
@@ -30,8 +30,7 @@ Beye's Rule is ```a foundation of a lot of inference based on partial observatio
 - B is our new universe
 Definition: Assuming \\(P(B) \not = 0\\)
 \\[P(A|B) = \frac{P(A\cap B)}{P(B)}\\]
-
-\\[P(A \cap B) = P(B) * P(A | B)\\]
+\\[P(A \cap B) = P(B) * P(A | B) \\]
 
 * Conditional probablity still obey Axioms, e.g.
 \\(A \cap B = \empty\\)
