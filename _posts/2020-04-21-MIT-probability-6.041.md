@@ -14,5 +14,5 @@ Sample Space: \\(\Omega\\)
 - To be at the "right graularity"
 
 Axioms:
-- Nonnegativity: \\(\Rho\\)(\\(A\\)) \\(\geq\\) 0
-- Normalization: \\(\Rho\\)(\\(\Omega\\)) \\(=\\) 1
+- Nonnegativity: \\(P\\)(\\(A\\)) \\(\geq\\) 0
+- Normalization: \\(P\\)(\\(\Omega\\)) \\(=\\) 1
