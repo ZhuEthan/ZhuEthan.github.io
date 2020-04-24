@@ -1,5 +1,6 @@
 ---
 layout: post
+title: MIT probability 6.041
 tags: [MIT, ML]
 ext-js: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
 ---
