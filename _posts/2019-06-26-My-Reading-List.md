@@ -3,7 +3,7 @@ layout: post
 title: My Reading List
 ---
 
-I'd like to share some of the books I like very much. Some of them are just for fun, some of them do inspire me a lot. Here I list them in different buckets with my feeling.
+I'd like to read classic books which I assume won't include too many bias and opinions. All opinions are wrong, but some are useful. 
 
 ### Computer Science
 #### Machine learning
