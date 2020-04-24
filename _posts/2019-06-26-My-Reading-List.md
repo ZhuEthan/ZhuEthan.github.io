@@ -3,7 +3,7 @@ layout: post
 title: My Reading List
 ---
 
-I'd like to read classic books which I assume won't include too many bias and opinions. All opinions are wrong, but some are useful. 
+All opinions are wrong, but some are useful. 
 
 ### Computer Science
 #### Machine learning
