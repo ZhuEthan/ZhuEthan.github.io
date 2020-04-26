@@ -43,15 +43,15 @@ Definition: Assuming \\(P(B) \not = 0\\)
 \\(P(A \cap B) = P(B) * P(A|B) = P(A) * P(B|A)\\)
 
 - Total probability theorem: 
-\\(P(B) = P(A)*P(B|A) + P(A^c)*P(B|A^c)\\) 
+\\(P(B) = P(A)\*P(B|A) + P(A^c)\*P(B|A^c)\\) 
 
 - Beyes rule: 
 \\[P(A_i|B) = \frac{P(A_i)P(B|A_i)}{P(B)}\\]
 
 **"Defn:"** \\(P(B|A) = P(B)\\)
 - Occurrence of A provides no info about B's occurrence. **Will A's occurrence change your belief of B's occurrence?**
-- Recall that \\[P(A \cap B) = P(A) * P(B|A)\\]
-- **Defn:** \\[P(A \cap B)=P(A) *  P(B)\\]
+- Recall that \\(P(A \cap B) = P(A)\\) * \\(P(B|A)\\)
+- **Defn:** \\(P(A \cap B)=P(A)\\) *  \\(P(B)\\)
 - Symmetric with respect to A and B
 	- applies even if \\(P(A) = 0\\)
 	- implies \\(P(A|B) = P(A)\\)
