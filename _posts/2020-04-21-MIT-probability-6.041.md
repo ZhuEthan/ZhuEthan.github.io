@@ -62,3 +62,5 @@ Definition: Assuming \\(P(B) \not = 0\\)
 - Information on some of the events tells us nothing about probabilities related to the remaining events. 
 - \\(P(A \cap B \cap C) = P(A) * P(B) * P(C)\\)
 - Pairwise independence does not imply independence
+
+Note: Two events are independent doesn't mean they are still independent on some extra conditions. 
