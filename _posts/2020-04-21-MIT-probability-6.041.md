@@ -7,7 +7,7 @@ ext-js: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=
 
 Probability notes from MIT 6.041
 
-## Week1
+## Week1: Probability models and Axioms
 
 Sample Space: \\(\Omega\\)
 - List (Set) of possible outcomes
@@ -22,7 +22,7 @@ Axioms:
 
 
 
-## Week2
+## Week2: Conditioning and Beyes' rule
 
 Beye's Rule is ```a foundation of a lot of inference based on partial observation```
 
@@ -40,26 +40,26 @@ Definition: Assuming \\(P(B) \not = 0\\)
 ## Week3: Independence
 
 - Multiplication rule: 
-\\[P(A \cap B) = P(B) * P(A|B) = P(A) * P(B|A)\\)
+\\(P(A \cap B) = P(B) * P(A|B) = P(A) * P(B|A)\\)
 
 - Total probability theorem: 
-\\[P(B) = P(A)*P(B|A) + P(A^c)*P(B|A^c)\\) 
+\\(P(B) = P(A)*P(B|A) + P(A^c)*P(B|A^c)\\) 
 
 - Beyes rule: 
-\\[P(A_i|B) = \frac{P(A_i)P(B|A_i)}{P(B)}\\)
+\\(P(A_i|B) = \frac{P(A_i)P(B|A_i)}{P(B)}\\)
 
-**"Defn:"** \\[P(B|A) = P(B))\\)
+**"Defn:"** \\(P(B|A) = P(B))\\)
 - Occurrence of A provides no info about B's occurrence. **Will A's occurrence influence your belief of B's occurrence?**
-- Recall that \\[P(A \cap B) = P(A) * P(B|A)\\)
-- **Defn:** \\[P(A \cap B) = P(A) * P(B)\\)
+- Recall that \\(P(A \cap B) = P(A) * P(B|A)\\)
+- **Defn:** \\(P(A \cap B) = P(A) * P(B)\\)
 - Symmetric with respect to A and B
-	- applies even if \\[P(A) = 0\\)
-	- implies \\[P(A|B) = P(A)\\)
+	- applies even if \\(P(A) = 0\\)
+	- implies \\(P(A|B) = P(A)\\)
 
 **Def of conditional independence:**
-\\[P((A \cap B) | C) = P(A|C) * P(B|C)\\)
+\\(P((A \cap B) | C) = P(A|C) * P(B|C)\\)
 
 **Independence of a collection of events**
 - Information on some of the events tells us nothing about probabilities related to the remaining events. 
-- \\[P(A \cap B \cap C) = P(A) * P(B) * P(C)\\)
+- \\(P(A \cap B \cap C) = P(A) * P(B) * P(C)\\)
 - Pairwise independence does not imply independence
