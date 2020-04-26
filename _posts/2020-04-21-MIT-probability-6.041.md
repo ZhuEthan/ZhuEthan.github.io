@@ -50,7 +50,7 @@ Definition: Assuming \\(P(B) \not = 0\\)
 
 **"Defn:"** \\(P(B|A) = P(B)\\)
 - Occurrence of A provides no info about B's occurrence. __Will A's occurrence change your belief of B's occurrence?__
-- Recall that \\( P(A \cap B) = P(A) \* P(B|A) \\)
+- Recall that \\( P(A \cap B)=P(A) * P(B|A) \\)
 - Defn: \\(P(A \cap B)=P(A) * P(B)\\)
 - Symmetric with respect to A and B
 	- applies even if \\(P(A) = 0\\)
