@@ -46,7 +46,7 @@ Definition: Assuming \\(P(B) \not = 0\\)
 \\(P(B) = P(A)*P(B|A) + P(A^c)*P(B|A^c)\\) 
 
 - Beyes rule: 
-\\(P(A_i|B) = \frac{P(A_i)P(B|A_i)}{P(B)}\\)
+\\[P(A_i|B) = \frac{P(A_i)P(B|A_i)}{P(B)}\\]
 
 **"Defn:"** \\(P(B|A) = P(B)\\)
 - Occurrence of A provides no info about B's occurrence. **Will A's occurrence change your belief of B's occurrence?**
