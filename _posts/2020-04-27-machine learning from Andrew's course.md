@@ -29,4 +29,4 @@ Partial derivation process:
 ![derivation](../img/gradient-decent.png)
 
 
-Put together: 
+Put together: CodeLink: [gradientDescentMulti.m](https://github.com/ZhuEthan/MachineLearningStudy/blob/master/machine-learning-ex1/ex1/gradientDescentMulti.m)
