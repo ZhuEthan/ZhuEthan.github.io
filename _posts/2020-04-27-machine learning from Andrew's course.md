@@ -22,6 +22,7 @@ $\theta_0 := temp0$
 $\theta_1 := temp1$
 
 Partial derivation process: 
+
 ![derivation](../img/gradient-decent.png)
 
 
