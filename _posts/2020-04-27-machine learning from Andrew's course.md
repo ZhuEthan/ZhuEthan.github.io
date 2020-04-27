@@ -17,8 +17,11 @@ With gradient decent:
 Simultaneous update: 
 
 \\(temp0: = \theta_0 - \alpha\frac{\partial}{\partial\theta_0}J(\theta_0, \theta_1)\\)
+
 \\(temp1 : = \theta_1 - \alpha\frac{\partial}{\partial\theta_1}J(\theta_0, \theta_1)\\)
+
 \\(\theta_0 := temp0\\)
+
 \\(\theta_1 := temp1\\)
 
 Partial derivation process: 
@@ -27,8 +30,3 @@ Partial derivation process:
 
 
 Put together: 
-```
-function [theta, J_history] = gradientDescentMulti(X, y, theta:Vector, alpha, num_iters) {
-	theta = theta - alpha / m * (X' * (X * theta - y));
-}
-```
