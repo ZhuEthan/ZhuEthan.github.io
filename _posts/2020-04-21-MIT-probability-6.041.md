@@ -64,3 +64,11 @@ Definition: Assuming \\(P(B) \not = 0\\)
 - Pairwise independence does not imply independence
 
 Note: Two events are independent doesn't mean they are still independent on some extra conditions. 
+
+## Week 4: Counting
+
+Discrete uniform law
+- Let all sample points be equally likely. 
+- binominal coeffs\\(\dbinom{n}{k} = \frac{n!}{k! (n-k)!}\\) 
+- \\(\sum_{k=0}^n \dbinom{n}{k} =\\)  total number of subsets = \\(2^n\\)
+- \\(\sum_{k=0}^n \dbinom{n}{k} p^{k} (1-p)^{n-k} =\\)  total probability = \\(1\\) (exploit all possible permutations of coin tosses)
