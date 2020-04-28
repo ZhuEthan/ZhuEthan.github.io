@@ -8,9 +8,9 @@ ext-js: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=
 ## Week1
 
 ### Cost function: 
-We can measure the accuracy of our hypothesis function by using a cost function. This takes an average difference (acutally a fancier version of an average) of all the results of the hypothesis with inputs from x's and the acutal output y's
+1. We can measure the accuracy of our hypothesis function by using a cost function. This takes an average difference (acutally a fancier version of an average) of all the results of the hypothesis with inputs from x's and the acutal output y's
 
-1. \\(J(\theta_0, \theta_1)= \frac{1}{2m}\sum_{i=1}^{m}(\hat{y_i}-y_i)^2 = \frac{1}{2m}\sum_{i=1}^{m}(h_\theta(x_i)-y_i)^2\\)
+\\(J(\theta_0, \theta_1)= \frac{1}{2m}\sum_{i=1}^{m}(\hat{y_i}-y_i)^2 = \frac{1}{2m}\sum_{i=1}^{m}(h_\theta(x_i)-y_i)^2\\)
 
 With gradient decent: 
 
@@ -21,9 +21,9 @@ Simultaneous update:
 \\(\theta_0 := temp0\\)
 \\(\theta_1 := temp1\\)
 
-Partial derivation process: 
+2. Partial derivation process: 
 
-2. ![derivation](../img/gradient-decent.png)
+![derivation](../img/gradient-decent.png)
 
 
 Put together 1 & 2: 
