@@ -30,6 +30,6 @@ Partial derivation process:
 
 Put together: 
 
-![Gradient Decent formular](../img/gradient-decent-1.png)
+![Gradient Decent formular](../img/gradient-decent-2.png)
 
 CodeLink: [gradientDescentMulti.m](https://github.com/ZhuEthan/MachineLearningStudy/blob/master/machine-learning-ex1/ex1/gradientDescentMulti.m)
