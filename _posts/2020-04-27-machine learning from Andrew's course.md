@@ -16,17 +16,20 @@ With gradient decent:
 
 Simultaneous update: 
 
+```
 \\(temp0: = \theta_0 - \alpha\frac{\partial}{\partial\theta_0}J(\theta_0, \theta_1)\\)
-
 \\(temp1 : = \theta_1 - \alpha\frac{\partial}{\partial\theta_1}J(\theta_0, \theta_1)\\)
-
 \\(\theta_0 := temp0\\)
-
 \\(\theta_1 := temp1\\)
+```
 
 Partial derivation process: 
 
 ![derivation](../img/gradient-decent.png)
 
 
-Put together: CodeLink: [gradientDescentMulti.m](https://github.com/ZhuEthan/MachineLearningStudy/blob/master/machine-learning-ex1/ex1/gradientDescentMulti.m)
+Put together: 
+
+![Gradient Decent formular](../img/gradient-decent-1.png)
+
+CodeLink: [gradientDescentMulti.m](https://github.com/ZhuEthan/MachineLearningStudy/blob/master/machine-learning-ex1/ex1/gradientDescentMulti.m)
