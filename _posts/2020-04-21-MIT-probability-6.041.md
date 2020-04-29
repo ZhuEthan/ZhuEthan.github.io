@@ -97,7 +97,7 @@ Discrete uniform law
 	-	Let X be a r.v and let \\(Y = g(X)\\)
 		-	hard \\(E[Y] = \sum_y yP_Y(y)\\)
 		-	easy: \\(E[Y] = \sum_{x} g(x) P_X (x)\\)
-	-Caution: In general, \\(E[g(X)] \neq g(E[X])\\)
+	-	Caution: In general, \\(E[g(X)] \neq g(E[X])\\)
 	\\(E[g(X)] = g(E[X])\\) if g is linear
 - Properties:  if \\(\alpha, \beta\\) are constants, then: 
 	- \\(E[\alpha] = \alpha\\)
