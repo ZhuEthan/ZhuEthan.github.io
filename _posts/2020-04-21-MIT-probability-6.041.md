@@ -100,7 +100,7 @@ Discrete uniform law
 	-Caution: In general, \\(E[g(X)] \neq g(E[X])\\)
 	\\(E[g(X)] = g(E[X])\\) if g is linear
 - Properties:  if \\(\alpha, \beta\\) are constants, then: 
-	- \\(E[\alpha] = \alpha$
+	- \\(E[\alpha] = \alpha\\)
 	- \\(E[\alpha X] = \alpha E[X]\\)
 	- \\(E[\alpha X] = \alpha E[X] + \beta\\)
 - Variance: How spread the distribution is
