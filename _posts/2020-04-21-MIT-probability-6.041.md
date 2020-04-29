@@ -77,38 +77,38 @@ Discrete uniform law
 
 - Random Variables
 	-	An assignment of a value (number) to every possible outcome
-	-	Mathematically: A function from the sample space $\Omega$  to the **real numbers**. 
+	-	Mathematically: A function from the sample space \\(\Omega\\)  to the **real numbers**. 
 		-	discrete or continuous values
 	- Can have several random variables defined on the same sample space
 	- Notation: 
 		- Random variable X
 		- Numerical value x
 - Probablity mass function (PMF)
-	- $P_X (x) = P(X = x) = P({\omega\isin \Omega    s.t. X(\omega) X(\omega) = x})$
-	- $P_X (x) \geq 0, \sum_x P_X (x) = 1$
-	- How to compute PMF $P_X (x)$
+	- \\(P_X (x) = P(X = x) = P({\omega\isin \Omega    s.t. X(\omega) X(\omega) = x})\\)
+	- \\(P_X (x) \geq 0, \sum_x P_X (x) = 1\\)
+	- How to compute PMF $P_X (x)\\)
 		- collect all possible outcomes for which X is equal to x
 		- add their probabilities. 
 - Expectation
-	- $E[X] = \sum_{x} xp_X (x)$
+	- \\(E[X] = \sum_{x} xp_X (x)\\)
 -	Interpretations: 
 	-	Center of gravity of PMF
 	-	Average in large number of repetitions of the experiment (to be substantiated later in this course)
-	-	Let X be a r.v and let $Y = g(X)$
-		-	hard $E[Y] = \sum_y yP_Y(y)$
-		-	easy: $E[Y] = \sum_{x} g(x) P_X (x)$
-	-Caution: In general, $E[g(X)] \neq g(E[X])$
-	$E[g(X)] = g(E[X])$ if g is linear
+	-	Let X be a r.v and let \\(Y = g(X)\\)
+		-	hard \\(E[Y] = \sum_y yP_Y(y)\\)
+		-	easy: \\(E[Y] = \sum_{x} g(x) P_X (x)\\)
+	-Caution: In general, \\(E[g(X)] \neq g(E[X])\\)
+	\\(E[g(X)] = g(E[X])$ if g is linear
 - Properties:  if $\alpha, \beta$ are constants, then: 
-	- $E[\alpha] = \alpha$
-	- $E[\alpha X] = \alpha E[X]$
-	- $E[\alpha X] = \alpha E[X] + \beta$
+	- \\(E[\alpha] = \alpha$
+	- \\(E[\alpha X] = \alpha E[X]\\)
+	- \\(E[\alpha X] = \alpha E[X] + \beta\\)
 - Variance: How spread the distribution is
-	- Recall: $E[g(X)] = \sum_x g(x) p_X(x)$
-	- Second moment: $E[X^2] = \sum_x x^2 p_X(x)$
+	- Recall: \\(E[g(X)] = \sum_x g(x) p_X(x)\\)
+	- Second moment: \\(E[X^2] = \sum_x x^2 p_X(x)\\)
 	- Variance
-		- $var(X) = E[(X-E[X])] ^ 2 = \sum_x (x-E[X])^2 P_X (x) = E[X^2] - (E[X])^2$
+		- \\(var(X) = E[(X-E[X])] ^ 2 = \sum_x (x-E[X])^2 P_X (x) = E[X^2] - (E[X])^2\\)
 		
 	-	Properties
-		-	$var(X) \geq 0$
-		-	$var(\alpha X + \beta) = \alpha ^ 2 var(X)$
+		-	\\(var(X) \geq 0\\)
+		-	\\(var(\alpha X + \beta) = \alpha ^ 2 var(X)\\)
