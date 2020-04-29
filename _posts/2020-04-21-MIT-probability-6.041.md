@@ -84,7 +84,7 @@ Discrete uniform law
 		- Random variable X
 		- Numerical value x
 - Probablity mass function (PMF)
-	- \\(P_X (x) = P(X = x) = P({\omega\isin \Omega    s.t. X(\omega) X(\omega) = x})\\)
+	- \\(P_X (x) = P(X = x) = P({\omega \isin \Omega    s.t. X(\omega) = x})\\)
 	- \\(P_X (x) \geq 0, \sum_x P_X (x) = 1\\)
 	- How to compute PMF \\(P_X (x)\\)
 		- collect all possible outcomes for which X is equal to x
