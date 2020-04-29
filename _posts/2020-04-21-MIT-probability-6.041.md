@@ -86,7 +86,7 @@ Discrete uniform law
 - Probablity mass function (PMF)
 	- \\(P_X (x) = P(X = x) = P({\omega\isin \Omega    s.t. X(\omega) X(\omega) = x})\\)
 	- \\(P_X (x) \geq 0, \sum_x P_X (x) = 1\\)
-	- How to compute PMF $P_X (x)\\)
+	- How to compute PMF \\(P_X (x)\\)
 		- collect all possible outcomes for which X is equal to x
 		- add their probabilities. 
 - Expectation
@@ -98,8 +98,8 @@ Discrete uniform law
 		-	hard \\(E[Y] = \sum_y yP_Y(y)\\)
 		-	easy: \\(E[Y] = \sum_{x} g(x) P_X (x)\\)
 	-Caution: In general, \\(E[g(X)] \neq g(E[X])\\)
-	\\(E[g(X)] = g(E[X])$ if g is linear
-- Properties:  if $\alpha, \beta$ are constants, then: 
+	\\(E[g(X)] = g(E[X])\\) if g is linear
+- Properties:  if \\(\alpha, \beta\\) are constants, then: 
 	- \\(E[\alpha] = \alpha$
 	- \\(E[\alpha X] = \alpha E[X]\\)
 	- \\(E[\alpha X] = \alpha E[X] + \beta\\)
