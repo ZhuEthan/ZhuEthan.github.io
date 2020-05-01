@@ -102,7 +102,7 @@ Discrete uniform law
 - Properties:  if \\(\alpha, \beta\\) are constants, then: 
 	- \\(E[\alpha] = \alpha\\)
 	- \\(E[\alpha X] = \alpha E[X]\\)
-	- \\(E[\alpha X] = \alpha E[X] + \beta\\)
+	- \\(E[\alpha X + \beta] = \alpha E[X] + \beta\\)
 - Variance: How spread the distribution is
 	- Recall: \\(E[g(X)] = \sum_x g(x) p_X(x)\\)
 	- Second moment: \\(E[X^2] = \sum_x x^2 p_X(x)\\)
