@@ -117,7 +117,7 @@ Discrete uniform law
 
 **Conditional PMF and expectation**
 
-\\(P_{X|A}(X) = P(X = x | A)\\)
+\\(P_{X|A}(X)\\) \\(= P(X = x | A)\\)
 \\(E[X|A] = \sum_x x P_{X|A} (x)\\)
 
 
@@ -137,5 +137,5 @@ Discrete uniform law
 \\(P_{X, Y}(x, y) = P(X=x and  Y=y)\\)
 - \\(\sum_x\sum_y P_{X, Y}(x, y) = 1\\)
 - \\(P_x(x) = \sum_yP_{X, Y} (x, y)\\)
-- \\(P_{X|Y}(x|y) = P(X=x | Y=y) = \frac{P_{X, Y}(x, y)}{P_Y(y)} \\)
+- \\(P_{X|Y}(x|y) = P(X=x | Y=y) = \frac{P_{X, Y}(x, y)}{P_Y(y)}\\)
 - \\(\sum_xP_{X|Y}(x|y) = 1\\)
