@@ -115,7 +115,7 @@ Discrete uniform law
 		
 ## Week 6
 
-**Conditional PMF and expectation**
+###Conditional PMF and expectation###
 
 \\(P_{X|A}(X)\\) \\(= P(X = x | A)\\)
 \\(E[X|A] = \sum_x x P_{X|A} (x)\\)
@@ -133,7 +133,7 @@ Discrete uniform law
 		- \\(E[X] = P(X=1)E[X|X=1] + P(X>1)E[X|X>1] = p*(1-p)*(E[x]+1)\\)
 		- Solve to get E[X] = 1/p
 
-**Joint PMFs**
+####Joint PMFs####
 \\(P_{X, Y}(x, y) = P(X=x and  Y=y)\\)
 - \\(\sum_x\sum_y P_{X, Y}(x, y) = 1\\)
 - \\(P_x(x) = \sum_yP_{X, Y} (x, y)\\)
