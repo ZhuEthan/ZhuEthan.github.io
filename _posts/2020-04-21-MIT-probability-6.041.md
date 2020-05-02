@@ -112,3 +112,31 @@ Discrete uniform law
 	-	Properties
 		-	\\(var(X) \geq 0\\)
 		-	\\(var(\alpha X + \beta) = \alpha ^ 2 var(X)\\)
+		
+## Week 6
+
+**Conditional PMF and expectation**
+
+\\(P_X|A (X) = P(X = x | A)\\)
+\\(E[X|A] = \sum_x x P_{X|A} (x)\\)
+
+
+\\(p_{X|A}(x) = P((X=x) | A)\\)
+\\(E[g(X) | A] = \sum_x g(x)P_{X|A}(x)\\)
+
+\\(P(B) = P(A_1)P(B|A_1) + ... + P(A_n)P(B|A_n)\\)
+\\(P_X (x) = P(A_1)P_{X|A_1}(x) + ... + P(A_n)P_{X|A_n}(x)\\)
+\\(E[X] = P(A_1)E[X|A_1] + ... + P(A_n)E[X|A_n]\\)
+
+* Geometric example:
+	* $A_1: (X=1), A_2: (X>1)\\)
+		* $E[X] = P(X=1)E[X|X=1] + P(X>1)E[X|X>1] = p*(1-p)*(E[x]+1)\\)
+		* Solve to get E[X] = 1/p
+
+**Joint PMFs**
+\\(P_{X, Y}(x, y) = P(X=x and  Y=y)\\)
+* \\(\sum_x\sum_y P_{X, Y}(x, y) = 1\\)
+* \\(P_x(x) = \sum_yP_{X, Y} (x, y)\\)
+* \\(P_{X|Y}(x|y) = P(X=x | Y=y) = \frac{P_{X, Y}(x, y)}{P_Y(y)}\\)
+* \\(\sum_xP_{X|Y}(x|y) = 1\\)
+
