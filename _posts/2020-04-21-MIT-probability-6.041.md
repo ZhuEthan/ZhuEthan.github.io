@@ -117,7 +117,7 @@ Discrete uniform law
 
 #### Conditional PMF and expectation
 
-\\(P_{X|A}(X)\\) \\(= P(X = x | A)\\)
+\\(P_{X|A}(X) = P(X = x | A)\\)
 \\(E[X|A] = \sum_x x P_{X|A} (x)\\)
 
 
@@ -130,7 +130,7 @@ Discrete uniform law
 
 - Geometric example:
 	- \\(A_1: (X=1), A_2: (X>1)\\)
-		- \\(E[X] = P(X=1)E[X|X=1] + P(X>1)E[X|X>1] = p*(1-p)*(E[x]+1)\\)
+		- \\(E[X] = P(X=1)E[X|X=1] + P(X>1)E[X|X>1] = p(1-p)(E[x]+1)\\)
 		- Solve to get E[X] = 1/p
 
 #### Joint PMFs
