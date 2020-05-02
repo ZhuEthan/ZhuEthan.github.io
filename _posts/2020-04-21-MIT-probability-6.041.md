@@ -117,7 +117,7 @@ Discrete uniform law
 
 **Conditional PMF and expectation**
 
-\\(P_X|A (X) = P(X = x | A)\\)
+\\(P_{X|A} (X) = P(X = x | A)\\)
 \\(E[X|A] = \sum_x x P_{X|A} (x)\\)
 
 
