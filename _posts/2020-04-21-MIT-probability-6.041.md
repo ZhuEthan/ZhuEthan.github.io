@@ -122,7 +122,7 @@ Discrete uniform law
 
 
 \\(p_{X|A}(x) = P((X=x) | A)\\)
-\\(E[g(X) | A] = \sum_x g(x)P_{X|A}(x)\\)
+\\(E[g(X) | A] = \sum_x g(x)P_{X|A} (x)\\)
 
 \\(P(B) = P(A_1)P(B|A_1) + ... + P(A_n)P(B|A_n)\\)
 \\(P_X (x) = P(A_1)P_{X|A_1}(x) + ... + P(A_n)P_{X|A_n}(x)\\)
@@ -141,6 +141,6 @@ Discrete uniform law
 
 \\(P_x(x) = \sum_yP_{X, Y} (x, y)\\)
 
-\\(P_{X|Y}(x|y) = P(X=x | Y=y) = \frac{P_{X, Y}(x, y)}{P_Y(y)}\\)
+\\(P_{X|Y}(x|y) = P(X=x | Y=y) = \frac{P_{X, Y}(x, y)}{P_Y (y)}\\)
 
 \\(\sum_xP_{X|Y}(x|y) = 1\\)
