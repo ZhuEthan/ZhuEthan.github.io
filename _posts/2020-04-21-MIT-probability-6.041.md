@@ -134,7 +134,7 @@ Discrete uniform law
 		- Solve to get E[X] = 1/p
 
 #### Joint PMFs
-\\(P_{X, Y}(x, y) = P(X=x and  Y=y)\\)
+\\(P_{X, Y}(x, y) = P(X=x and Y=y)\\)
 - \\(\sum_x\sum_y P_{X, Y}(x, y) = 1\\)
 - \\(P_x(x) = \sum_yP_{X, Y} (x, y)\\)
 - \\(P_{X|Y}(x|y) = P(X=x | Y=y) = \frac{P_{X, Y}(x, y)}{P_Y(y)}\\)
