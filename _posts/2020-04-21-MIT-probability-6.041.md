@@ -117,23 +117,23 @@ Discrete uniform law
 
 #### Conditional PMF and expectation
 
-* \\(P_{X|A}(X) = P(X = x \vert A)\\)
+* \\(P_{X \vert A}(X) = P(X = x \vert A)\\)
 
-* \\(E[X|A] = \sum_x x P_{X\vert A} (x)\\)
+* \\(E[X \vert A] = \sum_x x P_{X \vert A} (x)\\)
 
-* \\(p_{X|A}(x) = P((X=x) \vert A)$$
+* \\(p_{X \vert A}(x) = P((X=x) \vert A)$$
 
-* \\(E[g(X) | A] = \sum_x g(x)P_{X\vert A} (x)\\)
+* \\(E[g(X) \vert A] = \sum_x g(x)P_{X\vert A} (x)\\)
 
-* \\(P(B) = P(A_1)P(B|A_1) + ... + P(A_n)P(B|A_n)\\)
+* \\(P(B) = P(A_1)P(B \vert A_1) + ... + P(A_n)P(B \vert A_n)\\)
 
-* \\(P_X (x) = P(A_1)P_{X|A_1}(x) + ... + P(A_n)P_{X|A_n}(x)\\)
+* \\(P_X (x) = P(A_1)P_{X \vert A_1}(x) + ... + P(A_n)P_{X \vert A_n}(x)\\)
 
-* \\(E[X] = P(A_1)E[X\vert A_1] + ... + P(A_n)E[X\vert A_n]\\)
+* \\(E[X] = P(A_1)E[X \vert A_1] + ... + P(A_n)E[X \vert A_n]\\)
 
 - Geometric example:
 	- \\(A_1: (X=1), A_2: (X>1)\\)
-		- \\(E[X] = P(X=1)E[X\vert X=1] + P(X>1)E[X\vert X>1] = p(1-p)(E[x]+1)\\)
+		- \\(E[X] = P(X=1)E[X\vert X=1] + P(X>1)E[X \vert X>1] = p(1-p)(E[x]+1)\\)
 		- Solve to get E[X] = 1/p
 
 #### Joint PMFs
@@ -142,4 +142,4 @@ Discrete uniform law
 * \\(\sum_x\sum_y P_{X, Y}(x, y) = 1\\)
 * \\(P_x(x) = \sum_yP_{X, Y} (x, y)\\)
 * \\(P_{X \vert Y}(x \vert y) = P(X=x \vert Y=y) = \frac{P_{X, Y}(x, y)}{P_Y (y)}\\)
-* \\(\sum_xP_{X \vert Y}(x|y) = 1\\)
+* \\(\sum_xP_{X \vert Y}(x \vert y) = 1\\)
