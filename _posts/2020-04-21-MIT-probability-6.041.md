@@ -118,19 +118,12 @@ Discrete uniform law
 #### Conditional PMF and expectation
 
 * \\(P_{X \vert A}(X) = P(X = x \vert A)\\)
-
 * \\(E[X \vert A] = \sum_x x P_{X \vert A} (x)\\)
-
-* \\(p_{X \vert A}(x) = P((X=x) \vert A)$$
-
+* \\(p_{X \vert A}(x) = P((X=x) \vert A)\\)
 * \\(E[g(X) \vert A] = \sum_x g(x)P_{X\vert A} (x)\\)
-
 * \\(P(B) = P(A_1)P(B \vert A_1) + ... + P(A_n)P(B \vert A_n)\\)
-
 * \\(P_X (x) = P(A_1)P_{X \vert A_1}(x) + ... + P(A_n)P_{X \vert A_n}(x)\\)
-
 * \\(E[X] = P(A_1)E[X \vert A_1] + ... + P(A_n)E[X \vert A_n]\\)
-
 - Geometric example:
 	- \\(A_1: (X=1), A_2: (X>1)\\)
 		- \\(E[X] = P(X=1)E[X\vert X=1] + P(X>1)E[X \vert X>1] = p(1-p)(E[x]+1)\\)
