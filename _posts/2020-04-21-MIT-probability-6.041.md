@@ -136,3 +136,29 @@ Discrete uniform law
 * \\(P_x(x) = \sum_yP_{X, Y} (x, y)\\)
 * \\(P_{X \vert Y}(x \vert y) = P(X=x \vert Y=y) = \frac{P_{X, Y}(x, y)}{P_Y (y)}\\)
 * \\(\sum_xP_{X \vert Y}(x \vert y) = 1\\)
+
+
+### Week 7:
+
+Random variables X, Y, Z are independent if: 
+
+\\(P_{X, Y, Z} (x, y, z) = P_X(x) * P_Y(y) * P_Z(z) for all x, y, z\\)
+
+Expectations: 
+* In general: \\(E[g(X, Y)] = \sum_x \sum_y g(x, y) P_{X, Y}(x, y)\\)
+* \\(E[\alpha X + \beta] = \alpha E[X] + \beta\\)
+* \\(E[X+Y+Z] = E[X] + E[Y] + E[Z]\\)
+* if X, Y are independent: 
+	* \\(E[XY] = E[X] * E[Y]\\)
+	* \\(E[g(X)h(Y)] = E[g(X)] * E[h(Y)]\\): If X is independent to Y, then h(Y) and g(X) are also independent.  
+
+* \\(Var(\alpha X) = \alpha^2 Var(X)\\)
+* \\(Var(X+\alpha) = Var(X)\\)
+* Let \\(Z = X+Y\\)
+	* if X, Y are independent:
+		* \\(Var(X+Y) = Var(X) + Var(Y)\\)
+* Example: 
+	* If \\(X = Y, Var(X+Y) = Var(2X) = 4Var(X)\\)
+	* If \\(X = -Y, Var(X+Y) = Var(0) = 0\\)
+	* If X, Y indep and \\(Z = X-3Y\\)
+	   \\(Var(Z) = Var(X)+Var(-3Y) = Var(X) + 9Var(Y)\\)
