@@ -179,7 +179,7 @@ Expectations:
 
 * \\(f_X(x) = \frac{1}{b-a}, a \leq x \leq b, 0 otherwize\\)
 * \\(E[X] = \int_{a}^{b} x * \frac{1}{b-a}dx = \frac{a+b}{2}\\)
-* \\(\delta^{2}_X = \int_{a}^{b} (x - \frac{a+b}{2}) \frac{1}{b-a} dx = \frac{(b-a)^2}{12}\\)
+* \\(\delta_{X}^{2} = \int_{a}^{b} (x - \frac{a+b}{2}) \frac{1}{b-a} dx = \frac{(b-a)^2}{12}\\)
 * \\(\delta_x = \frac{b-a}{\sqrt 12}\\)
 
 #### Gaussian (normal) PDF
