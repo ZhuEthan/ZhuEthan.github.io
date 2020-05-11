@@ -113,7 +113,7 @@ Discrete uniform law
 		-	\\(var(X) \geq 0\\)
 		-	\\(var(\alpha X + \beta) = \alpha ^ 2 var(X)\\)
 		
-## Week 6
+## Week 6: Discrete Random Variables II
 
 #### Conditional PMF and expectation
 
@@ -138,7 +138,7 @@ Discrete uniform law
 * \\(\sum_xP_{X \vert Y}(x \vert y) = 1\\)
 
 
-### Week 7:
+### Week 7: Discrete Random Variables III
 
 Random variables X, Y, Z are independent if: 
 
@@ -189,7 +189,7 @@ Expectations:
 * General normal function \\(f_X(x) = \frac{1}{\sigma\sqrt {2 \pi}}e^{-(x-\mu)^2/2\sigma^2}\\)
 * Let \\(Y = aX + b\\)
 	* Then: \\(E[Y] = a*\mu + b\\)
-	* $Var(Y) = a^2\sigma^2\\)
+	* \\(Var(Y) = a^2\sigma^2\\)
 	* Fact: \\(Y \sim N(a\mu+b, a^2\sigma^2)\\)
 	
 ## Week 9: Multiple Continuous Random Variables
@@ -205,5 +205,5 @@ Expectations:
 * Conditional probability
 	*	\\(P(x \leq X \leq x+\delta | Y \approx y) \approx f_{X\vert Y}(x \vert y) * \delta\\)
 	* \\(f_{X|Y}(x|y) = \frac{f_{X, Y}(x, y)}{f_Y(y)} if f_Y(y) > 0\\)
-	* If independent \\(f_{X, Y} = f_Xf_Y$, we obtain
+	* If independent \\(f_{X, Y} = f_Xf_Y\\), we obtain
 	\\[f_{X \vert Y}(x \vert y) = f_X (x\\]	   
