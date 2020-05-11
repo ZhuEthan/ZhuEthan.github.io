@@ -162,3 +162,48 @@ Expectations:
 	* If \\(X = -Y, Var(X+Y) = Var(0) = 0\\)
 	* If X, Y indep and \\(Z = X-3Y\\)
 	   \\(Var(Z) = Var(X)+Var(-3Y) = Var(X) + 9Var(Y)\\)
+	   
+## Week 8: Continuous Random Variables
+* A continuous r.v. is described by a probability density function. 
+
+\\[P(a \leq X \leq b) = \int_{a}^{b}f(x)dx\\]
+
+\\(\int_{-\infty}^{\infty} f(x)dx = 1\\)
+\\(P(x \leq X \leq x + \delta) = \int_{x}^{x+\delta} f_{X}dx * = f_{X}(x) * \delta\\)
+
+#### Means and Variance
+* \\(E[X] = \int_{-\infty}^{\infty} x f_X(x) dx\\)
+* \\(E[g(X)] = \int_{-\infty}^{\infty}g(x)f_X(x)dx\\)
+* \\(var(X) = \delta ^2 = \int_{-\infty}^{\infty}(x-E[X])^2f_X(x)dx = E[X^2]-(E[X])^2\\)
+#### Continuous Uniform r.v.
+
+* \\(f_X(x) = \frac{1}{b-a}, a \leq x \leq b, 0 otherwize\\)
+* \\(E[X] = \int_{a}^{b} x * \frac{1}{b-a}dx = \frac{a+b}{2}\\)
+* \\(\delta^2_X = \int_{a}^{b} (x - \frac{a+b}{2}) \frac{1}{b-a}dx = \frac{(b-a)^2}{12}\\)
+* \\(\delta_x = \frac{b-a}{\sqrt 12}\\)
+
+#### Gaussian (normal) PDF
+* Standard normal N(0, 1): \\(f_X(x) = \frac{1}{\sqrt {2 \pi}}e^{-x^2/2}\\)
+* \\(E[X] = 0\\)
+* \\(Var(X) = 1\\)
+* General normal function \\(f_X(x) = \frac{1}{\sigma\sqrt {2 \pi}}e^{-(x-\mu)^2/2\sigma^2}\\)
+* Let \\(Y = aX + b\\)
+	* Then: \\(E[Y] = a*\mu + b\\)
+	* $Var(Y) = a^2\sigma^2\\)
+	* Fact: \\(Y \sim N(a\mu+b, a^2\sigma^2)\\)
+	
+## Week 9: Multiple Continuous Random Variables
+* \\(P((X, Y)) \in S) = \int\int_{S}f_{X, Y}(x, y)dxdy\\)
+* Interpretation: 
+	* \\(P(x \leq X\leq x+\delta, y \leq Y \leq y+\delta) \approx f_{X, Y}(x, y) * \delta^2\\)
+	* Expectations: \\(E[g(X, Y)] = \int_{-\infty}^{\infty} \int_{-\infty}^{\infty} g(x, y)f_{X, Y}(x, y)dxdy\\)
+	* From the joint to the marginal: \\[f_X(x)*\delta \approx P(x \leq X \leq x+\delta) = \delta*\int_{-\infty}^{\infty}f_{X, Y}(x, y)dy\\]
+	\\[f_X(x)  = \int_{-\infty}^{\infty}f_{X, Y}(x, y)dy\\]
+	* X and Y are called independent if 
+		\\[f_{X, Y}(x, y) = f_X(x)f_Y(y) for all x, y\\]
+
+* Conditional probability
+	*	\\(P(x \leq X \leq x+\delta | Y \approx y) \approx f_{X\vert Y}(x \vert y) * \delta\\)
+	* \\(f_{X|Y}(x|y) = \frac{f_{X, Y}(x, y)}{f_Y(y)} if f_Y(y) > 0\\)
+	* If independent \\(f_{X, Y} = f_Xf_Y$, we obtain
+	\\[f_{X \vert Y}(x \vert y) = f_X (x\\]	   
