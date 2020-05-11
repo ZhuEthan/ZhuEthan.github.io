@@ -197,7 +197,7 @@ Expectations:
 * Interpretation: 
 	* \\(P(x \leq X\leq x+\delta, y \leq Y \leq y+\delta) \approx f_{X, Y}(x, y) * \delta^2\\)
 	* Expectations: \\(E[g(X, Y)] = \int_{-\infty}^{\infty} \int_{-\infty}^{\infty} g(x, y)f_{X, Y}(x, y)dxdy\\)
-	* From the joint to the marginal: \\[f_X(x)*\delta \approx P(x \leq X \leq x+\delta) = \delta*\int_{-\infty}^{\infty}f_{X, Y}(x, y)dy\\]
+	* From the joint to the marginal: \\[f_X(x) * \delta \approx P(x \leq X \leq x + \delta) = \delta * \int_{-\infty} ^ {\infty} f_{X, Y} (x, y)dy\\]
 	\\[f_X(x)  = \int_{-\infty}^{\infty}f_{X, Y}(x, y)dy\\]
 	* X and Y are called independent if 
 		\\[f_{X, Y}(x, y) = f_X(x)f_Y(y) for all x, y\\]
