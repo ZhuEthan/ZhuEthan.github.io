@@ -203,7 +203,7 @@ Expectations:
 		\\[f_{X, Y}(x, y) = f_X(x)f_Y(y) for all x, y\\]
 
 * Conditional probability
-	*	\\(P(x \leq X \leq x+\delta | Y \approx y) \approx f_{X\vert Y}(x \vert y) * \delta\\)
-	* \\(f_{X|Y}(x|y) = \frac{f_{X, Y}(x, y)}{f_Y(y)} if f_Y(y) > 0\\)
+	* \\(P(x \leq X \leq x+\delta | Y \approx y) \approx f_{X \vert Y}(x \vert y) * \delta\\)
+	* \\(f_{X \vert Y}(x \vert y) = \frac{f_{X, Y}(x, y)}{f_Y(y)} if f_Y(y) > 0\\)
 	* If independent \\(f_{X, Y} = f_Xf_Y\\), we obtain
 	\\[f_{X \vert Y}(x \vert y) = f_X (x\\]	   
