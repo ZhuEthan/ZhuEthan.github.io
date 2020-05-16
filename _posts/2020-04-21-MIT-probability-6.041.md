@@ -206,4 +206,9 @@ Expectations:
 	* \\(P(x \leq X \leq x + \delta \vert Y \approx y) \approx f_{X \vert Y}(x \vert y) * \delta\\)
 	* \\(f_{X \vert Y}(x \vert y) = \frac{f_{X, Y}(x, y)}{f_Y(y)} if f_Y(y) > 0\\)
 	* If independent \\(f_{X, Y} = f_Xf_Y\\), we obtain
-	\\[f_{X \vert Y}(x \vert y) = f_X (x\\]	   
+	\\[f_{X \vert Y}(x \vert y) = f_X (x)\\]
+	
+1. Set up sample space
+2. Describe the probablity law for defined sample space
+3. Identify the event of intersect
+4. Calculate
