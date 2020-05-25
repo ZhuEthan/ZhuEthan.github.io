@@ -217,7 +217,7 @@ Expectations:
 ## Week 10: Multiple Continuous Random Variables
 
 \\[f_{X|Y}(x\vert y) = \frac{f_{X,Y}(x, y)}{f_Y(y)} = \frac{f_X(x)f_{Y\vert X}(y\vert x)}{f_Y(y)}\\]
-\\[f_Y(y) = \int_x f_X(x)f_{Y|X}(y|x)dx\\]
+\\[f_Y(y) = \int_x f_X(x)f_{Y\vert X}(y\vert x)dx\\]
 
 
 \\[P_X(x)f_{Y\vert X}(y \vert x) * \theta = f_Y(y) P_{X\vert Y}(x \vert y) *\theta\\]
