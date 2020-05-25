@@ -212,3 +212,30 @@ Expectations:
 2. Describe the probablity law for defined sample space
 3. Identify the event of intersect
 4. Calculate
+
+
+## Week 10: Multiple Continuous Random Variables
+
+\\[f_{X|Y}(x\vert y) = \frac{f_{X,Y}(x, y)}{f_Y(y)} = \frac{f_X(x)f_{Y\vert X}(y\vert x)}{f_Y(y)}\\]
+\\[f_Y(y) = \int_x f_X(x)f_{Y|X}(y|x)dx\\]
+
+
+\\[P_X(x)f_{Y\vert X}(y \vert x) * \theta = f_Y(y) P_{X\vert Y}(x \vert y) *\theta\\]
+
+\\[f_{X\vert Y} = \frac{f_X(x) P_{Y\vert X}(y\vert x)}{P_Y(y)}\\]
+\\[P_Y(y)=\int_x f_X(x)P_{Y\vert X}(y\vert x)dx\\]
+
+- Obtain probablity mass for each possible value of \\(Y=g(X)\\)
+\\[P_Y(y) = P(g(X) = y) = \sum_{x:g(x)=y}P_X(x)\\]
+
+The continuous case: 
+
+- Get CDF of Y: \\(F_Y(y) = P(Y \leq y)\\)
+- Differentiate to get
+\\[f_Y(y) = \frac{dF_Y}{dy}(y)\\]
+
+$Example\\)
+
+- \\(Y = aX+b\\) => to get \\(f_Y(y)\\) from \\(f_X(x)\\)
+- \\(X: F_Y(y) = P(Y \leq y) = P(aX+b \leq y) = P(X \leq \frac{y-b}{a}) = F_x(\frac{y-b}{a}) = F_x(\frac{y-b}{a})\\) when \\(a > 0\\), similar apply to \\(a < 0\\)
+\\[f_Y(y) = f_x(\frac{y-b}{a}) \frac{1}{\vert a\vert}\\]
