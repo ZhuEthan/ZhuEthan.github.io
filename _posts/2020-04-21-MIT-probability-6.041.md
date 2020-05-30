@@ -220,7 +220,14 @@ Expectations:
 \\[f_Y(y) = \int_x f_X(x)f_{Y\vert X}(y\vert x)dx\\]
 
 
-\\[P_X(x)f_{Y\vert X}(y \vert x) * \theta = f_Y(y) P_{X\vert Y}(x \vert y) *\theta\\]
+$P(X=x, y \leq Y \leq y+\delta) = P(X=x)P(y\leq Y \leq y + \delta \vert X=x) = P(y \leq Y \leq y + \delta)P(X=x \vert y \leq Y \leq y+\delta)$
+
+=> $P_X(x)f_{Y\vert X}(y \vert x) * \delta = f_Y(y) P_{X\vert Y}(x \vert y) *\delta$
+
+
+=> $f_{X\vert Y} = \frac{f_X(x) P_{Y\vert X}(y\vert x)}{P_Y(y)}$
+$$P_Y(y)=\int_x f_X(x)P_{Y\vert X}(y\vert x)dx$$
+
 
 \\[f_{X\vert Y} = \frac{f_X(x) P_{Y\vert X}(y\vert x)}{P_Y(y)}\\]
 \\[P_Y(y)=\int_x f_X(x)P_{Y\vert X}(y\vert x)dx\\]
