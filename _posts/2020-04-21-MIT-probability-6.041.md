@@ -250,61 +250,61 @@ $Example\\)
 
 ## Lecture 11 Derived distributions: convolution; covariance and correlation
 
-- $Let Y = g(X)$ g strictly monotonic
-- Event $x < X < x + \delta$ is the same as $g(x) \leq Y \leq g(x + \delta)$ or approximately $g(x) \leq Y \leq g(x) + \delta[(dg/dx)(x)]$
+- \\(Let Y = g(X)\\) g strictly monotonic
+- Event \\(x < X < x + \delta\\) is the same as \\(g(x) \leq Y \leq g(x + \delta)$ or approximately \\(g(x) \leq Y \leq g(x) + \delta[(dg/dx)(x)]\\)
 - Hence. 
 $$\delta f_X(x) = \delta \vert \frac{dy}{dx}(x) \vert f_Y(y)$$ where y = g(x)
 
-- $W=X+Y; X, Y$ independent
-- $f_{W\vert X}(w\vert x) = f_Y(w-x)$
-- $f_{W, X}(w, x) = f_X(x)f_{W\vert X}(w\vert x) = f_X(x)f_Y(w-x)$
-- $f_W(w) = \int_{-\infty}^{\infty}f_X(x)f_Y(w-x)dx$
+- \\(W=X+Y; X, Y$ independent
+- \\(f_{W\vert X}(w\vert x) = f_Y(w-x)\\)
+- \\(f_{W, X}(w, x) = f_X(x)f_{W\vert X}(w\vert x) = f_X(x)f_Y(w-x)\\)
+- \\(f_W(w) = \int_{-\infty}^{\infty}f_X(x)f_Y(w-x)dx\\)
 
 The sum of independent normal r.v's 
-- $X ~ N(0, \delta^2), Y ~ N(0, \delta^2)$ independent. 
-- Let $W = X + Y$ 
-- $f_W(w) = \int_{-\infty}^{\infty}f_X(x)f_Y(w-x) dx$
+- \\(X ~ N(0, \delta^2), Y ~ N(0, \delta^2)$ independent. 
+- Let \\(W = X + Y\\)
+- \\(f_W(w) = \int_{-\infty}^{\infty}f_X(x)f_Y(w-x) dx\\)
 - Conclustion: W is normal,
-	- mean = 0, var = $\delta_x ^ 2 + \delta_y ^2$ 
+	- mean = 0, var = \\(\delta_x ^ 2 + \delta_y ^2\\) 
 	- same argument for nonzero mean case
 
  $$ Covariance $$
- - $cov(X, Y) = E((X-E[X])*(Y-E[Y])]$ telling a relation between having a bix X and having a big Y  
- - $cov(X, Y) = E[XY] - E[X]E[Y]$
- - $cov(X, X) = E((X-E[X])^2) = Var(X)$
- - $var(\sum_{i=1}^{\infty}X_i) = \sum_{i=1}^{n}var(X_i) + \sum_{(i, j): i \ne j} cov(X_i, X_j)$
- - independent => $cov(X, Y) = E[X-E[X]]_{(= 0)} * E[Y-E[Y]] =  0$  converse is not true
+ - \\(cov(X, Y) = E((X-E[X])*(Y-E[Y])]$ telling a relation between having a bix X and having a big Y  
+ - \\(cov(X, Y) = E[XY] - E[X]E[Y]\\)
+ - \\(cov(X, X) = E((X-E[X])^2) = Var(X)\\)
+ - \\(var(\sum_{i=1}^{\infty}X_i) = \sum_{i=1}^{n}var(X_i) + \sum_{(i, j): i \ne j} cov(X_i, X_j)\\)
+ - independent => \\(cov(X, Y) = E[X-E[X]]_{(= 0)} * E[Y-E[Y]] =  0\\)  converse is not true
 $$ Correlation coefficient $$
 
 Dimentionless version of covariance:
 
-- $p = E[\frac {X-E[X]}{\delta_X} * \frac{Y-E[Y]}{\delta_Y}] = \frac{cov(X, Y)}{\delta_X  \delta_Y}$
-- $-1 \leq p \leq 1$
-- $\vert p \vert = 1 <=> (X-E[X]) = c(Y-E[Y])$
+- \\(p = E[\frac {X-E[X]}{\delta_X} * \frac{Y-E[Y]}{\delta_Y}] = \frac{cov(X, Y)}{\delta_X  \delta_Y}\\)
+- \\(-1 \leq p \leq 1\\)
+- \\(\vert p \vert = 1 <=> (X-E[X]) = c(Y-E[Y])\\)
 
 ## Lecture 12 Iterated Expectations
 
 Conditional expectations: 
 
 - Given the value y of a r.v. Y:
-	- $E[X\vert Y=y]=\sum_x xp_{x\vert y}(x \vert y)$ (integral in continuous case)
-	- Stick example: stick of length l break at uniformly chosen point Y break again at uniformly chosen point X => $E[X\vert Y=y] = \frac{y}{2} (number)$
-	- $E[X\vert Y] = \frac{Y}{2} (r.v.)$
+	- \\(E[X\vert Y=y]=\sum_x xp_{x\vert y}(x \vert y)\\) (integral in continuous case)
+	- Stick example: stick of length l break at uniformly chosen point Y break again at uniformly chosen point X => \\(E[X\vert Y=y] = \frac{y}{2} (number)\\)
+	- \\(E[X\vert Y] = \frac{Y}{2} (r.v.)\\)
 	- Law of iterated expectations:
-		- $E[E[X \vert Y]] = E[g(Y)]$ = $\sum_yg(y)P_Y(y) = \sum_y E[X\vert Y=y]P_Y(y) = E[X]$
+		- \\(E[E[X \vert Y]] = E[g(Y)]\\) = \\(\sum_yg(y)P_Y(y) = \sum_y E[X\vert Y=y]P_Y(y) = E[X]\\)
 		- In stick example: 
-			- $E[X] = E[E[X\vert Y]] = E[Y/2] = \epsilon / 4$
+			- \\(E[X] = E[E[X\vert Y]] = E[Y/2] = \epsilon / 4\\)
 
-$var(X \vert Y)$ and its expectation
-- $var(X \vert Y = y) = E[(X-E[X \vert Y=y])^2 \vert Y= y]$
-- $var(X\vert Y)$: a r.v. with value $var(X \vert Y = y)$ when Y=y
+\\(var(X \vert Y)$ and its expectation
+- \\(var(X \vert Y = y) = E[(X-E[X \vert Y=y])^2 \vert Y= y]\\)
+- \\(var(X\vert Y)\\): a r.v. with value \\(var(X \vert Y = y)\\) when Y=y
 - Law of total variance:
-	- $var(X) = E[var(X\vert Y)] + var(E[X\vert Y])$
+	- \\(var(X) = E[var(X\vert Y)] + var(E[X\vert Y])\\)
 	- Proof: 
-		- Recall: $var(X) = E[X^2] - (E[X])^2$
-		- $var(X\vert Y) = E[X^2 \vert Y] - (E[X\vert Y])^2$
-		- $E[var(X\vert Y)] = E[X^2] - E[(E[X\vert Y])^2]$
-		- $var(E[X\vert Y]) = E[(E[X\vert Y])^2]-(E[X])^2$
+		- Recall: \\(var(X) = E[X^2] - (E[X])^2\\)
+		- \\(var(X\vert Y) = E[X^2 \vert Y] - (E[X\vert Y])^2\\)
+		- \\(E[var(X\vert Y)] = E[X^2] - E[(E[X\vert Y])^2]\\)
+		- \\(var(E[X\vert Y]) = E[(E[X\vert Y])^2]-(E[X])^2\\)
 
 Sum of right-hand sides of (c), (d): 
 $$var(X) = E[var(X\vert Y)] + var(E[X\vert Y])$$
@@ -316,30 +316,30 @@ Y= section
 
 Two sections: 
 y=1(10 students); y=2(20 students)
-$y = 1: \frac{1}{10}\sum_{i=1}{10}x_i = 90$
-$y=2: \frac{1}{20}\sum_{i=11}^{30}x_i = 60$
+\\(y = 1: \frac{1}{10}\sum_{i=1}{10}x_i = 90\\)
+\\(y=2: \frac{1}{20}\sum_{i=11}^{30}x_i = 60\\)
 
-$E[X] = 1/30*\sum_{i=1}^{30}x_i = 70$
+\\(E[X] = 1/30*\sum_{i=1}^{30}x_i = 70\\)
 
-$E[X\vert Y] =  90 w.p 1/3$ or $60 w.p. 2/3$
+\\(E[X\vert Y] =  90 w.p 1/3$ or $60 w.p. 2/3\\)
 
-$var(E[X \vert Y]) = 1/3(90-70)^2 + 2/3(60-70)^2 = 600/3=200$
-$E[var(X \vert Y)] = \frac{1}{3}* 10+ \frac{2}{3}*20 = \frac{50}{3}$
+\\(var(E[X \vert Y]) = 1/3(90-70)^2 + 2/3(60-70)^2 = 600/3=200$
+\\(E[var(X \vert Y)] = \frac{1}{3}* 10+ \frac{2}{3}*20 = \frac{50}{3}\\)
 
-$var(X) = E[var(X \vert Y)] + var(E[X \vert Y]) = \frac{50}{3} + 200$ = (average variability within secions + variability between sections)
+\\(var(X) = E[var(X \vert Y)] + var(E[X \vert Y]) = \frac{50}{3} + 200\\) = (average variability within secions + variability between sections)
 
 Sum of a random number of independent r.v. 's 
 * N: number of stores visited (N is a nonnegative integer r.v.)
-* $X_i$: money spent in store i
-	* $X_i assumed i.i.d.$
+* \\(X_i\\): money spent in store i
+	* \\(X_i assumed i.i.d.\\)
 	* independent of N
-* Let $Y = X_1 + ... + X_N$
-	* $E[Y\vert N=n] = E[X_1 + X_2 + ... X_n \vert N=n] = E[X_1 + X_2 +... X_n] = E[X_1] + E[X_2] + ...+ E[X_n] = nE[X]$
-* $E[Y \vert N] = NE[X]$
+* Let \\(Y = X_1 + ... + X_N\\)
+	* \\(E[Y\vert N=n] = E[X_1 + X_2 + ... X_n \vert N=n] = E[X_1 + X_2 +... X_n] = E[X_1] + E[X_2] + ...+ E[X_n] = nE[X]\\)
+* \\(E[Y \vert N] = NE[X]\\)
 $$E[Y] = E[E[Y\vert N]] = E[NE[X]] = E[N]E[X]$$
-* $var(E[Y \vert N]) = (E[X])^2 var(N)$
-* $var(Y \vert N=n) = n * var (X)$ (independent vars)
-   $var(Y \vert N) = N * var(X)$
-   $E[var(Y \vert N)] = E[N] var(X)$
+* \\(var(E[Y \vert N]) = (E[X])^2 var(N)\\)
+* \\(var(Y \vert N=n) = n * var (X)\\) (independent vars)
+   \\(var(Y \vert N) = N * var(X)\\)
+   \\(E[var(Y \vert N)] = E[N] var(X)\\)
 
 $$var(Y) = E[var(Y \vert N)] + var(E[Y \vert N]) = E[N]var(X) + (E[X])^2 var(N)$$
