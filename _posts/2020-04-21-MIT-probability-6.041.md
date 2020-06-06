@@ -220,12 +220,12 @@ Expectations:
 \\[f_Y(y) = \int_x f_X(x)f_{Y\vert X}(y\vert x)dx\\]
 
 
-$P(X=x, y \leq Y \leq y+\delta) = P(X=x)P(y\leq Y \leq y + \delta \vert X=x) = P(y \leq Y \leq y + \delta)P(X=x \vert y \leq Y \leq y+\delta)$
+\\(P(X=x, y \leq Y \leq y+\delta) = P(X=x)P(y\leq Y \leq y + \delta \vert X=x) = P(y \leq Y \leq y + \delta)P(X=x \vert y \leq Y \leq y+\delta)\\)
 
-=> $P_X(x)f_{Y\vert X}(y \vert x) * \delta = f_Y(y) P_{X\vert Y}(x \vert y) *\delta$
+=> \\(P_X(x)f_{Y\vert X}(y \vert x) * \delta = f_Y(y) P_{X\vert Y}(x \vert y) *\delta\\)
 
 
-=> $f_{X\vert Y} = \frac{f_X(x) P_{Y\vert X}(y\vert x)}{P_Y(y)}$
+=> \\(f_{X\vert Y} = \frac{f_X(x) P_{Y\vert X}(y\vert x)}{P_Y(y)}\\)
 $$P_Y(y)=\int_x f_X(x)P_{Y\vert X}(y\vert x)dx$$
 
 
@@ -241,7 +241,7 @@ The continuous case:
 - Differentiate to get
 \\[f_Y(y) = \frac{dF_Y}{dy}(y)\\]
 
-$Example\\)
+\\(Example\\)
 
 - \\(Y = aX+b\\) => to get \\(f_Y(y)\\) from \\(f_X(x)\\)
 - \\(X: F_Y(y) = P(Y \leq y) = P(aX+b \leq y) = P(X \leq \frac{y-b}{a}) = F_x(\frac{y-b}{a}) = F_x(\frac{y-b}{a})\\) when \\(a > 0\\), similar apply to \\(a < 0\\)
@@ -255,7 +255,7 @@ $Example\\)
 - Hence. 
 $$\delta f_X(x) = \delta \vert \frac{dy}{dx}(x) \vert f_Y(y)$$ where y = g(x)
 
-- \\(W=X+Y; X, Y$ independent
+- \\(W=X+Y; X, Y\\) independent
 - \\(f_{W\vert X}(w\vert x) = f_Y(w-x)\\)
 - \\(f_{W, X}(w, x) = f_X(x)f_{W\vert X}(w\vert x) = f_X(x)f_Y(w-x)\\)
 - \\(f_W(w) = \int_{-\infty}^{\infty}f_X(x)f_Y(w-x)dx\\)
@@ -269,7 +269,7 @@ The sum of independent normal r.v's
 	- same argument for nonzero mean case
 
  $$ Covariance $$
- - \\(cov(X, Y) = E((X-E[X])*(Y-E[Y])]$ telling a relation between having a bix X and having a big Y  
+ - \\(cov(X, Y) = E((X-E[X])*(Y-E[Y])]\\) telling a relation between having a bix X and having a big Y  
  - \\(cov(X, Y) = E[XY] - E[X]E[Y]\\)
  - \\(cov(X, X) = E((X-E[X])^2) = Var(X)\\)
  - \\(var(\sum_{i=1}^{\infty}X_i) = \sum_{i=1}^{n}var(X_i) + \sum_{(i, j): i \ne j} cov(X_i, X_j)\\)
