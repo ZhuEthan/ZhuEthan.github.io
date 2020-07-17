@@ -2,11 +2,11 @@
 Bond is one way an agency borrows money from the public. Various ways for debtholder paying back money are available. For the sake of analysis simplicity,  the coupon bonds as a typical way how the bond is working are picked for illustration. Coupon bonds are very straightforward: The bond issuers borrow capitals from lenders and promise to pay back the capital in a fixed interest rate for a specific period of time. e.g. the Government borrows 100$ from the public and promises to pay it back with 10$ per year (coupon price) through 10 years. On the ending of the 10th year, it will return the principle (100$) in addition. 
 
 ## How is the interest rate calculated: 
-the interest of a coupon bond is determined by the present value formula. The formula is:
+the interest of a coupon bond (i) is determined by the present value formula. The formula is:
 
 issuing price = coupon price / i + coupon price / i ^ 2 + .... coupon price / i ^ n + face value / i ^ n; 
 
-The example in "How is bond woring will be": 
+The example in "How is bond working" will be: 
 100 = 10/i + 10/i^2 + ... 10/i^10 + 100/i^10 => i = ?
 
 ## One observation: 
