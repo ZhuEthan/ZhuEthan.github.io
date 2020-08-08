@@ -11,7 +11,7 @@ It has been almost two months since I left US Amazon for visa issue. Still waiti
 #### Implicit linked list: 
 The implicit linked list is the easiest implementation of malloc, the underground data structure is an array of memory. The memory is split into many blocks bounded by size/allocation bits. The allocation bit could be 0 or 1, 0 represents the related block is free and 1 represents not free. Whenever a given size consecutive memory is requested (malloc), a free block will be filtered out from the whole implicit linked list and be marked as allocated with the requested size. In the same way, the free request will claim back the already allocated memory. The overall structure of implicit memory list is as below: 
 
-![implicit linked list](https://github.com/ZhuEthan/ZhuEthan.github.io/blob/master/img/implicit-linked-list.png)
+![implicit linked list](../img/implicit-linked-list.png)
 image 1
 
 
