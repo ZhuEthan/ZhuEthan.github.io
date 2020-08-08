@@ -15,7 +15,7 @@ The implicit linked list is the easiest implementation of malloc, the undergroun
 image 1
 
 
-The hdr(header) and ftr(foot) in the image 1 contains identical info: size and allocation status. The size info includes both the size of data and the size of foot&header, thus a pointer referring to a data block plus size indicated in head / foot will point to the starting point of the next data block. Both header and foot existing though including the same info will benefit forward traversal and reverse traversal. 
+The hdr(header) and ftr(foot) in the image 1 contains identical info: size and allocation status. The size is the sum of the size of data and the size of foot&header, thus a pointer referring to a data block plus size in header / foot will point to the starting point of the next data block. Both header and foot existing will benefit forward traversal and reverse traversal. 
 
 With math notation to represent all relations above: 
 
