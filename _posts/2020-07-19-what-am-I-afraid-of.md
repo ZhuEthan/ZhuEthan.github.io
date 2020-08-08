@@ -1,1 +1,1 @@
-The only thing I am afraid of is that I didn't experience failure but afraid of failure. 
+The only fear is that I am afraid of failure before experiencing them. 
