@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CSAPP malloc lab
+title: MallocLab In CSAPP
 tags: [CS, System]
 ext-js: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML
 ---
