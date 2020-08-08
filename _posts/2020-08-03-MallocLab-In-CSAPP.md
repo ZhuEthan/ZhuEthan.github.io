@@ -5,6 +5,7 @@ tags: [CS, System]
 ext-js: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML
 ---
 
+
 It has been almost two months since I left US Amazon for visa issue. Still waiting for my CA visa. During this precious temporary leaving time, I decided to review my knowledge of computer architecture. Here I demonstrated the lab malloc since it may involve some designs and several iterations. I will list the stages one by one below
 
 #### Implicit linked list: 
