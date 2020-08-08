@@ -29,3 +29,5 @@ With math notation to represent all relations above:
 #define NEXT_BLKP(bp) ((char*)(bp) + GET_SIZE(((char*)(bp) - WSIZE)))
 #define PREV_BLKP(bp) ((char*)(bp) - GET_SIZE(((char*)(bp) - DSIZE)))
 ```
+
+![implicit linked list](../img/implicit-linked-list-result.png)
