@@ -38,5 +38,5 @@ In the implicit linked list, identical info including size/allocation status is 
 
 The final util scores increase from 81% to 82% with this improvement. 
 
-
+![optimised implicit linked list](../img/optimised implicit linked list.png)
 
