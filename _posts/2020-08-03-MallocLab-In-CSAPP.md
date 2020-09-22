@@ -43,9 +43,17 @@ The final util scores increase from 81% to 82% with this improvement.
 #### Explicit free linked list
 Ahhhh, could we become faster? Looks like we waste a lot of time traversing the whole memory especially on double checking the allocated ones which we don't have to, at least this is a time we can save? Yeah, it is right, we could leverage explicit linked list to skip allocated block and just check the free blocks on size specifically. 
 
-![explicit linkned list](../img/explicit-linked-list-explanation.png)
+![explicit linked list](../img/explicit-linked-list-explanation.png)
 
 Since we only need to link the free blocks, we could leveage the free space which is supposed to accomodate user data to store the address of the next / prev free blocks. That's exactly why it is called explicit free linked list. 
+
+The result is optimistic:
+
+![Optimised explicit linked list](../img/explicit-linked-list.png)
+
+Could we optimise this a little bit more? Definitely! Consider pointer on 64 bit wise machine will take 8 bytes, which greatly increase the minimum free space size which doesn't have to considering our task here doesn't require 2^64 addressing ability. Could we reduce this number by only storing the offset to the next / prev free block which is 4 bytes under the scenarios of this assignment? Here we go! Space util get increased a lot: 
+
+![space more efficient explicit linked list](../img/improved-explicit-linked-list.png)
 
 #### Improved implicit linked list
 #### seglist
