@@ -40,6 +40,12 @@ The final util scores increase from 81% to 82% with this improvement.
 
 ![optimised implicit linked list](../img/optimised-implicit-linked-list.png)
 
-#### Explicit linked list
+#### Explicit free linked list
+Ahhhh, could we become faster? Looks like we waste a lot of time traversing the whole memory especially on double checking the allocated ones which we don't have to, at least this is a time we can save? Yeah, it is right, we could leverage explicit linked list to skip allocated block and just check the free blocks on size specifically. 
+
+![explicit linkned list](../img/explicit-linked-list-explanation.png)
+
+Since we only need to link the free blocks, we could leveage the free space which is supposed to accomodate user data to store the address of the next / prev free blocks. That's exactly why it is called explicit free linked list. 
+
 #### Improved implicit linked list
 #### seglist
