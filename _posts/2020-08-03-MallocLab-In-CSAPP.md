@@ -40,3 +40,6 @@ The final util scores increase from 81% to 82% with this improvement.
 
 ![optimised implicit linked list](../img/optimised-implicit-linked-list.png)
 
+#### Explicit linked list
+#### Improved implicit linked list
+#### seglist
