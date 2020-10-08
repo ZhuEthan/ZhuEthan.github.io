@@ -1,21 +1,7 @@
 name: Beautiful Jekyll CI
 on: [push, pull_request]
 jobs:
-  install:
-    name: install dependencies
-    runs-on: ubuntu-latest
-    steps:
-      - name: Install Dependencies
-        run: sudo add-apt-repository universe && sudo apt install python3-proselint
-  lint:
-    needs: install
-    name: lint *.md
-    runs-on: ubuntu-latest
-    steps:
-      - name: proselint md files
-        run: proselint *.md
   build:
-    needs: lint
     name: Build Jekyll
     runs-on: ubuntu-latest
     steps:
