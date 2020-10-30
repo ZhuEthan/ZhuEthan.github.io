@@ -63,4 +63,6 @@ As mentioned in the last paragraph, We store these predefined list headers at th
 
 ![seglist](../img/seglist.png)
 
-Perfect! We probably could do more if we segment the list by size even finer granularity. But now I will stop here and summarize what I learned in the lab: Pointer manipulation on an empty memory page. System call sbrk() will always only return a new pointer to an empty page, "malloc" util on the application level will seek for free blocks. 
+Perfect! We probably could do more if we segment the list by size even finer granularity. But now I will stop here and summarize what I learned in the lab: 
+- Pointer manipulation on an empty memory page is very interesting. 
+- System call sbrk() will always only return a new pointer to an empty page, "malloc" util on the application level will seek for free blocks and return pointers to caller. 
