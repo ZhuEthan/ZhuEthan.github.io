@@ -57,8 +57,10 @@ Could we optimise this a little bit more? Definitely! Consider pointer on 64 bit
 
 #### seglist
 
-Ha!! Looks like we always spend O(n) time on traversing a long list to find a fitting free blocks? If we could aggregate similar size's blocks together and only travel the segment list best fitting the potential alloc size, we could save time a lot. How will we segmentate the list? One classic way is to split sizes exponentially: the first list hdr points to the free blocks size 1, the second is for size 2-3, the third is for 4-7... Given a request for block size n, we will locate its list by looking at where the most significant 1 in the binary representation of the size. e.g. 8(1000) will be on 4th list whose size range is 8-15. 
+Ha!! Looks like we always spend O(n) time traversing a long list to find a fitting free block? If we could aggregate similar size blocks together and only travel the segmented list best fitting the potential allocated size, we could save time a lot. How will we segment the list? One classic way is to split sizes exponentially: the first list hdr points to the free blocks size 1, the second is for size 2-3, the third is for 4-7... Given a request for block size n, we will locate its list by looking at where the most significant 1 is in the binary representation of the size#. e.g. 8(1000) will be on the 4th list whose size range is 8-15. 
 
-As mentioned in the last paragraph, We store these predefined list header on the start of the page. The improved performance is: 
+As mentioned in the last paragraph, We store these predefined list headers at the start of the page. The improved performance is: 
 
 ![seglist](../img/seglist.png)
+
+Perfect! We probably could do more if we segment the list by size even finer granularity. But now I will stop here and summarize what I learned in the lab: Pointer manipulation on an empty memory page. System call sbrk() will always only return a new pointer to an empty page, "malloc" util on the application level will seek for free blocks. 
