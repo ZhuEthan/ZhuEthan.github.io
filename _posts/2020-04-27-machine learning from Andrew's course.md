@@ -10,6 +10,9 @@ ext-js: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=
 ### Cost function: 
 1. We can measure the accuracy of our hypothesis function by using a cost function. This takes an average difference (acutally a fancier version of an average) of all the results of the hypothesis with inputs from x's and the acutal output y's
 
+\\(h_\theta(x_i)=\theta_0 + \theta_1 x^{(i)}\\)
+
+
 \\(J(\theta_0, \theta_1)= \frac{1}{2m}\sum_{i=1}^{m}(\hat{y_i}-y_i)^2 = \frac{1}{2m}\sum_{i=1}^{m}(h_\theta(x_i)-y_i)^2\\)
 
 With gradient decent: 
