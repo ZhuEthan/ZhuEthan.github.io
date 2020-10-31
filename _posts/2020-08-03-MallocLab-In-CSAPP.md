@@ -61,7 +61,7 @@ Ha!! Looks like we always spend O(n) time traversing a long list to find a fitti
 
 As mentioned in the last paragraph, We store these predefined list headers at the start of the page. The improved performance is: 
 
-![seglist](../img/seglist.png)
+![seglist](../img/seglist-optimised.png)
 
 Perfect! We probably could do more if we segment the list by size even finer granularity. But now I will stop here and summarize what I learned in the lab: 
 - Pointer manipulation on an empty memory page is very interesting. 
