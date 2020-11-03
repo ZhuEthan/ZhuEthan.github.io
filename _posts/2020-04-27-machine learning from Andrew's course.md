@@ -7,7 +7,7 @@ ext-js: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=
 
 ## Week1 & Week2:
 
-* Gradient descent inference including cost function definition and derivative 
+* Gradient descent inference including cost function definition and derivative is on slices. 
 
 * feature scaling and mean normalization is helping speed up gradient descent. 
 
