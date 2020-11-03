@@ -9,4 +9,4 @@ ext-js: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=
 
 * feature scaling and mean normalization is helping speed up gradient descent. 
 
-\(x_i = \frac{x_i-\mu_i}{max-min}\)
+\\[x_i = \frac{x_i-\mu_i}{max-min}\\]
