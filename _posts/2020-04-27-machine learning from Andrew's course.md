@@ -31,3 +31,20 @@ Solutions to the above problems include deleting a feature that is linearly depe
   * If \\(alpha\\) is too large: ￼may not decrease on every iteration and thus may not converge.
 
 
+## Week 3
+
+We cannot use the same cost function that we use for linear regression because the Logistic Function will cause the output to be wavy, causing many local optima. In other words, it will not be a convex function.
+
+Instead, our cost function for logistic regression looks like:
+
+\\(Cost(h_\theta, y) = -log(h_\theta(x)) if y = 1\\)
+\\(Cost(h_\theta, y) = -log(1 - h_\theta(x)) if y = 0\\)
+
+* Since this cost function leads to: 
+  * \\(Cost(h_\theta, y) = 0 if h_\theta(x) = y\\)
+  * \\(Cost(h_\theta, y) -> \infin if y = 0 and h_\theta(x) -> 1\\)
+  * \\(Cost(h_\theta, y) -> \infin if y = 1 and h_\theta(x) -> 0\\)
+* This cost function is convexed. 
+
+
+
