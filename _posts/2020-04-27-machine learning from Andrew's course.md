@@ -42,9 +42,13 @@ Instead, our cost function for logistic regression looks like:
 
 * Since this cost function leads to: 
   * \\(Cost(h_\theta, y) = 0\\) if \\(h_\theta(x) = y\\)
-  * \\(Cost(h_\theta, y)\\) -> \\(\infin\\) if y = 0 and \\(h_\theta(x) -> 1\\)
-  * \\(Cost(h_\theta, y)\\) -> \\(\infin\\) if y = 1 and \\(h_\theta(x) -> 0\\)
+  * \\(Cost(h_\theta, y)\\) -> \\(\infi\\) if y = 0 and \\(h_\theta(x) -> 1\\)
+  * \\(Cost(h_\theta, y)\\) -> \\(\infi\\) if y = 1 and \\(h_\theta(x) -> 0\\)
 * This cost function is convex. 
+
+Put together: 
+
+\\(Cost(h_\theta, y) = -ylog(h_\theta(x)) - (1-y)log(1-h_\theta(x))\\)
 
 
 
