@@ -27,8 +27,7 @@ If \\(X^TX\\) is noninvertible, the common causes might be having :
 Solutions to the above problems include deleting a feature that is linearly dependent with another or deleting one or more features when there are too many features
 
 * Gradient descent learning rate \\(\alpha\\)
-
-* If \\(alpha\\) is too small: slow convergence.
-* If \\(alpha\\) is too large: ￼may not decrease on every iteration and thus may not converge.
+  * If \\(alpha\\) is too small: slow convergence.
+  * If \\(alpha\\) is too large: ￼may not decrease on every iteration and thus may not converge.
 
 
