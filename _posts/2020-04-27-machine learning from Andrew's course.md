@@ -50,5 +50,7 @@ Put together:
 
 \\(Cost(h_\theta, y) = -ylog(h_\theta(x)) - (1-y)log(1-h_\theta(x))\\)
 
+There are other alternative to minimize \\(J(\theta)\\) other than gradient descent, no detailed introduction to them. 
+
 
 
