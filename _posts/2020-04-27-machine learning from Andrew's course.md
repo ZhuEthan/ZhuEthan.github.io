@@ -61,6 +61,13 @@ This terminology is applied to both linear and logistic regression. There are tw
 * Use a model selection algorithm.
 
 2) Regularization
-* Keep all the features, but reduce the magnitude of parameters \\(\theta(j)\\)
+* Keep all the features, but reduce the magnitude of parameters \\(\theta_j\\)
 * Regularization works well when we have a lot of slightly useful features.
  
+ We could also regularize all of our theta parameters in a single summation as:
+
+\\[min_\theta \frac{1}{2m} \sum^m_{i=1}(h_\theta(x^{i}) - y^{i})^2 + \lambda\sum^{n}_{j=1}\theta^2_j\\]
+ 
+The λ, or lambda, is the regularization parameter. It determines how much the costs of our theta parameters are inflated.
+
+Using the above cost function with the extra summation, we can smooth the output of our hypothesis function to reduce overfitting. If lambda is chosen to be too large, it may smooth out the function too much and cause underfitting.
