@@ -79,3 +79,5 @@ The gradient descent iterations & Normal Equation become: https://www.coursera.o
 #### Regularized Logistic Regression
 
 \\[J(\theta) = -\frac{1}{m}\sum_{i=1}^{m}[y^ilog(h_\theta (x^i)) + (1-y^i)log(1-h_\theta (x^i)] + \frac{\lambda}{2m}\sum_{j=1}^n \theta ^2_j]\\
+
+https://www.coursera.org/learn/machine-learning/supplement/v51eg/regularized-logistic-regression
