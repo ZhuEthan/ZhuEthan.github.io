@@ -85,3 +85,9 @@ https://www.coursera.org/learn/machine-learning/supplement/v51eg/regularized-log
 
 ## Week4 & Week5 Neuron Network
 
+* For neural networks, the cost function would be on https://www.coursera.org/learn/machine-learning/supplement/afqGa/cost-function
+
+* The inference of back-propagation is listed here: https://www.cs.swarthmore.edu/~meeden/cs81/s10/BackPropDeriv.pdf
+
+
+
