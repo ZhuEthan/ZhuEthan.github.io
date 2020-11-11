@@ -89,5 +89,7 @@ https://www.coursera.org/learn/machine-learning/supplement/v51eg/regularized-log
 
 * The inference of back-propagation is listed here: https://www.cs.swarthmore.edu/~meeden/cs81/s10/BackPropDeriv.pdf
 
+* Random Initialization:
+  * Zero initialization: After each update, parameters corresponding to inputs going into each of hidden units are identical. 
 
 
