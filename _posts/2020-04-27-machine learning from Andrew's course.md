@@ -91,5 +91,6 @@ https://www.coursera.org/learn/machine-learning/supplement/v51eg/regularized-log
 
 * Random Initialization:
   * Zero initialization: After each update, parameters corresponding to inputs going into each of hidden units are identical. 
+  * Key will be init values shouldn't be the identical. 
 
 
