@@ -148,3 +148,16 @@ For example, assume that we have 500 emails and our algorithm misclassifies a 10
 **Use evidence to find cues instead of gut feeling**
 
 https://www.coursera.org/learn/machine-learning/lecture/x62iE/error-analysis is interesting. 
+
+**Why Precision / Recall**
+* To deal with skewed data.
+
+**How to remember True/False Positive/Negative**
+False/True are from a prediction perspective. The predicted Positive/Negative is true or false? 
+
+**Precision:** Of all patients where we predicted y = 1, what fraction actually has cancer? **True positive / (True positive + False positive)**
+**Recall:** Of all patients that actually have cancer, what fraction did we correctly detect as having cancer?  **True positive / (False negative + True positive)**
+
+We usually use 1 to represent the rare cases. 
+
+
