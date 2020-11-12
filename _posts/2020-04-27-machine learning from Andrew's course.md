@@ -165,3 +165,5 @@ We usually use 1 to represent the rare cases.
 **Tradeoff between precision and recall**
 
 \\(F_1\\) score: \\(2*\frac{PR}{P+R}\\). Both recall and precision should large, or F score will be small. 
+
+**We could use F score to pick threshold for classifier instead of always using 0.5**
