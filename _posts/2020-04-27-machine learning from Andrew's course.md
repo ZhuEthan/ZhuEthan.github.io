@@ -149,6 +149,8 @@ For example, assume that we have 500 emails and our algorithm misclassifies a 10
 
 https://www.coursera.org/learn/machine-learning/lecture/x62iE/error-analysis is interesting. 
 
+#### Precision and Recall
+
 **Why Precision / Recall**
 * To deal with skewed data.
 
@@ -160,4 +162,6 @@ False/True are from a prediction perspective. The predicted Positive/Negative is
 
 We usually use 1 to represent the rare cases. 
 
+**Tradeoff between precision and recall**
 
+\\(F_1\\) score: 
