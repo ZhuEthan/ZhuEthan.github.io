@@ -123,4 +123,14 @@ This way, the degree of the polynomial d has not been trained using the test set
 How to choose the regularization lambda? 
 https://www.coursera.org/learn/machine-learning/supplement/JPJJj/regularization-and-bias-variance
 
-* Find \\(\theta\\) 
+Change Hyper Parameter:
+
+Our decision process can be broken down as follows:
+
+* Getting more training examples: Fixes high variance
+* Trying smaller sets of features: Fixes high variance
+* Adding features: Fixes high bias
+* Adding polynomial features: Fixes high bias
+* Decreasing λ: Fixes high bias
+Increasing λ: Fixes high variance.
+
