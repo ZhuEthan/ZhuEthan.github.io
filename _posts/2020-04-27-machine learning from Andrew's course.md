@@ -105,7 +105,7 @@ One way to break down our dataset into the three sets is:
 
 #### Why is cross validation needed? 
 
-* Model selection: Without cross validation dataset, given multiple model candidates, we pick a model by selecting the model with the smallest error on the testing set using parameters trained on related training data. However, we cannot tell how good the model's generalization is by using test data sets since an extra parameter (the model to be picked) has been fit to the test dataset (Will lead to over-optimized). Thus, we add cross-validation dataset which will be used to select model, test data set will be used to estimate the model's generalization error. 
+* Model selection: Without cross validation dataset, given multiple model candidates, we pick a model by selecting the model with the smallest test error on the testing datasetset with parameters trained on related training data. However, we cannot tell how good the model's generalization is by using test data sets again since the selected model has been fit to the test dataset (Will lead to over-optimized). Thus, we add cross-validation dataset which will be used to select model, test data set will be used to estimate the model's generalization error. 
 
 
 One way to break down our dataset into the three sets is:
