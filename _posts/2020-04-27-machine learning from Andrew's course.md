@@ -120,3 +120,7 @@ We can now calculate three separate error values for the three different sets us
 * Estimate the generalization error using the test set with \\(J_{test}(\Theta^{(d)})\\), (d = theta from polynomial with lower error);
 This way, the degree of the polynomial d has not been trained using the test set.
 
+How to choose the regularization lambda? 
+https://www.coursera.org/learn/machine-learning/supplement/JPJJj/regularization-and-bias-variance
+
+* Find \\(\theta\\) 
