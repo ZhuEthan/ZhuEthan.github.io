@@ -164,4 +164,4 @@ We usually use 1 to represent the rare cases.
 
 **Tradeoff between precision and recall**
 
-\\(F_1\\) score: 
+\\(F_1\\) score: \\(2*\frac{PR}{P+R}\\). Both recall and precision should large, or F score will be small. 
