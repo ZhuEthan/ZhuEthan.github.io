@@ -121,7 +121,8 @@ We can now calculate three separate error values for the three different sets us
 This way, the degree of the polynomial d has not been trained using the test set.
 
 How to choose the regularization lambda? 
-https://www.coursera.org/learn/machine-learning/supplement/JPJJj/regularization-and-bias-variance
+* https://www.coursera.org/learn/machine-learning/supplement/JPJJj/regularization-and-bias-variance
+* https://d3c33hcgiwev3.cloudfront.net/_b0cf48c6b7bc9f194310e6bc90dec220_Lecture10.pdf?Expires=1605312000&Signature=a7tVdZrfdSZe4eb3Z87OXpw4OGf96q~p3kyUkBRSgh1ebO8rCzl98Pc4vnkMkapbg5jcVxbUbMaq9a44W9wgikDm1wlCMwl0YtJohKBVsfx8twPciPlMs5~xi84T4h6ZHL-Ih8v3MuGCl8kfi8XrXq2XGM0Bejzc6jPmAEO7t5k_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
 
 Change Hyper Parameter:
 
@@ -132,5 +133,5 @@ Our decision process can be broken down as follows:
 * Adding features: Fixes high bias
 * Adding polynomial features: Fixes high bias
 * Decreasing λ: Fixes high bias
-Increasing λ: Fixes high variance.
+* Increasing λ: Fixes high variance.
 
