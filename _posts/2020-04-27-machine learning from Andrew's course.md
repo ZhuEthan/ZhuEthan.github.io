@@ -108,3 +108,15 @@ One way to break down our dataset into the three sets is:
 * Model selection: Without cross validation dataset, given multiple model candidates, we pick a model by selecting the model with the smallest error on the testing set using parameters trained on related training data. However, we cannot tell how good the model's generalization is by using test data sets since an extra parameter (the model to be picked) has been fit to the test dataset (Will lead to over-optimized). Thus, we add cross-validation dataset which will be used to select model, test data set will be used to estimate the model's generalization error. 
 
 
+One way to break down our dataset into the three sets is:
+
+* Training set: 60%
+* Cross validation set: 20%
+* Test set: 20%
+
+We can now calculate three separate error values for the three different sets using the following method:
+* Optimize the parameters in Θ using the training set for each polynomial degree.
+* Find the polynomial degree d with the least error using the cross validation set.
+* Estimate the generalization error using the test set with \\(J_{test}(\Theta^{(d)})\\), (d = theta from polynomial with lower error);
+This way, the degree of the polynomial d has not been trained using the test set.
+
