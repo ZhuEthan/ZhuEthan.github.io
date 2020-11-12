@@ -92,5 +92,17 @@ https://www.coursera.org/learn/machine-learning/supplement/v51eg/regularized-log
 * Random Initialization:
   * Zero initialization: After each update, parameters corresponding to inputs going into each of hidden units are identical. 
   * Key will be init values shouldn't be the identical. 
+  
+* Gradient checking code: https://www.coursera.org/learn/machine-learning/supplement/fqeMw/gradient-checking
 
+## Week 6 Evaluating a learning algo. 
 
+One way to break down our dataset into the three sets is:
+
+* Training set: 60%
+* Cross validation set: 20%
+* Test set: 20%
+
+#### Why is cross validation needed? 
+
+* 
