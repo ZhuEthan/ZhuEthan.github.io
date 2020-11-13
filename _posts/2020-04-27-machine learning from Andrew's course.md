@@ -167,3 +167,8 @@ We usually use 1 to represent the rare cases.
 \\(F_1\\) score: \\(2*\frac{PR}{P+R}\\). Both recall and precision should large, or F score will be small. 
 
 **We could use F score to pick threshold for classifier instead of always using 0.5**
+
+
+## SVM
+
+\\[min_\theta \sum_{i=1}^m cost_1(\theta^Tx^{i}) + (1-y^{i} cost_0(\theta^Tx^{i}) + \frac{\lambda}{2*m}\sum_{i=0}^n \theta_j^2\\]
