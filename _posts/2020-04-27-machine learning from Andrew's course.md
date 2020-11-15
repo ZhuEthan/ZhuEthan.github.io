@@ -180,4 +180,4 @@ https://d3c33hcgiwev3.cloudfront.net/_246c2a4e4c249f94c895f607ea1e6407_Lecture12
 
 Why Kernels: to deal with Non-linear Dicision Boundary. 
 
-Predict y = 1 if \\(\theta_0 + \theta_1x_1 + \thetax_2 + \theta x_1x_2 + \theta_4 x_1^2 >= 0 \\)
+Predict y = 1 if \\(\theta_0 + \theta_1x_1 + \theta_2x_2 + \theta_3 x_1x_2 + \theta_4 x_1^2 + ... >= 0 \\)
