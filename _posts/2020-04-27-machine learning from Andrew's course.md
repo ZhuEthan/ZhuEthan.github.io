@@ -174,3 +174,10 @@ We usually use 1 to represent the rare cases.
 \\[min_\theta \sum_{i=1}^m cost_1(\theta^Tx^{i}) + (1-y^{i}) cost_0(\theta^Tx^{i}) + \lambda\sum_{i=0}^n \theta_j^2\\]
 
 https://d3c33hcgiwev3.cloudfront.net/_246c2a4e4c249f94c895f607ea1e6407_Lecture12.pdf?Expires=1605571200&Signature=HLTXP1YKth~4F~T8ibWgd0pRL0jvUyw-GQdsIdBpjkqg9Es95IMmtg91NFchg1ei0C3try2XCxt8LBhUIng-Wjkh6fSpeQGDO9~o1FMDvTppQKwxTYiLDrSE4qO-4iuXUYZX5cYFU5wLdGDyBGIDEkomVMBpZfyWJdLlmGm5xtk_&Key-Pair-Id=APKAJLTNE6QMUY6HBC5A
+
+
+#### Kernels: 
+
+Why Kernels: to deal with Non-linear Dicision Boundary. 
+
+Predict y = 1 if \\(\theta_0 + \theta_1x_1 + \thetax_2 + \theta x_1x_2 + \theta_4 x_1^2 >= 0 \\)
