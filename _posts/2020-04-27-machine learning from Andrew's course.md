@@ -184,3 +184,4 @@ Predict y = 1 if \\(\theta_0 + \theta_1x_1 + \theta_2x_2 + \theta_3 x_1x_2 + \th
 
 My understanding of kernels is instead of using the absolute value of training data, we use the relationship between a given training set and the remainings to classify data. 
 
+Bias & variance tradeoffs could be adjusted by \\(\theta\\) and C
