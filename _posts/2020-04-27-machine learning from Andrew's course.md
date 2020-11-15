@@ -171,4 +171,4 @@ We usually use 1 to represent the rare cases.
 
 ## SVM
 
-\\[min_\theta \sum_{i=1}^m cost_1(\theta^Tx^{i}) + (1-y^{i} cost_0(\theta^Tx^{i}) + \lambda\sum_{i=0}^n \theta_j^2\\]
+\\[min_\theta \sum_{i=1}^m cost_1(\theta^Tx^{i}) + (1-y^{i}) cost_0(\theta^Tx^{i}) + \lambda\sum_{i=0}^n \theta_j^2\\]
