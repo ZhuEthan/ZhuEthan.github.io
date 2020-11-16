@@ -266,7 +266,6 @@ Elbow method:
 
 Try to find a surface so as to minimize projection error. 
 
-```
 Data preprocessing: mean & scaling. 
 
 \\(Sigma=\frac{1}{m}\sum_{i=1}{m}(x^{i})(x^{i})^T\\)
@@ -274,7 +273,6 @@ Data preprocessing: mean & scaling.
 \\([U, S, V] = U(:, 1:k);\\)
 
 \\(z = Ureduce' * x\\)
-```
 
 Choosing k (number of principal components)
 
@@ -284,3 +282,7 @@ Total variation in the data: \\(\frac{1}{m}\sum_{i=1}{m}||x^i||^2\\)
 Typically, choose k to be smallest value so that: Average error / Total variation <= 0.01
 
 99% of variance is retained. 
+
+Or use S in [U, S, V] = svd(Sigma)
+
+\\(1-\frac{\sum_{i=1}{k}S_{ii}}{\sum_{i=1}{n}S_{ii}} <= 0.01\\)
