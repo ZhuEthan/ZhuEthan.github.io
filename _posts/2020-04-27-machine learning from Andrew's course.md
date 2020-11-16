@@ -265,11 +265,18 @@ Elbow method:
 * Data Visualization
 
 Try to find a surface so as to minimize projection error. 
-
+```
 Data preprocessing: mean & scaling. 
-
 \\(Sigma=\frac{1}{m}\sum_{i=1}{m}(x^{i})(x^{i})^T\\)
-
 \\([U, S, V] = U(:, 1:k);\\)
-
 \\(z = Ureduce' * x\\)
+```
+
+Choosing k (number of principal components)
+
+Average squared projection error: \\(\frac{1}{m}\sum_{i=1}{m}||x^{i}-x_approx^{i}||^2\\)
+Total variation in the data: \\(\frac{1}{m}\sum_{i=1}{m}||x^i||^2\\)
+
+Typically, choose k to be smallest value so that: Average error / Total variation <= 0.01
+
+99% of variance is retained. 
