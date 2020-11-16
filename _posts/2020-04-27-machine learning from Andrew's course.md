@@ -262,3 +262,4 @@ Elbow method:
 ### Dimensionality Reduction (PCA): 
 * Data Compression
 * Speed up training. 
+
