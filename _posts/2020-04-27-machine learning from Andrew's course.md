@@ -219,3 +219,20 @@ n = number of features(x belongs to \\(R^{n+1}\\)), m= number of training exampl
 Neural network likely to work well for most of these settings, but may be slower to train. 
     
 
+## Unsupervised Learning: Introduction: 
+* Market segmentation
+* Social network analysis
+* Organize computing clusters 
+* Astronomical data analysis
+
+#### K mean clustering algo: 
+
+Move centroids interactively. Random init centroids. 
+
+Randomly init K cluster centroids \\(\mu_1, \mu_2, ... \mu_k\\)
+Repeat {
+    for i = 1 to m
+        Cluster assignment
+    for k = 1 to K
+        move centroid
+}
