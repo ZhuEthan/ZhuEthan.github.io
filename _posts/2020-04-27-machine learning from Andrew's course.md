@@ -200,3 +200,9 @@ Gaussian kernel:
 Need to choose \\(\delta^2\\)
 
 Note: Do perform feature scaling before using the Gaussian kernel. 
+
+Not all similarity functions \\(similarity(x, l)\\) make valid kernels. (Need to satisfy technical condition called "Mercer's Theorem" to make sure SVM packages' optimizations run correctly, and do not diverge). 
+
+Many off-the-shelf kernels available: 
+ - Polynomial kernel: \\(k(x, l) = (x^Tl)^2\\)
+ - More esoteric: String kernel, chi-square kernel, histogram intersection kernel, ...
