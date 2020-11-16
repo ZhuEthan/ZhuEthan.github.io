@@ -243,12 +243,11 @@ Local optima: Solutions: Random initialization
 
 For i=1 to 100 {
 
-    Randomly initialize K-means.
+    Randomly initialize K-means.    
     
     Run K-means. Get \\(c^{(1)}, ..., c^{(m)}, \mu_1, ..., \mu_K\\)
     
     Compute cost function (distortion)
-    
         \\(J(c^{(1)}), ... c^{(m)}, \mu_1, ... \mu_K) \\)
-
+        
 }
