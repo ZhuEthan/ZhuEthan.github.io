@@ -250,4 +250,5 @@ For i=1 to 100 {
     Compute cost function (distortion)
     
         \\(J(c^{(1)}), ... c^{(m)}, \mu_1, ... \mu_K)
+
 }
