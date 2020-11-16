@@ -189,7 +189,7 @@ Need to specify:
 * Choice of parameter C. 
 * Choice of kernel (similarity function):
 
-E.g. No kernel ("linear kernel"): Predict "y = 1" if \\(\theta ^ T x >= 0\\)
+E.g. No kernel ("linear kernel"): Predict "y = 1" if \\(\theta ^ T x >= 0\\), when features number is large but training set is small (to avoid high dimension overfit)
 
 Gaussian kernel: 
 
