@@ -195,3 +195,5 @@ Gaussian kernel:
 
 \\(f_i = exp(-\frac{||x-l^i||^2}{2\delta^2})\\), where \\(l^i = x^i\\). 
 Need to choose \\(\delta^2\\)
+
+Note: Do perform feature scaling before using the Gaussian kernel. 
