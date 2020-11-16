@@ -276,8 +276,8 @@ Data preprocessing: mean & scaling.
 
 Choosing k (number of principal components)
 
-Average squared projection error: \\(\frac{1}{m}\sum_{i=1}{m}||x^{i}-x_approx^{i}||^2\\)
-Total variation in the data: \\(\frac{1}{m}\sum_{i=1}{m}||x^i||^2\\)
+Average squared projection error: \\(\frac{1}{m} \sum_{i=1}{m} || x^{i}-x_approx^{i} ||^2 \\)
+Total variation in the data: \\(\frac{1}{m} \ sum_{i=1}{m} || x^i || ^2\\)
 
 Typically, choose k to be smallest value so that: Average error / Total variation <= 0.01
 
