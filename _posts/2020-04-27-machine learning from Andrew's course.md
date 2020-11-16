@@ -251,3 +251,9 @@ For i=1 to 100 {
         \\(J(c^{(1)}), ... c^{(m)}, \mu_1, ... \mu_K) \\)
         
 }
+
+#### How to choose cluster number of K. 
+
+Elbow method: 
+
+Obtain cost function and by trying different number of K. 
