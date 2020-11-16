@@ -193,4 +193,5 @@ E.g. No kernel ("linear kernel"): Predict "y = 1" if \\(\theta ^ T x >= 0\\), wh
 
 Gaussian kernel: 
 
-\\(f_i = exp(-\frac{||x-l^i||^2}{2\delta^2})\\), where \\(l^i = x^i\\). Need to choose \\(\delta^2\\)
+\\(f_i = exp(-\frac{||x-l^i||^2}{2\delta^2})\\), where \\(l^i = x^i\\). 
+Need to choose \\(\delta^2\\)
