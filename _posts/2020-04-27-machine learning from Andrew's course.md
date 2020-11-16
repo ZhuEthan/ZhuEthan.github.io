@@ -214,6 +214,8 @@ n = number of features(x belongs to \\(R^{n+1}\\)), m= number of training exampl
 * If n is small(1-1000), m is intermediate (10-10,000): 
     Use SVM with Gaussian kernel. 
 * If n is small, m is large (m = 50,000+)
-    Create/add more features, then use logistic regression or SVM without a kernel. 
+    Create/add more features, then use logistic regression or SVM without a kernel. SVM is too slow
+    
+Neural network likely to work well for most of these settings, but may be slower to train. 
     
 
