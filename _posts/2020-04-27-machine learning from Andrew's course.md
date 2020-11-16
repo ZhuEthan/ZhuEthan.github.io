@@ -258,3 +258,7 @@ Elbow method:
 
 * Obtain cost function and try a different number of K, pick the K followed by a flatlands. 
 * Evaluate the K number based on metrics for how well it performs for the later purpose. 
+
+### Dimensionality Reduction (PCA): 
+* Data Compression
+* Speed up training. 
