@@ -182,3 +182,16 @@ Why Kernels: to deal with Non-linear Dicision Boundary.
 Predict y = 1 if \\(\theta_0 + \theta_1x_1 + \theta_2x_2 + \theta_3 x_1x_2 + \theta_4 x_1^2 + ... >= 0 \\)
 My understanding of kernels is instead of using the absolute value of training data, we use the relationship between a given training set and the remainings to classify data. 
 Bias & variance tradeoffs could be adjusted by \\(\theta\\) and C
+
+Use SVM software package (e.g. liblinear, libsvm, ...) to solve for parameters \\(\theta\\). 
+
+Need to specify: 
+* Choice of parameter C. 
+* Choice of kernel (similarity function):
+
+E.g. No kernel ("linear kernel"): Predict "y = 1" if \\(\theta ^ T x >= 0\\)
+
+Gaussian kernel: 
+
+\\[f_i = exp(-\frac{||x-l^i||^2}{2\delta^2})\\], where l^i = x^i
+Need to choose \\(\delta^2\\)
