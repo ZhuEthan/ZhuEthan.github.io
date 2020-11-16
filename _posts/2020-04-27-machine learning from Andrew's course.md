@@ -211,7 +211,7 @@ Many off-the-shelf kernels available:
 n = number of features(x belongs to \\(R^{n+1}\\)), m= number of training examples. 
 * If n is large (relative to m):
 * Use logistic regression, or SVM without a kernel ("linear kernel")
-* If n is small, m is intermediate: 
+* If n is small(1-1000), m is intermediate (10-10,000): 
     Use SVM with Gaussian kernel. 
     
 
