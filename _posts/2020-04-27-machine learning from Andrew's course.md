@@ -206,3 +206,12 @@ Not all similarity functions \\(similarity(x, l)\\) make valid kernels. (Need to
 Many off-the-shelf kernels available: 
  - Polynomial kernel: \\(k(x, l) = (x^Tl)^2\\)
  - More esoteric: String kernel, chi-square kernel, histogram intersection kernel, ...
+ 
+#### Logistic regression vs. SVMs
+n = number of features(x belongs to \\(R^{n+1}\\)), m= number of training examples. 
+* If n is large (relative to m):
+* Use logistic regression, or SVM without a kernel ("linear kernel")
+* If n is small, m is intermediate: 
+    Use SVM with Gaussian kernel. 
+    
+
