@@ -265,12 +265,12 @@ Elbow method:
 * Data Visualization
 
 Try to find a surface so as to minimize projection error. 
-```
+
 Data preprocessing: mean & scaling. 
 \\(Sigma=\frac{1}{m}\sum_{i=1}{m}(x^{i})(x^{i})^T\\)
 \\([U, S, V] = U(:, 1:k);\\)
 \\(z = Ureduce' * x\\)
-```
+
 
 Choosing k (number of principal components)
 
