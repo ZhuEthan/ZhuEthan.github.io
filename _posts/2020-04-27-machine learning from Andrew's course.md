@@ -308,3 +308,13 @@ Possible evaluation metrics:
  - F1
  - F-score
 
+#### Anormaly Detection vs. Supervised Learning
+Anomaly detection: 
+* Very small number of positive example (y=1) (0-20 is common)
+* Large number of negative (y=1) example. 
+* Many different types of anomalies, **Hard for any algo to learn from positive examples what the anomalies look like**.
+* Future anomalies may look nothing like any of the anomalous examples we've seen so far. 
+
+Supervised learning: 
+* Large number of positive and negative examples. 
+* Enough positive examples for algo to get a sense of what positive examples are like, future positive examples likely to be similar to ones in training set. 
