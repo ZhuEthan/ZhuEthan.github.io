@@ -317,4 +317,8 @@ Anomaly detection:
 
 Supervised learning: 
 * Large number of positive and negative examples. 
-* Enough positive examples for algo to get a sense of what positive examples are like, future positive examples likely to be similar to ones in training set. 
+* Enough positive examples for algo to get a sense of what positive examples are like, future positive examples likely to be similar to ones in training set.
+
+#### What features to use
+* Plot features histogram, Non-gaussian features should be somehow mathematically converted to Gaussian distribution using like log, cube, square, ^1/2, etc. 
+* Error analysis to find potential new features. 
