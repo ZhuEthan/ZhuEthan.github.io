@@ -302,5 +302,9 @@ Or use S in [U, S, V] = svd(Sigma)
 * Assume we have some labeled data, of anomalous and non-anamalous examples (y=0 if normal, y=1 if anomalous)
 Cross validation set + Test set. 
 
+Choose different \\(\epsilon\\), and then evaluate the score. 
 
+Possible evaluation metrics: 
+ - F1
+ - F-score
 
