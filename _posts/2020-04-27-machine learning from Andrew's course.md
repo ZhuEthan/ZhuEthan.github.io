@@ -297,3 +297,10 @@ Or use S in [U, S, V] = svd(Sigma)
 \\(x_1, x_2... are features of a inference record\\)
 \\(P(x) = p(x_1, \mu, \theta^2)p(x_2; \mu, \theta^2)..\\)
 \\[\prod{j=1}{n} p(x_j; \mu_j, \theta_j^2)\\]
+
+#### How to find \\(\epsilon\\)
+* Assume we have some labeled data, of anomalous and non-anamalous examples (y=0 if normal, y=1 if anomalous)
+Cross validation set + Test set. 
+
+
+
