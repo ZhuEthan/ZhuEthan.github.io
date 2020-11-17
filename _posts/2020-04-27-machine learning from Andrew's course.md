@@ -296,4 +296,4 @@ Or use S in [U, S, V] = svd(Sigma)
 #### How to calculate it:
 \\(x_1, x_2... are features of a training record\\)
 \\(P(x) = p(x_1, \mu, \theta^2)p(x_2; \mu, \theta^2)..\\)
-\\[\prod{j=1}{n} p(\\x_j; \mu_j, \theta_j^2)\\]
+\\[\prod{j=1}{n} p(x_j; \mu_j, \theta_j^2)\\]
