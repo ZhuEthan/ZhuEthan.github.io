@@ -290,4 +290,9 @@ Or use S in [U, S, V] = svd(Sigma)
 ## Anormaly detection example
 
 * Fraud detection
-* 
+* Manufacturing
+* Monitoring computers in a data centers
+
+#### How to calculate it:
+\\(x_1, x_2... are features of a training record\\)
+\\(P(x) = p(x_1, \mu, \theta^2)p(x_2; \mu, \theta^2)..\\)
