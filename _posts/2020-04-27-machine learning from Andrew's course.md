@@ -329,8 +329,8 @@ Supervised learning:
 * Choose features that might take on unusually large or small values in the event of an anomaly. 
 
 #### Multivariate Gaussian distribution: Catch Correlation among multiple vars. 
-**Original model**: 1) Manully create feature to capture anomalies where \\(x_1, x_2\\) take unusual combinations of values (\\(x_3=\frac{x_1}{x_2}\\)). 2) Computationallly cheaper. 3) OK even if m(training set size) is mall
-**Multitivariate Gaussian**: 1) Automatically captures correlations between features. 2) computationally more expensive 3) Must have m>n (m>=10n) or else \\(\sum\\) is non-invertible. 
+* **Original model**: 1) Manully create feature to capture anomalies where \\(x_1, x_2\\) take unusual combinations of values (\\(x_3=\frac{x_1}{x_2}\\)). 2) Computationallly cheaper. 3) OK even if m(training set size) is mall
+* **Multitivariate Gaussian**: 1) Automatically captures correlations between features. 2) computationally more expensive 3) Must have m>n (m>=10n) or else \\(\sum\\) is non-invertible. 
 
 ## Predicting Movie Ratings. 
 
