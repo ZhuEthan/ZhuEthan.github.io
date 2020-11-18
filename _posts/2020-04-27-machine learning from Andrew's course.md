@@ -302,7 +302,11 @@ Or use S in [U, S, V] = svd(Sigma)
 * Assume we have some labeled data, of anomalous and non-anamalous examples (y=0 if normal, y=1 if anomalous)
 Cross validation set + Test set. 
 
-Choose different \\(\epsilon\\), and then evaluate the score. 
+Training set: 6000 good engines, no anomalous. 
+CV: 2000 good engines(y=0), 10 anomalous(y=1)
+Test: 2000 good engines(y=0), 10 anomalous(y=1)
+
+Try different \\(\epsilon\\) on cross validation set (finding new features will be also on cross validation set), and pick the one maximize F-score. 
 
 Possible evaluation metrics: 
  - F1
@@ -314,6 +318,8 @@ Anomaly detection:
 * Large number of negative (y=1) example. 
 * Many different types of anomalies, **Hard for any algo to learn from positive examples what the anomalies look like**.
 * Future anomalies may look nothing like any of the anomalous examples we've seen so far. 
+
+
 
 Supervised learning: 
 * Large number of positive and negative examples. 
