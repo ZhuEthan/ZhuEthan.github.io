@@ -347,4 +347,4 @@ For user j, movie i, predicted rating: \\((\theta^{j})^T(x^{i})\\)
 
 To learn \\(\theta^{(j)}\\)
 
-\\( min_\theta^j \frac{1}{2*m^j} \sum_{i:r(i, j)=1}(\theta^j)^T(x^i)-y^{(i, j)})^2 + \frac{\lambda}{2*m^j}\sum_{k=1}^{n}(\theta_k^j)^2 \\)
+\\[ min_\theta^j \frac{1}{2*m^j} \sum_{i:r(i, j)=1}(\theta^j)^T(x^i)-y^{(i, j)})^2 + \frac{\lambda}{2*m^j}\sum_{k=1}^{n}(\theta_k^j)^2 \\]
