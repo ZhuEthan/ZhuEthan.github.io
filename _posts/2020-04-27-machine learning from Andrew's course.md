@@ -287,7 +287,7 @@ Or use S in [U, S, V] = svd(Sigma)
 
 \\(1-\frac{\sum_{i=1}{k}S_{ii}}{\sum_{i=1}{n}S_{ii}} <= 0.01\\)
 
-## Anormaly detection example
+## Anormaly detection 
 
 * Fraud detection
 * Manufacturing
@@ -331,3 +331,20 @@ Supervised learning:
 #### Multivariate Gaussian distribution: Catch Correlation among multiple vars. 
 **Original model**: 1) Manully create feature to capture anomalies where \\(x_1, x_2\\) take unusual combinations of values (\\(x_3=\frac{x_1}{x_2}\\)). 2) Computationallly cheaper. 3) OK even if m(training set size) is mall
 **Multitivariate Gaussian**: 1) Automatically captures correlations between features. 2) computationally more expensive 3) Must have m>n (m>=10n) or else \\(\sum\\) is non-invertible. 
+
+## Predicting Movie Ratings. 
+
+Content-based recommender systems: 
+
+Problem formulation: 
+
+\\(r(i,j)=1\\) if user j has rated movie i(0 otherwise)
+\\(y^{(i, j)}\\) = rating by user j on movie i (if defined)
+
+\\(\theta^j = \\) parameter vector for user j
+\\(x^{i} = \\) parameter vector for user i
+For user j, movie i, predicted rating: \\((\theta^{j})^T(x^{i})\\)
+
+To learn \\(\theta^{(j)}\\)
+
+\\(min_\theta^j \frac{1}{2*m^j} \sum_{i:r(i, j)=1}(\theta^j)^T(x^i)-y^{(i, j)})^2 + \frac{\lambda}{2*m^j}\sum_{k=1}^{n}(\theta_k^j)^2\\)
