@@ -357,3 +357,4 @@ To learn \\(\theta^{(j)}\\)
 
 Finding related movies (distance among data)
 
+**Mean Normalization:**  To remove \\(\theta_0\\) for unknown user. 
