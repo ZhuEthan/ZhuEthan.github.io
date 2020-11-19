@@ -370,5 +370,6 @@ Assume m = 100,000,000
 * Stochastic gradient descent
   * Original Batch Gradient descent will go through all training datasets to calculate one iteration of \\(\theta\\). Stochastic instead, will adjust the \\(\theta\\) according to a single training record
 * Mini-Batch Gradient Descent:
-  * Mini-batch gradient descent: Rather than using single example as in Stochastic, use b examples in each iteration
+  * Mini-batch gradient descent: Rather than using single example as in Stochastic, use b examples in each iteration. The reason why it is faster than stochastic gradient descent is mini-batch could be optimised by "vectorize computation"
+  
 
