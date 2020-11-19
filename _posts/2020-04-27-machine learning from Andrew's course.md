@@ -287,7 +287,8 @@ Or use S in [U, S, V] = svd(Sigma)
 
 \\(1-\frac{\sum_{i=1}{k}S_{ii}}{\sum_{i=1}{n}S_{ii}} <= 0.01\\)
 
-## Anormaly detection 
+## Week 9
+**Anormaly detection**
 
 * Fraud detection
 * Manufacturing
@@ -332,7 +333,7 @@ Supervised learning:
 * **Original model**: 1) Manully create feature to capture anomalies where \\(x_1, x_2\\) take unusual combinations of values (\\(x_3=\frac{x_1}{x_2}\\)). 2) Computationallly cheaper. 3) OK even if m(training set size) is mall
 * **Multitivariate Gaussian**: 1) Automatically captures correlations between features. 2) computationally more expensive 3) Must have m>n (m>=10n) or else \\(\sum\\) is non-invertible. 
 
-## Predicting Movie Ratings. 
+**Predicting Movie Ratings.** 
 
 Content-based recommender systems: 
 
@@ -360,6 +361,8 @@ To learn \\(\theta^{(j)}\\)
 Finding related movies (distance among data)
 
 **Mean Normalization:**  To remove \\(\theta = 0\\) for unknown user. 
+
+## Week 10
 
 #### Learning with Large Datasets: 
 Assume m = 100,000,000 
