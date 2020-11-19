@@ -355,3 +355,5 @@ To learn \\(\theta^{(j)}\\)
 2. Minimize \\(J(x^1, ... x^n, \theta^1... \theta^n)\\) using gradient descent. 
 3. For a user with parameters \\(\theta\\) and a move with (learned feature x), predict a star rating of \\(\theta^Tx\\)
 
+Finding related movies (distance among data)
+
