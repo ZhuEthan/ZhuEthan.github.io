@@ -349,7 +349,9 @@ To learn \\(\theta^{(j)}\\)
 
 \\[ min_\theta^j \frac{1}{2*m^j} \sum_{i:r(i, j)=1}(\theta^j)^T(x^i)-y^{(i, j)})^2 + \frac{\lambda}{2*m^j}\sum_{k=1}^{n}(\theta_k^j)^2 \\]
 
-#### Collaborative Filtering
+#### Collaborative Filtering:
+
+**Feature Learning**: An algo taking stuff to learn itself what features to use. 
 
 1. Initialize \\(x^1, x^2... x^n, \theta^1, \theta^2... \theta^n\\) to small random values. 
 2. Minimize \\(J(x^1, ... x^n, \theta^1... \theta^n)\\) using gradient descent. 
@@ -357,4 +359,4 @@ To learn \\(\theta^{(j)}\\)
 
 Finding related movies (distance among data)
 
-**Mean Normalization:**  To remove \\(\theta_0\\) for unknown user. 
+**Mean Normalization:**  To remove \\(\theta = 0\\) for unknown user. 
