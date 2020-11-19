@@ -360,3 +360,6 @@ To learn \\(\theta^{(j)}\\)
 Finding related movies (distance among data)
 
 **Mean Normalization:**  To remove \\(\theta = 0\\) for unknown user. 
+
+#### Learning with Large Datasets: 
+Assume m = 100,000,000 -> Try small dataset like 1000 records and plot learning curve to see if it is high-variance. 
