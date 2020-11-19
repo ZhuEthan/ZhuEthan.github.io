@@ -348,3 +348,10 @@ For user j, movie i, predicted rating: \\((\theta^{j})^T(x^{i})\\)
 To learn \\(\theta^{(j)}\\)
 
 \\[ min_\theta^j \frac{1}{2*m^j} \sum_{i:r(i, j)=1}(\theta^j)^T(x^i)-y^{(i, j)})^2 + \frac{\lambda}{2*m^j}\sum_{k=1}^{n}(\theta_k^j)^2 \\]
+
+#### Collaborative Filtering
+
+1. Initialize \\(x^1, x^2... x^n, \theta^1, \theta^2... \theta^n\\) to small random values. 
+2. Minimize \\(J(x^1, ... x^n, \theta^1... \theta^n)\\) using gradient descent. 
+3. For a user with parameters \\(\theta\\) and a move with (learned feature x), predict a star rating of \\(\theta^Tx\\)
+
