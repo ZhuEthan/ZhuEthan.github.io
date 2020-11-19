@@ -362,4 +362,10 @@ Finding related movies (distance among data)
 **Mean Normalization:**  To remove \\(\theta = 0\\) for unknown user. 
 
 #### Learning with Large Datasets: 
-Assume m = 100,000,000 -> Try small dataset like 1000 records and plot learning curve to see if it is high-variance. 
+Assume m = 100,000,000 
+* Try small dataset like 1000 records and plot learning curve to see if it is high-variance. 
+* Stochastic gradient descent
+  * Original Batch Gradient descent will go through all training datasets to calculate one iteration of \\(\theta\\). Stochastic instead, will adjust the \\(\theta\\) according to a single training record
+* Mini-Batch Gradient Descent:
+  * Mini-batch gradient descent: Rather than using single example as in Stochastic, use b examples in each iteration
+
