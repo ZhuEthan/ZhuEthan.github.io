@@ -390,7 +390,11 @@ Feature x capture properties of user, of origin/destination and asking price, we
 Logistic regression: 
 
 Repeat forever {
+
     Get (x, y) corresponding to user. 
+    
     Update \\(\theta\)) using (x, y): 
-        \theta_j = \theta_j - \alpha(h_\theta(x)-y)*x_j (j=0, ..., n)        
+    
+        \theta_j = \theta_j - \alpha(h_\theta(x)-y)*x_j (j=0, ..., n) 
+        
 }
