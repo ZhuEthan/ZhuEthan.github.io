@@ -381,3 +381,16 @@ Stochastic gradient descent:
 * Every 1000 iterations(say), plot cost\\((\theta, x^i, y^i)\\) averaged over the last 1000 examples processed by algorithm. 
 
 Learning rate \\(\alpha\\) is typically held constant. Can slowly decrease over time if we want \\(\theta\\) to converge (\\(\alpha = \frac{const1}{iterationNumber+const2}\\))
+
+**Online Learning**
+Shipping service website where user comes, specifies origin and destination, you offer to ship their package for some asking price, and users sometimes chosse to use your shipping service (y=1), sometimes not (y=0). 
+
+Feature x capture properties of user, of origin/destination and asking price, we want to  learn \\(p(y=1|x;\theta)\\) to optimize price. 
+
+Logistic regression: 
+
+Repeat forever {
+    Get (x, y) corresponding to user. 
+    Update \\(\theta\)) using (x, y): 
+        \theta_j = \theta_j - \alpha(h_\theta(x)-y)*x_j (j=0, ..., n)        
+}
