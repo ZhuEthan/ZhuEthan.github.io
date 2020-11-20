@@ -398,3 +398,5 @@ Repeat forever {
         \theta_j = \theta_j - \alpha(h_\theta(x)-y)*x_j (j=0, ..., n) 
         
 }
+
+Can adapt to change user preference. 
