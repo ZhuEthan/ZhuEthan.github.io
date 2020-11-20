@@ -417,4 +417,5 @@ Other examples: Choosing special offers to show user; customized selection of ne
 
 
 **MapReduce**
+
 ![MR for ML](../img/mapreduceForML.png)
