@@ -379,3 +379,5 @@ Stochastic gradient descent:
 * \\(cost(\theta, (x^i, y^i)) = 1/2(h_\theta(x^i)-y^i)^2\\) 
 * During learning, compute \\(cost(\theta, (x^i, y^i))\\) before updating \\(\theta\\) using \\((x^i, y^i)\\). 
 * Every 1000 iterations(say), plot cost\\((\theta, x^i, y^i)\\) averaged over the last 1000 examples processed by algorithm. 
+
+Learning rate \\(\alpha\\) is typically held constant. Can slowly decrease over time if we want \\(\theta\\) to converge (\\(\alpha = \frac{const1}{iterationNumber+const2}\\))
