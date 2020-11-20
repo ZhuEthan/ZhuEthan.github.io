@@ -414,3 +414,6 @@ Product search (learning to search)
     Learn \\(p(y=1|x; \theta)\\)
 
 Other examples: Choosing special offers to show user; customized selection of news articles; product recommendation. 
+
+
+**MapReduce**
