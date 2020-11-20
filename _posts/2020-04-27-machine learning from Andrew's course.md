@@ -374,6 +374,7 @@ Assume m = 100,000,000
   
 Batch gradient descent: 
 * Plot \\(J_{train}(\theta)\\) as a function of the number of iterations of gradient descent. 
+
 Stochastic gradient descent: 
 * \\(cost(\theta, (x^i, y^i)) = 1/2(h_\theta(x^i)-y^i)^2\\) 
 * During learning, compute \\(cost(\theta, (x^i, y^i))\\) before updating \theta using \\((x^i, y^i)\\). 
