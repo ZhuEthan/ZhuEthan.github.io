@@ -416,6 +416,6 @@ Product search (learning to search)
 Other examples: Choosing special offers to show user; customized selection of news articles; product recommendation. 
 
 
-**MapReduce**
+**MapReduce**: Many learning algo can be expressed as computing sums of functions over the training set. 
 
 ![MR for ML](../img/mapreduceForML.png)
