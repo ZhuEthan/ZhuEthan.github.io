@@ -400,3 +400,15 @@ Repeat forever {
 }
 
 Can adapt to change user preference. 
+
+Product search (learning to search)
+
+    User searches for Android phone 1080p camera. 
+    
+    Have 100 phones in store, will return 10 results. 
+    
+    x = features of phone, how many words in user query match. 
+    
+    name of phones, how many words in query match description of phone, etc. 
+    
+    Learn \\(p(y=1|x; \theta)\\)
