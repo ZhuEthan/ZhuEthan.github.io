@@ -385,7 +385,7 @@ Learning rate \\(\alpha\\) is typically held constant. Can slowly decrease over 
 **Online Learning**
 Shipping service website where user comes, specifies origin and destination, you offer to ship their package for some asking price, and users sometimes chosse to use your shipping service (y=1), sometimes not (y=0). 
 
-Feature x capture properties of user, of origin/destination and asking price, we want to  learn \\(p(y=1|x;\theta)\\) to optimize price. 
+Feature x capture properties of user, of origin/destination and asking price, we want to  learn \\(p(y=1\|x;\theta)\\) to optimize price. 
 
 Logistic regression: 
 
