@@ -420,6 +420,8 @@ Other examples: Choosing special offers to show user; customized selection of ne
 
 ![MR for ML](../img/mapreduceForML.png)
 
+## ML Application
+
 **Discussion on getting more data**
 1. Make sure you have a low bias classifier before expending the effort. (Plot learning curves). E.g. Keep increasing the number of features/number of hidden units in neural network until you have a low bias classifier. 
 2. How much work would it be to get 10x as much data as we currrently have? 
