@@ -424,4 +424,14 @@ Other examples: Choosing special offers to show user; customized selection of ne
 1. Make sure you have a low bias classifier before expending the effort. (Plot learning curves). E.g. Keep increasing the number of features/number of hidden units in neural network until you have a low bias classifier. 
 2. How much work would it be to get 10x as much data as we currrently have? 
 
+**Ceiling Analysis:**: What part of the pipeline to work on next: 
+What part of the pipeline should you spend the most time trying to improve? 
+
+* Overall system accuary 72%
+    * If text detection is 100% correct, the overall system will be 89%.
+    * Character segmentation ..., the overall system will be 90%.
+    * Character recognition ..., the overall system will be 100%.
+    
+So text detection could be increased and have a potential 17% improvement impact. Character recognition could have a potential impact of 10% improvement. 
+
 
