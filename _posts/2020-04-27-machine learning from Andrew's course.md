@@ -420,7 +420,7 @@ Other examples: Choosing special offers to show user; customized selection of ne
 
 ![MR for ML](../img/mapreduceForML.png)
 
-## ML Application
+## Week 11 ML Application
 
 **Discussion on getting more data**
 1. Make sure you have a low bias classifier before expending the effort. (Plot learning curves). E.g. Keep increasing the number of features/number of hidden units in neural network until you have a low bias classifier. 
