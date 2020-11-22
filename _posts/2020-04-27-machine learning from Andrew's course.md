@@ -31,7 +31,7 @@ Solutions to the above problems include deleting a feature that is linearly depe
   * If \\(alpha\\) is too large: ￼may not decrease on every iteration and thus may not converge.
 
 
-## Week 3
+## Week 3: Classification
 
 We cannot use the same cost function that we use for linear regression because the Logistic Function will cause the output to be wavy, causing many local optima. In other words, it will not be a convex function.
 
@@ -169,7 +169,7 @@ We usually use 1 to represent the rare cases.
 **We could use F score to pick threshold for classifier instead of always using 0.5**
 
 
-## SVM (Large Margin, try to split the data as big a margin as possible)
+## Week7: SVM (Large Margin, try to split the data as big a margin as possible)
 
 \\[min_\theta \sum_{i=1}^m cost_1(\theta^Tx^{i}) + (1-y^{i}) cost_0(\theta^Tx^{i}) + \lambda\sum_{i=0}^n \theta_j^2\\]
 
@@ -219,7 +219,7 @@ n = number of features(x belongs to \\(R^{n+1}\\)), m= number of training exampl
 Neural network likely to work well for most of these settings, but may be slower to train. 
     
 
-## Unsupervised Learning: Introduction: 
+## Week8: Unsupervised Learning: Introduction: 
 * Market segmentation
 * Social network analysis
 * Organize computing clusters 
