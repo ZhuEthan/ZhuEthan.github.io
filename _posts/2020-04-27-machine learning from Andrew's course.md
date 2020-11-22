@@ -182,7 +182,7 @@ Why Kernels: to deal with Non-linear Dicision Boundary.
 
 Predict y = 1 if \\(\theta_0 + \theta_1x_1 + \theta_2x_2 + \theta_3 x_1x_2 + \theta_4 x_1^2 + ... >= 0 \\)
 
-My understanding of kernels is instead of using the absolute value of training data, we use the relationship between a given training set and the remainings to classify data. 
+My understanding of kernels is instead of using the absolute value of training data, we use the relative location relations between a given training set and the remainings to classify data. 
 
 Bias & variance tradeoffs could be adjusted by \\(\theta\\) and C
 
