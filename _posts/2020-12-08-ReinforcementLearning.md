@@ -127,6 +127,8 @@ The term dynamic programming (DP) refers to a collection of algorithms that can 
 #### Policy Evaluation
 First we consider how to compute the state-value function $v_\pi$ for an arbitrary policy $\pi$. This is called policy evaluation in the DP literature. We also refer to it as the prediction problem.
 
+![iterative process to evalute state value](../img/iterative-evaluate-state-value.png)
+image 1
 
 We can turn the Bellman equation into an update ruls, to iteratively compute value functions. 
 
