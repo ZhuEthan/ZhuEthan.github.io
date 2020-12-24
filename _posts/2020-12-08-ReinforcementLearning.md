@@ -5,56 +5,6 @@ ext-js: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=
 ---
 
 
-## Week1
-
-### Cost function: 
-We can measure the accuracy of our hypothesis function by using a cost function. This takes an average difference (acutally a fancier version of an average) of all the results of the hypothesis with inputs from x's and the acutal output y's
-
-\\(h_\theta(x_i)=\theta_0 + \theta_1 x^{(i)}\\)
-
-\\(J(\theta_0, \theta_1)= \frac{1}{2m}\sum_{i=1}^{m}(\hat{y_i}-y_i)^2 = \frac{1}{2m}\sum_{i=1}^{m}(h_\theta(x_i)-y_i)^2\\)
-
-With gradient decent: 
-
-Simultaneous update: 
-
-\\(temp0: = \theta_0 - \alpha\frac{\partial}{\partial\theta_0}J(\theta_0, \theta_1)\\)
-\\(temp1 : = \theta_1 - \alpha\frac{\partial}{\partial\theta_1}J(\theta_0, \theta_1)\\)
-\\(\theta_0 := temp0\\)
-\\(\theta_1 := temp1\\)
-
-
-Put together: 
-```
-function [theta, J_history] = gradientDescentMulti(X, y, theta:Vector, alpha, num_iters) {
-	theta = theta - alpha / m * (X' * (X * theta - y));
-}
-```
-
-## Week2: Multiple Features
-
-\\(x_i = \frac{x_i-\mu_i}{max-min}\\)
-
-\\(\theta = (X^TX)^{-1}X^Ty\\)
-
-
-* Gradient descent learning rate \\(\alpha\\)
-
-  * If \\(alpha\\) is too small: slow convergence.
-  * If \\(alpha\\) is too large: ￼may not decrease on every iteration and thus may not converge.
-
-\\[\infty\\]
-
-\\[min_\theta \frac{1}{2m} \sum^m_{i=1}(h_\theta(x^{i}) - y^{i})^2 + \lambda\sum^{n}_{j=1}\theta^2_j\\]
-
-\\[J(\theta) = -\frac{1}{m}\sum_{i=1}^{m}[y^ilog(h_\theta (x^i)) + (1-y^i)log(1-h_\theta (x^i)] + \frac{\lambda}{2m}\sum_{j=1}^n \theta ^2_j\\]
-
-
-\\[min_\theta * \sum_{i=1}^m cost_1(\theta^Tx^{i}) + (1-y^{i} cost_0(\theta^Tx^{i}) + \frac{\lambda}{2*m}\sum_{i=0}^n)\theta_j^2\\]
-
-\\[min_\theta^j \frac{1}{2*m^j} \sum_{i:r(i, j)=1}(\theta^j)^T(x^i)-y^{(i, j)})^2 + \frac{\lambda}{2*m^j}\sum_{k=1}^{n}(\theta_k^j)^2\\]
-
-
 ## Reinforment Learning
 #### Week1
 **Supervised learning:** labeled data. 
