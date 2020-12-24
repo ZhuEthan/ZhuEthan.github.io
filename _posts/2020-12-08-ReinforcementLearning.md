@@ -120,7 +120,7 @@ We can get \\(\pi_*$ easily with given $v_*(s)\\)
 
 Reinforment learning's goal is to find the optimal policy
 
-## Week 4 Dynamic Programming: 
+#### Week 4 Dynamic Programming: 
 
 The term dynamic programming (DP) refers to a collection of algorithms that can be used to compute optimal policies given a perfect model of the environment as a Markov decision process (MDP).
 
