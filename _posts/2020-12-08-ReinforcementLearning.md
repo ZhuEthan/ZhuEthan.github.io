@@ -52,7 +52,7 @@ function [theta, J_history] = gradientDescentMulti(X, y, theta:Vector, alpha, nu
 
 \\[min_\theta * \sum_{i=1}^m cost_1(\theta^Tx^{i}) + (1-y^{i} cost_0(\theta^Tx^{i}) + \frac{\lambda}{2*m}\sum_{i=0}^n)\theta_j^2\\]
 
-\\[ min_\theta^j \frac{1}{2*m^j} \sum_{i:r(i, j)=1}(\theta^j)^T(x^i)-y^{(i, j)})^2 + \frac{\lambda}{2*m^j}\sum_{k=1}^{n}(\theta_k^j)^2 \\]
+\\[min_\theta^j \frac{1}{2*m^j} \sum_{i:r(i, j)=1}(\theta^j)^T(x^i)-y^{(i, j)})^2 + \frac{\lambda}{2*m^j}\sum_{k=1}^{n}(\theta_k^j)^2\\]
 
 
 ## Reinforment Learning
