@@ -94,9 +94,9 @@ State-value functions, Action-value function.
 
 **Bellman equation**
 
-\\(v_\pi \doteq E_\pi[G_t|S_t=s] = \sum_a\pi(a|s)\sum_{s'}\sum_rp(s', r|s, a)[r+\gamma v_\pi(s')\\)
+\\(v_\pi \doteq E_\pi[G_t \vert S_t=s] = \sum_a\pi(a \vert s)\sum_{s'}\sum_rp(s', r \vert s, a)[r+\gamma v_\pi(s')\\)
 
-\\(q_\pi(s, a) \doteq E_\pi[G_i|S_t=s, A_i=a] = \sum_{s'}\sum_r p(s', r|s, a)[r+\gamma\sum_{a'}q_\pi(s', a')]\\)
+\\(q_\pi(s, a) \doteq E_\pi[G_i \vert S_t=s, A_i=a] = \sum_{s'}\sum_r p(s', r \vert s, a)[r+\gamma\sum_{a'}q_\pi(s', a')]\\)
 
 **Why bellman Equation:** 
 
