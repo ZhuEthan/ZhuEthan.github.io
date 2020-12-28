@@ -144,5 +144,5 @@ Policy Improvement Theorem
 * **Policy iteration algorithm** for finding the optimal policy
 * Understand the **dance of policy and value**, how policy iteration reaches the optimal policy by alternating between evaluating a plicy and improving it.
 
-
+![Policy-Iteration](../img/Policy-Iteration.png)
 
