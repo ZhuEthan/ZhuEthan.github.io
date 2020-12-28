@@ -114,7 +114,7 @@ Bellman Equations to solve for a value function by writing a system of linear eq
 
 \\[ q_* (s,a) = \sum_{s'} \sum_{r}p(s', r \vert s, a) [r + \gamma max_{a'} q_* (s', a')] \\]
 
-We can get \\(\pi_*\\) easily with given \\(v_*(s)\\)
+We can get \\( \pi_* \\) easily with given \\( v_* (s) \\)
 
 Reinforment learning's goal is to find the optimal policy
 
