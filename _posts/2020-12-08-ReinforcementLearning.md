@@ -132,3 +132,17 @@ image 1
 
 We can turn the Bellman equation into an update ruls, to iteratively compute value functions. 
 
+Policy Improvement Theorem
+
+\\[q_\pi (s, \pi'(s)) \geq q_\pi(s, \pi(s)) for all s \in S\\]
+
+* The greedified policy is a strict improvement. 
+* Use the value function under a given policy, to produce strictly better policy
+
+**Policy Iteration**
+
+* **Policy iteration algorithm** for finding the optimal policy
+* Understand the **dance of policy and value**, how policy iteration reaches the optimal policy by alternating between evaluating a plicy and improving it.
+
+
+
