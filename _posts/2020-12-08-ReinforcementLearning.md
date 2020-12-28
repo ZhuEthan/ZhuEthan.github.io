@@ -4,9 +4,7 @@ title: Reinforcement Learning
 ext-js: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
 ---
 
-
-## Reinforment Learning
-#### Week1
+## Week1
 **Supervised learning:** labeled data. 
 **Reinforment learning:** Rewards gives agent some ideas how good or bad its recent actions were. What a good behavior looks like but can't tell you exactly how to do it. 
 **Unsupervised learning:** extract underline structure of the data, it is about the data representation. 
@@ -57,7 +55,7 @@ Policy:
 
 Online Learning: 
 
-#### Week 2:
+## Week 2:
 Finite Markov Decision Process: 
 
 k-armed bandit doesn't solve
@@ -82,7 +80,7 @@ Continuing Tasks:
 * No terminal state. 
 
 
-#### Week 3
+## Week 3
 
 Formally, a policy is a mapping from states to probabilities of selecting each possible action.
 
@@ -120,7 +118,7 @@ We can get \\(\pi_*$ easily with given $v_*(s)\\)
 
 Reinforment learning's goal is to find the optimal policy
 
-#### Week 4 Dynamic Programming: 
+## Week 4 Dynamic Programming: 
 
 The term dynamic programming (DP) refers to a collection of algorithms that can be used to compute optimal policies given a perfect model of the environment as a Markov decision process (MDP).
 
