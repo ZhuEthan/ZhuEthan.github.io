@@ -67,7 +67,7 @@ MDPs are a classical formalization of sequential decision making, where actions 
 
 In this case, the random variables \\(R_t\\) and \\(S_t\\) have well defined discrete probability distributions dependent only on the preceding state and action.
 
-\\[p(s',r \vert s,a) \doteq Pr\{S_t=s',R_t=r \vert S_{t-1}=s,A_{t-1}=a}\\]
+\\[p(s',r \vert s,a) \doteq Pr\{S_t=s',R_t=r \vert S_{t-1}=s,A_{t-1}=a\}\\]
 
 Episodic and continuing tasks: 
 
@@ -110,11 +110,11 @@ Bellman Equations to solve for a value function by writing a system of linear eq
 
 #### Optimal Value Functions
 
-\\[v_*(s) = max_a\sum_{s'}\sum_{r}p(s', r|s, a)[r+\gamma v_{*}(s')]\\]
+\\[v_*(s) = max_a\sum_{s'}\sum_{r}p(s', r \vert s, a)[r+\gamma v_{*}(s')]\\]
 
-\\[q_*(s, a) = \sum_{s'}\sum_rp(s', r|s, a)[r+\gamma max_{a'} q_*(s', a')]\\]
+\\[q_*(s, a) = \sum_{s'}\sum_rp(s', r \vert s, a)[r+\gamma max_{a'} q_*(s', a')]\\]
 
-We can get \\(\pi_*$ easily with given $v_*(s)\\)
+We can get \\(\pi_*\\) easily with given \\(v_*(s)\\)
 
 Reinforment learning's goal is to find the optimal policy
 
