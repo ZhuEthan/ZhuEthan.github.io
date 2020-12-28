@@ -110,9 +110,9 @@ Bellman Equations to solve for a value function by writing a system of linear eq
 
 #### Optimal Value Functions
 
-\\[v_*(s) = max_a \sum_{s'} \sum_{r}p(s', r \vert s, a)[r+\gamma v_{*}(s')]\\]
+\\[ v_* (s) = max_a \sum_{s'} \sum_{r}p(s', r \vert s, a)[r+\gamma v_{*}(s')] \\]
 
-\\[q_*(s, a) = \sum_{s'}\sum_rp(s', r \vert s, a)[r+\gamma max_{a'} q_*(s', a')]\\]
+\\[ q_*(s, a) = \sum_{s'}\sum_rp(s', r \vert s, a)[r+\gamma max_{a'} q_*(s', a')] \\]
 
 We can get \\(\pi_*\\) easily with given \\(v_*(s)\\)
 
