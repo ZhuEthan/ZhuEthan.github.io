@@ -67,7 +67,7 @@ MDPs are a classical formalization of sequential decision making, where actions 
 
 In this case, the random variables \\(R_t\\) and \\(S_t\\) have well defined discrete probability distributions dependent only on the preceding state and action.
 
-\\(p(s',r|s,a)\\) \\(\doteq\\) \\(Pr\{S_t=s',R_t=r|S_{t-1}=s,A_{t-1}=a}\\)
+\\[p(s',r \vert s,a) \doteq Pr\{S_t=s',R_t=r \vert S_{t-1}=s,A_{t-1}=a}\\]
 
 Episodic and continuing tasks: 
 
