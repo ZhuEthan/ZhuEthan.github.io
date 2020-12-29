@@ -122,6 +122,8 @@ Reinforment learning's goal is to find the optimal policy
 
 The term dynamic programming (DP) refers to a collection of algorithms that can be used to compute optimal policies given a perfect model of the environment as a Markov decision process (MDP) assuming the best possible case that we know how the MDP is working.
 
+Classical DP algorithms are of limited utility in reinforcement learning both because of their assumption of a perfect model and because of their great computational expense, but they are still important theoretically
+
 #### Policy Evaluation
 First we consider how to compute the state-value function $v_\pi$ for an arbitrary policy $\pi$. This is called policy evaluation in the DP literature. We also refer to it as the prediction problem.
 
