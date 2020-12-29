@@ -120,7 +120,7 @@ Reinforment learning's goal is to find the optimal policy
 
 ## Week 4 Dynamic Programming: 
 
-The term dynamic programming (DP) refers to a collection of algorithms that can be used to compute optimal policies given a perfect model of the environment as a Markov decision process (MDP).
+The term dynamic programming (DP) refers to a collection of algorithms that can be used to compute optimal policies given a perfect model of the environment as a Markov decision process (MDP) assuming the best possible case that we know how the MDP is working.
 
 #### Policy Evaluation
 First we consider how to compute the state-value function $v_\pi$ for an arbitrary policy $\pi$. This is called policy evaluation in the DP literature. We also refer to it as the prediction problem.
@@ -148,3 +148,9 @@ Policy Improvement Theorem
 Flexibility:
 
 ![Value-Iteration](../img/Value-Iteration.png)
+
+
+The curse of dimensionality
+
+The size of the state space grows exponentially as the number of relevant features increases
+This is not an issue with Dynamic Programming, but an inherent complexity of the problem. 
