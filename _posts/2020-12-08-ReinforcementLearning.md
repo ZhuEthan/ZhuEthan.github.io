@@ -42,7 +42,7 @@ Value of an Action
 
 Ways to learn action values: 
 * Sample-Average Method \\(Q_t(a) \doteq \frac{sum of rewards when a taken prior to t}{number of times a taken prior to t}\\) => \\(Q_{n+1} = Q_n + \frac{1}{n}(R_n-Q_n)\\)
-* Decaying past rewards: \\(Q_{n+1}=a_n(R_n-Q_n)\\) (A constant stepsize parameter can be used to solve a non-stationary bandit problem)
+* Decaying past rewards: \\(Q_{n+1}=a_n(R_n-Q_n)\\) (A constant stepsize parameter can be used to solve a non-stationary bandit problem (that is, for bandit problems in which the reward probabilities do change over time.))
 
 Explore vs Exploit
 
