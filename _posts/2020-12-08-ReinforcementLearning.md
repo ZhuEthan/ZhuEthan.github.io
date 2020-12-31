@@ -156,3 +156,22 @@ The curse of dimensionality
 
 The size of the state space grows exponentially as the number of relevant features increases
 This is not an issue with Dynamic Programming, but an inherent complexity of the problem. 
+
+**Jack’s Car Rental:**
+* States: Two location, maximum of 20 cars at each
+* Actions: Move up to 5 cars between locations overnight
+* Reward: $10 for each car rented (must be available)
+* Transitions: Cars returned and requested randomly
+	* Poisson Distribution, n returns/requests with prob $(\lambda/n!) e^{-\lambda}$
+	* 1st location: average requests = 3, average returns = 3
+	* 2nd location: average requests = 4, average returns = 2
+
+Solution: 
+
+https://medium.com/@jaems33/this-is-start-of-my-exploration-into-learning-about-reinforcement-learning-d505a68a2d6
+
+**When is dynamic programming converged?**
+
+https://en.wikipedia.org/wiki/Stochastic_approximation#Convergence_of_the_algorithm
+
+\\( \sum_{n=1}^\infty \alpha_n(a)= \infty\\) and \\( \sum_{n=1}^{\infty} \alpha^2_n(a) < \infty\\)
