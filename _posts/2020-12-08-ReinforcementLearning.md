@@ -151,6 +151,18 @@ Flexibility:
 
 ![Value-Iteration](../img/Value-Iteration.png)
 
+#### Asychronous DP
+* Asynchronous DP algorithms are in-place iterative DP algorithms that are not organized in terms of systematic sweeps of the state set.
+#### Synchronous DP
+* A major drawback to the DP methods that we have discussed so far is that they involve operations over the entire state set of the MDP, that is, they require sweeps of the state set. If the state set is very large, then even a single sweep can be prohibitively expensive
+
+Efficiency of Dynamic Programming: 
+
+* **Monte Carlo method**: Get a large number of returns for each states and calcuate its average for state value. 
+* ==> **Dynamic Programming**: Bootstrapping current state value by next states value instead of estimating state value independently. (Should be more efficient)
+* Brute-Force Search: In order to find optimal policy, time-complexity is exponential to the number of states. 
+* ==> Policy Iteration: Polynomial time in |S| and |A|, exponential faster than Brute-Force
+
 
 The curse of dimensionality
 
@@ -175,3 +187,8 @@ https://medium.com/@jaems33/this-is-start-of-my-exploration-into-learning-about-
 https://en.wikipedia.org/wiki/Stochastic_approximation#Convergence_of_the_algorithm
 
 \\( \sum_{n=1}^\infty \alpha_n(a)= \infty\\) and \\( \sum_{n=1}^{\infty} \alpha^2_n(a) < \infty\\)
+
+
+**Gamblers Problem**
+https://github.com/dennybritz/reinforcement-learning/blob/master/DP/Gamblers%20Problem%20Solution.ipynb
+
