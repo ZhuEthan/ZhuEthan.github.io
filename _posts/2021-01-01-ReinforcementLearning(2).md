@@ -7,7 +7,7 @@ ext-js: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=
 
 ## Week1
 
-**Marte Carlo.** 
+**Monte Carlo.** 
 
 In RL Monte Carlo methods allow us to estimate values (Not to get best policy) directly from experience, from sequences of states, actions and rewards. Learning from experience is striking because the agent can accurately estimate a value function without prior knowledge of the environments dynamics 
 
