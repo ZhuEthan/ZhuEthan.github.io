@@ -17,6 +17,7 @@ Monte Carlo methods estimate values by averaging over a large number of random s
 
 Use Monte-Carlo Prediction to estimate the value function for a given policy. 
 
+![Marte Carlo ](../img/Monte Carlo.png.png)
 
 Undiscounted MDP where each game of blackjack corresponds to an episode. [example is interesting.]
 
