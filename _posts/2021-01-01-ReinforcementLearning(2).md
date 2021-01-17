@@ -29,3 +29,36 @@ Implications of Monte Carlo learning.
 Off-policy learning VS On-policy learning? 
 
 Using Monte Carlo for Action-Values
+
+Action-values are useful for learning a policy. 
+
+Exploring Starts: 
+Random. 
+
+How to use Monte Carlo methods to implement a Generalized Policy Iteration (GPI) algorithm. 
+
+![Monte Carlo-GPI](../img/Monte-Carlo-GPI.png)
+
+Exploring Starts is not a practical in every case. So we introduce $\epsilon$-soft policy
+
+$\epsilon$-Greedy policies $\subset$ $\epsilon$-soft policies 
+
+![Monte Carlo Epsolon Soft](../img/Monte-Carlo-Epsolon-Soft.png)
+
+**Why does off-policy learning for prediction:**
+
+[On-policy vs off-policy](https://towardsdatascience.com/on-policy-v-s-off-policy-learning-75089916bc2f#:~:text=Target%20Policy%20pi%28a%7Cs,to%20interact%20with%20the%20environment.)
+* On-Policy: Improve and evaluate the policy being used to select actions. 
+* Off-Policy: Improve and evaluate a different policy from the one used to select actions
+
+Target Policy: It is the policy that an agent is trying to learn i.e agent is learning value function for this policy.
+
+Behavior Policy(Control Policy): 1. It is the policy that is being used by an agent for action select i.e agent follows this policy to interact with the environment.
+
+
+Importantce Sampling:
+* Use importance sampling to estimate the expected value of a distribution using samples from a different distribution
+
+$E_{\pi}[X] = \frac{1}{n}\sum_{i=1}^{n}x_i\rho(x_i),  \rho(x) = \frac{\pi(x)}{b(x)}$
+$x_i ~ b$
+
