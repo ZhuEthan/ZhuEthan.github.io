@@ -57,6 +57,7 @@ Online Learning:
 
 ## Week 2:
 Finite Markov Decision Process: 
+* the probability of each event depends only on the state attained in the previous event. 
 
 k-armed bandit doesn't solve
 * different situation call for different responses
