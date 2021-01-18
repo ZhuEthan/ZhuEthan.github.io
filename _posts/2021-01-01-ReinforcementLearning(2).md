@@ -24,7 +24,12 @@ Undiscounted MDP where each game of blackjack corresponds to an episode. [exampl
 Implications of Monte Carlo learning. 
 * We do not need to keep a large model of the environment
 * We are estimating the value of an individual state independently of the values of other states. 
-* The computation needed to update the value of each state does not depend on the size of the MDP. Instead, it depends on the length of the episodes. 
+* The computation needed to update the value of each state does not depend on the size of the MDP. Instead, it depends on the length of the episodes.
+
+Monte Carlo VS DP: 
+* Ability to learn from actual experience
+* From simulated experience
+* Note that the computational expense of estimating the value of  a single state is independent of the number of states. This can make Monte Carlo methods particularly attractive when one requires the value of only one or a subset of states
 
 Off-policy learning VS On-policy learning? 
 
