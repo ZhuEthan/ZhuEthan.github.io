@@ -46,7 +46,7 @@ Exploring Starts is not a practical in every case. So we introduce $\epsilon$-so
 
 ![What's Monte Carlo Epsolon Soft](../img/epsilon-greedy.png)
 
-$\epsilon$-Greedy policies $\subset$ $\epsilon$-soft policies 
+\\(\epsilon\\)-Greedy policies \\(\subset\\) \\(epsilon$-soft policies 
 
 ![Monte Carlo Epsolon Soft](../img/Monte-Carlo-Epsolon-Soft.png)
 
@@ -64,6 +64,6 @@ Behavior Policy(Control Policy): 1. It is the policy that is being used by an ag
 Importantce Sampling:
 * Use importance sampling to estimate the expected value of a distribution using samples from a different distribution
 
-$E_{\pi}[X] = \frac{1}{n}\sum_{i=1}^{n}x_i\rho(x_i),  \rho(x) = \frac{\pi(x)}{b(x)}$
-$x_i ~ b$
+\\(E_{\pi}[X] = \frac{1}{n}\sum_{i=1}^{n}x_i\rho(x_i),  \rho(x) = \frac{\pi(x)}{b(x)}\\)
+\\(x_i ~ b\\)
 
