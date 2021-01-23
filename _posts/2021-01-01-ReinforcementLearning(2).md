@@ -7,7 +7,9 @@ ext-js: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=
 
 ## Week1
 
-**Monte Carlo.** 
+**
+
+.** 
 
 In RL Monte Carlo methods allow us to estimate values (Not to get best policy) directly from experience, from sequences of states, actions and rewards. Learning from experience is striking because the agent can accurately estimate a value function without prior knowledge of the environments dynamics 
 
@@ -45,6 +47,8 @@ How to use Monte Carlo methods to implement a Generalized Policy Iteration (GPI)
 ![Monte Carlo-GPI](../img/Monte-Carlo-GPI.png)
 
 Exploring Starts is not a practical in every case. So we introduce $\epsilon$-soft policy
+
+![What's Monte Carlo Epsolon Soft](../img/epsilon-greedy.png)
 
 $\epsilon$-Greedy policies $\subset$ $\epsilon$-soft policies 
 
