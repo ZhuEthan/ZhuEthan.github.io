@@ -64,10 +64,11 @@ Behavior Policy(Control Policy): 1. It is the policy that is being used by an ag
 Importantce Sampling:
 * Use importance sampling to estimate the expected value of a distribution using samples from a different distribution
 
-\\(E_{\pi}[X] = \frac{1}{n}\sum_{i=1}^{n}x_i\rho(x_i),  \rho(x) = \frac{\pi(x)}{b(x)}\\)
-\\(x_i ~ b\\)
-
-
 ![Importance-Sampling-1](../img/Importance-Sampling-1.png)
 ![Importance-Sampling-2](../img/Importance-Sampling-2.png)
 ![Importance-Sampling-3](../img/Importance-Sampling-3.png)
+
+Off-policy-MC-prediction
+
+![Off Policy MC Prediction](../img/off-policy-MC-prediction.png)
+
