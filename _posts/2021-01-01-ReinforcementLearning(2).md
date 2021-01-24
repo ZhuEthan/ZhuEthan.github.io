@@ -67,3 +67,7 @@ Importantce Sampling:
 \\(E_{\pi}[X] = \frac{1}{n}\sum_{i=1}^{n}x_i\rho(x_i),  \rho(x) = \frac{\pi(x)}{b(x)}\\)
 \\(x_i ~ b\\)
 
+
+![Importance-Sampling-1](../img/Importance-Sampling-1.png)
+![Importance-Sampling-2](../img/Importance-Sampling-2.png)
+![Importance-Sampling-3](../img/Importance-Sampling-3.png)
