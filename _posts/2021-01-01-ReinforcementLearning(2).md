@@ -72,3 +72,22 @@ Off-policy-MC-prediction
 
 ![Off Policy MC Prediction](../img/off-policy-MC-prediction.png)
 
+
+## Week2 Temporal Difference Learning
+
+temporal difference learning definition: 
+$V(S_t)$ <- $V(S_t) + \alpha[R_{t+1} + \gamma V(S_{t+1})-V(S_t)]$
+
+
+Specialize in **multi-step** prediction learning
+
+![TD(0)_learning](../img/TD(0)_learning.png)
+![TD-Learning-Reasons](../img/TD-Learning-Reasons.png)
+![One-Step-Trap](../img/One-Step-Trap.png)
+
+
+Advantages of temporal difference learning: 
+* Do not require a model of the environment. 
+* Online and incremental
+* Coverge faster than MC Methods
+
