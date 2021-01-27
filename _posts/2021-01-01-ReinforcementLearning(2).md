@@ -76,7 +76,7 @@ Off-policy-MC-prediction
 ## Week2 Temporal Difference Learning
 
 temporal difference learning definition: 
-$V(S_t)$ <- $V(S_t) + \alpha[R_{t+1} + \gamma V(S_{t+1})-V(S_t)]$
+\\(V(S_t)\\) <- \\(V(S_t) + \alpha[R_{t+1} + \gamma V(S_{t+1})-V(S_t)]\\)
 
 
 Specialize in **multi-step** prediction learning
