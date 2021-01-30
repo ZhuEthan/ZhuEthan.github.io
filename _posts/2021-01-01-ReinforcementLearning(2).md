@@ -92,3 +92,5 @@ Advantages of temporal difference learning:
 * Online and incremental
 * Coverge faster than MC Methods
 
+Batch TD(0): https://stats.stackexchange.com/questions/297708/batch-reinforcement-learning-algorithm-example
+
