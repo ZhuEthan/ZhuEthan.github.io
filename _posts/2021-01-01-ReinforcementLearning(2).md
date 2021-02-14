@@ -46,7 +46,7 @@ Exploring Starts is not a practical in every case. So we introduce \\(\epsilon\\
 
 ![What's Monte Carlo Epsolon Soft](../img/epsilon-greedy.png)
 
-\\(\epsilon\\)-Greedy policies \\(\subset\\) \\(epsilon$-soft policies 
+\\(\epsilon\\)-Greedy policies \\(\subset\\) \\(\epsilon\\)-soft policies 
 
 ![Monte Carlo Epsolon Soft](../img/Monte-Carlo-Epsolon-Soft.png)
 
