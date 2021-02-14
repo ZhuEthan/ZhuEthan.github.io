@@ -42,7 +42,7 @@ How to use Monte Carlo methods to implement a Generalized Policy Iteration (GPI)
 
 ![Monte Carlo-GPI](../img/Monte-Carlo-GPI.png)
 
-Exploring Starts is not a practical in every case. So we introduce $\epsilon$-soft policy
+Exploring Starts is not a practical in every case. So we introduce \\(\epsilon\\)-soft policy
 
 ![What's Monte Carlo Epsolon Soft](../img/epsilon-greedy.png)
 
