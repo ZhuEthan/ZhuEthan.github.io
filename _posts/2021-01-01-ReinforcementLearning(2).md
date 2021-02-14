@@ -77,7 +77,7 @@ Off-policy-MC-prediction
 
 temporal difference learning definition: 
 
-\\(V(S_t)\\) <- \\(V(S_t) + \alpha[R_{t} + \gamma V(S_{t+1})-V(S_t)]\\)
+\\(V(S_t)\\) <- \\(V(S_t) + \alpha[R_{t+1} + \gamma V(S_{t+1})-V(S_t)]\\)
 
 
 Specialize in **multi-step** prediction learning
