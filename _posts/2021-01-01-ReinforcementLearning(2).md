@@ -97,6 +97,7 @@ Advantages of temporal difference learning:
 ## Week3 Sarsa: GPI with TD
 
 ![Sarsa-Algo](../img/Sarsa-Algo.png)
+![Sarsa-Control](../img/Sarsa-Control.png)
 ![Q-Learning](../img/Q-Learning.png)
 ![Q-Learning-max-function](../img/Q-Learning-max-function.png)
 
