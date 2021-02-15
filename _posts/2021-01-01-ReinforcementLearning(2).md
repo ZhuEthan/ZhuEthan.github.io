@@ -94,3 +94,15 @@ Advantages of temporal difference learning:
 
 [Batch TD(0)](https://stats.stackexchange.com/questions/297708/batch-reinforcement-learning-algorithm-example)
 
+## Week3 Sarsa: GPI with TD
+
+![Sarsa-Algo](../img/Sarsa-Algo.png)
+![Q-Learning](../img/Q-Learning.png)
+![Q-Learning-max-function](../img/Q-Learning-max-function.png)
+
+
+
+
+
+
+
