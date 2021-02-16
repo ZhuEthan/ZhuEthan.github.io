@@ -114,5 +114,9 @@ Expected Sarsa algorithm explicitly computes the expectation under its policy, w
 
 ![Expected-Sarsa](../img/Expected-Sarsa.png)
 
+Expected Sarsa with a target policy that's greedy with respect to its action-values is exactly Q-learning: 
+
+![Q-Learning-Expected-Salsa](../img/Q-Learning-Expected-Salsa.png)
+
 
 
