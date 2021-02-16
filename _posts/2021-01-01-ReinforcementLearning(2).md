@@ -101,6 +101,9 @@ Advantages of temporal difference learning:
 ![Q-Learning](../img/Q-Learning.png)
 ![Q-Learning-max-function](../img/Q-Learning-max-function.png)
 
+Q-learning is learning the best action it could take instead of the action it actually takes --> it is a off-policy learning. 
+
+![Q-Learning-off-policy](../img/Q-Learning-off-policy.png)
 
 
 
