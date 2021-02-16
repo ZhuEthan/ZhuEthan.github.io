@@ -110,6 +110,9 @@ Learning on-policy or off-policty may perform differently in control
 
 ![onpolicy-offpolicy-comparison](../img/onpolicy-offpolicy-comparison.png)
 
+Expected Sarsa algorithm explicitly computes the expectation under its policy, which is more expensive than sampling but has lower variance. 
+
+![Expected-Sarsa](../img/Expected-Sarsa.png)
 
 
 
