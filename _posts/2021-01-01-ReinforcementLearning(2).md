@@ -106,6 +106,9 @@ Q-learning is learning the best action it could take (without any randomness?) i
 ![Q-Learning-off-policy](../img/Q-Learning-off-policy.png)
 
 
+Learning on-policy or off-policty may perform differently in control
+
+![onpolicy-offpolicy-comparison](../img/onpolicy-offpolicy-comparison.png)
 
 
 
