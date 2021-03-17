@@ -113,6 +113,7 @@ Learning on-policy or off-policty may perform differently in control
 Expected Sarsa algorithm explicitly computes the expectation under its policy, which is more expensive than sampling but has lower variance. 
 
 ![Expected-Sarsa](../img/Expected-Sarsa.png)
+![Expected-Sarsa2](../img/Expected-Sarsa2.png)
 
 Expected Sarsa with a target policy that's greedy with respect to its action-values is exactly Q-learning: 
 
