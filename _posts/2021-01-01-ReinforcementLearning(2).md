@@ -95,7 +95,7 @@ Advantages of temporal difference learning:
 [Batch TD(0)](https://stats.stackexchange.com/questions/297708/batch-reinforcement-learning-algorithm-example)
 
 ## Week3 Sarsa: GPI with TD
-This week introduces 3 types of estimating algo: Salsa, Expected Salsa and Q-learning. Expected Salsa and Q-learning are offline learning algo but Salsa is an online algo. 
+This week introduces 3 types of estimating algo: Salsa, Expected Salsa and Q-learning. Expected Salsa and Q-learning are offline learning algo without importance sampling but Salsa is an online algo. 
 
 ![Sarsa-Algo](../img/Sarsa-Algo.png)
 ![Sarsa-Control](../img/Sarsa-Control.png)
