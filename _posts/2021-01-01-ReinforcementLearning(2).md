@@ -97,6 +97,12 @@ Advantages of temporal difference learning:
 ## Week3 Sarsa: GPI with TD
 This week introduces 3 types of estimating algo: Salsa, Expected Salsa and Q-learning. Expected Salsa and Q-learning are offline learning algo without importance sampling but Salsa is an online algo. 
 
+*Why could offline learning go without importance?*
+The agent is estimating action value with unknown policy, it doesn't need importance sampling to correct for the diff in action selection. 
+
+The action-value function represents the returns following each action in a given state. The agents target policy represents the probability of taking each action in a given state. 
+
+
 ![Sarsa-Algo](../img/Sarsa-Algo.png)
 ![Sarsa-Control](../img/Sarsa-Control.png)
 ![Q-Learning](../img/Q-Learning.png)
