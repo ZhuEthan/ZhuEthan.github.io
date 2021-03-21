@@ -131,10 +131,13 @@ Expected Sarsa with a target policy that's greedy with respect to its action-val
 **What's models:** 
 Models are used to store knowledge about the dynamics. In this course, models store knowledge about the transition and reward dynamics. 
 
-* Sample Model 
+* Sample Model:e.g. Sampling one instance to get reward
 	* Pros: Sample models require less memory
-* Istribution model
-	* Distribution models can be used to compute the exact expected outcome/they can be used to access risk. 
+* Distribution model
+	* Pros: Distribution models can be used to compute the exact expected outcome/they can be used to access risk. 
+
+
+![Random-sample_one-step_tabular_Q-planning](../img/Random-sample_one-step_tabular_Q-planning.png)
 
 Planning with model experience: How one can leverage a model to better inform decision-making without having to interact with the world. 
 
@@ -148,7 +151,7 @@ The Dyna Architecture
 
 Tabular Dyna-Q
 
-
+![Tabular-Dyna-Algo](../img/Tabular-Dyna-Algorithm.png)
 
 
 
