@@ -126,5 +126,29 @@ Expected Sarsa with a target policy that's greedy with respect to its action-val
 
 ![Q-Learning-Expected-Salsa](../img/Q-Learning-Expected-Salsa.png)
 
+## Week 4
+
+**What's models:** 
+Models are used to store knowledge about the dynamics. In this course, models store knowledge about the transition and reward dynamics. 
+
+* Sample Model 
+	* Pros: Sample models require less memory
+* Istribution model
+	* Distribution models can be used to compute the exact expected outcome/they can be used to access risk. 
+
+Planning with model experience: How one can leverage a model to better inform decision-making without having to interact with the world. 
+
+* Explain how planning is used to improve policies. 
+* Describe random-sample one-step tabular Q-planning. 
+
+The Dyna Architecture
+* The Dyna architecture uses direct RL and planning updates to learn from both environment and model experience
+* Direct RL updates use environment experience (sampling) to improve a policy or value function
+* Planning updates use model experience (after getting rewards experience) to improve a policy or value function
+
+Tabular Dyna-Q
+
+
+
 
 
