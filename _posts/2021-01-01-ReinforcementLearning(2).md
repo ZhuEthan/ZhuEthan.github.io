@@ -159,5 +159,5 @@ How models can be inaccurate:
 * Changing environment. 
  	* Dyna-Q+ uses exploration bonuses to explore the environment. 
 
-
+![Dyna-Q+](../img/Dyna-Q+.png)
 
