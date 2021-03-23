@@ -153,5 +153,11 @@ Tabular Dyna-Q
 
 ![Tabular-Dyna-Algo](../img/Tabular-Dyna-Algorithm.png)
 
+How models can be inaccurate: 
+* Incomplete model
+	* Dyna-Q can plan with an imcomplete model by only samling state-action pairs that have been previously visited. 
+* Changing environment. 
+ 	* Dyna-Q+ uses exploration bonuses to explore the environment. 
+
 
 
