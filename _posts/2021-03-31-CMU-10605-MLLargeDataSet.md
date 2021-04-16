@@ -23,3 +23,6 @@
 ![compressing-optimization](../img/compressing-optimization.png)
 
 ![partial-local-counting](../img/partial-local-counting.png)
+
+# Lecture-4
+![map-sort-reduce](../img/map-sort-reduce.png)
