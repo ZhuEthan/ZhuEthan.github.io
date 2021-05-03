@@ -26,3 +26,7 @@
 
 # Lecture-4
 ![map-sort-reduce](../img/map-sort-reduce.png)
+
+# Lecture-8
+
+![spark-vs-hadoop](../img/spark-vs-hadoop.png)
