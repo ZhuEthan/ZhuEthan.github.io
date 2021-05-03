@@ -419,6 +419,7 @@ Other examples: Choosing special offers to show user; customized selection of ne
 **MapReduce**: Many learning algo can be expressed as computing sums of functions over the training set. 
 
 ![MR for ML](../img/mapreduceForML.png)
+![spark-example-gradient-descent](../img/spark-example-gradient-descent.png)
 
 ## Week 11 ML Application
 
