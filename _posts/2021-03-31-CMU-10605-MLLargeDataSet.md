@@ -36,3 +36,5 @@
 ![spark-vs-hadoop](../img/spark-vs-hadoop.png)
 
 ![spark-hadoop-performace](../img/spark-hadoop-performance.png)
+
+![spark-example-gradient-descent](../img/spark-example-gradient-descent.png)
