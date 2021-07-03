@@ -40,7 +40,7 @@ Thm: Anything the can done with trusted auth, can also be done without.
 
 An important property of XOR: 
 
-Thm: Y a rand. var. over $\{0,1\}^n$, X an indep. uniform var. on $\{0, 1\}^n$. Then Z:=Y XOR X is uniform var on $\{0, 1\}^n$
+Thm: Y a rand. var. over \\(\{0,1\}^n\\), X an indep. uniform var. on \\(\{0, 1\}^n\\). Then Z:=Y XOR X is uniform var on \\(\{0, 1\}^n\\)
 
 The birthday paradox
 
