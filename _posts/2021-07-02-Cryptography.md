@@ -44,7 +44,7 @@ Thm: Y a rand. var. over \\(\{0,1\}^n\\), X an indep. uniform var. on \\(\{0, 1\
 
 The birthday paradox
 
-![the-birthday-paradox](../img/The-Birthday-paradox/png)
+![the-birthday-paradox](../img/The-Birthday-paradox.png)
 
 
 
