@@ -8,7 +8,7 @@
 
 ![hardware-evolve](../img/Hardware-evolve.png)
 
-![compression-importance](../img/compression-importance)
+![compression-importance](../img/compression-importance.png)
 
 # Lecture-3
 
