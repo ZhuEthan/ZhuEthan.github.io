@@ -6,6 +6,10 @@
 
 ![latencytable](../img/latency-table.png)
 
+![hardware-evolve](../img/Hardware-evolve.png)
+
+![compression-importance](../img/compression-importance)
+
 # Lecture-3
 
 ![memory-based-distribution-database](../img/memory-based-distributed-database.png)
@@ -30,3 +34,5 @@
 # Lecture-8
 
 ![spark-vs-hadoop](../img/spark-vs-hadoop.png)
+
+![spark-hadoop-performace](../img/spark-hadoop-performance.png)
