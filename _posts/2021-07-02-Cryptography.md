@@ -46,7 +46,7 @@ The birthday paradox
 
 ![the-birthday-paradox](../img/The-Birthday-paradox.png)
 
-
+![stream-ciphers](../stream-ciphers.png)
 
 
 
