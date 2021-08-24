@@ -5,6 +5,7 @@ tags: [Standford, Coursera, ML]
 ext-js: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
 ---
 
+# Week1: 
 
 Secure communication: 
 
@@ -48,7 +49,15 @@ The birthday paradox
 
 ![stream-ciphers](../img/stream-ciphers.png)
 
+# Week2 
 
+![Many-Time-Key-Randomized-encryption](../img/Many-Time-Key-Randomized-encryption.png)
+
+![nonce-based-Encryption](../img/nonce-based-Encryption.png)
+
+![many-time-encrypt](../img/many-time-encrypt.png)
+
+[aes-ctr](https://wizardforcel.gitbooks.io/practical-cryptography-for-developers-book/content/symmetric-key-ciphers/aes-encrypt-decrypt-examples.html)
 
 
 
