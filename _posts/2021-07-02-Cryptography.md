@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Standford Cryptography
-tags: [Standford, Coursera, ML]
+tags: [Standford, Coursera]
 ext-js: "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"
 ---
 
