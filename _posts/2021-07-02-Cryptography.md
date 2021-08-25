@@ -71,7 +71,7 @@ Semantic secure: Adversary cannot tell mapping relationships after receiving enc
 
 ![many-time-encrypt](../img/many-time-encrypt.png)
 
-[aes-ctr](https://wizardforcel.gitbooks.io/practical-cryptography-for-developers-book/content/symmetric-key-ciphers/aes-encrypt-decrypt-examples.html)
+aes-ctr: https://wizardforcel.gitbooks.io/practical-cryptography-for-developers-book/content/symmetric-key-ciphers/aes-encrypt-decrypt-examples.html
 
 
 # Week3 Integrity: 
