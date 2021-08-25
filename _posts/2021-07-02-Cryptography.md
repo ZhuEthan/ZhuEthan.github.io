@@ -49,7 +49,21 @@ The birthday paradox
 
 ![stream-ciphers](../img/stream-ciphers.png)
 
-# Week2 
+# Week2 Confidentiality
+
+AES & 3DES
+
+![Feistel-Network.png](../img/Feistel-Network.png)
+
+![DES](../img/DES.png)
+
+How to do Key expansion? https://ritul-patidar.medium.com/key-expansion-function-and-key-schedule-of-des-data-encryption-standard-algorithm-1bfc7476157
+
+![AES](../img/AES.png)
+
+![AES-Schematic](../img/AES-Schematic.png)
+
+Semantic secure: Adversary cannot tell mapping relationships after receiving encryption of messages he sent. 
 
 ![Many-Time-Key-Randomized-encryption](../img/Many-Time-Key-Randomized-encryption.png)
 
@@ -60,5 +74,6 @@ The birthday paradox
 [aes-ctr](https://wizardforcel.gitbooks.io/practical-cryptography-for-developers-book/content/symmetric-key-ciphers/aes-encrypt-decrypt-examples.html)
 
 
+# Week3 Integrity: 
 
  
