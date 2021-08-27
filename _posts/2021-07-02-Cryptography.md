@@ -97,6 +97,10 @@ This means that a hashcode is blindly generated from the message without any kin
 A MAC instead uses a private key as the seed to the hash function it uses when generating the code: this should assure the receiver that, not only the message hasn't been modified, but also who sent it is what we were expecting: otherwise an attacker couldn't know the private key used to generate the code.
 
 
+> While MAC functions are similar to cryptographic hash functions, they possess different security requirements. To be considered secure, a MAC function must resist existential forgery under chosen-plaintext attacks. This means that even if an attacker has access to an oracle which possesses the secret key and generates MACs for messages of the attacker's choosing, the attacker cannot guess the MAC for other messages without performing infeasible amounts of computation.
+
+My understanding: With CR hash only, attacher could still guess out the hash value for other messages? They just cannot forge another message, different from the original one, to fool receiver. 
+
 ![conllision-resistant-hash](../img/conllision-resistant-hash.png)
 
 
