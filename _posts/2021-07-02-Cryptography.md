@@ -76,4 +76,18 @@ aes-ctr: https://wizardforcel.gitbooks.io/practical-cryptography-for-developers-
 
 # Week3 Integrity: 
 
- 
+MAC guarantees integrity AND authentication.
+
+![MACs](../img/MACs.png)
+
+![PMAC](../img/PMAC.png)
+
+![CBC-MAC](../img/CBC-MAC.png)
+
+![One-time-mac](../img/One-time-mac.png)
+
+![many-time-mac](../img/many-time-mac.png)
+
+![conllision-resistant-hash](../img/conllision-resistant-hash.png)
+
+
