@@ -88,6 +88,15 @@ MAC guarantees integrity AND authentication.
 
 ![many-time-mac](../img/many-time-mac.png)
 
+difference between resistant hash and mac: https://stackoverflow.com/questions/2836100/what-is-the-difference-between-a-hash-and-mac-message-authentication-code
+
+The main difference is conceptual: while hashes are used to guarantee the integrity of data, a MAC guarantees integrity AND authentication.
+
+This means that a hashcode is blindly generated from the message without any kind of external input: what you obtain is something that can be used to check if the message got any alteration during its travel.
+
+A MAC instead uses a private key as the seed to the hash function it uses when generating the code: this should assure the receiver that, not only the message hasn't been modified, but also who sent it is what we were expecting: otherwise an attacker couldn't know the private key used to generate the code.
+
+
 ![conllision-resistant-hash](../img/conllision-resistant-hash.png)
 
 
