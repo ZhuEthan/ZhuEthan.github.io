@@ -105,4 +105,4 @@ My understanding: With CR hash only, attacher could still guess out the hash val
 
 ![conllision-resistant-hash](../img/conllision-resistant-hash.png)
 
-
+![HMAC](../img/Hmac.png)
