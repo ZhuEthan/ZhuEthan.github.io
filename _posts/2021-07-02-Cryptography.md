@@ -65,6 +65,8 @@ How to do Key expansion? https://ritul-patidar.medium.com/key-expansion-function
 
 Semantic secure: Adversary cannot tell mapping relationships after receiving encryption of messages he sent. 
 
+What confidentiality doesn't guarantee is adversary steel/replace packages on the transfer period. That will be week 4 -- Authenticated
+
 ![Many-Time-Key-Randomized-encryption](../img/Many-Time-Key-Randomized-encryption.png)
 
 ![nonce-based-Encryption](../img/nonce-based-Encryption.png)
