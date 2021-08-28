@@ -101,7 +101,7 @@ A MAC instead uses a private key as the seed to the hash function it uses when g
 
 > While MAC functions are similar to cryptographic hash functions, they possess different security requirements. To be considered secure, a MAC function must resist existential forgery under chosen-plaintext attacks. This means that even if an attacker has access to an oracle which possesses the secret key and generates MACs for messages of the attacker's choosing, the attacker cannot guess the MAC for other messages without performing infeasible amounts of computation.
 
-My understanding: With CR hash only, attacher could still guess out the hash value for other messages? They just cannot forge another message, different from the original one, to fool receiver. 
+My understanding: With CR hash only, attacher could still guess out the hash value for other messages (concatenate other messages with calculated hash) They just cannot forge a different message but the same hash value to fool receiver. 
 
 ![conllision-resistant-hash](../img/conllision-resistant-hash.png)
 
