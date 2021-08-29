@@ -63,7 +63,7 @@ How to do Key expansion? https://ritul-patidar.medium.com/key-expansion-function
 
 ![AES-Schematic](../img/AES-Schematic.png)
 
-Semantic secure: Adversary cannot tell mapping relationships after receiving encryption of messages he sent. However, the adversary could modify the confidential content if he has a little clue where the target byte is. 
+Semantic secure: Adversary cannot tell mapping relationships after receiving encryption of messages he sent. However, the adversary could modify the confidential content if he has a little clue where the target byte is. For example, adversary doesn't know which message is port 20, but he could use XOR with encryption key to change the value to 80.
 
 What confidentiality doesn't guarantee is adversary tempering packages on the transfer period. That will be week 4 -- Authenticated
 
