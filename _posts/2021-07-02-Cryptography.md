@@ -106,3 +106,13 @@ My understanding: With CR hash only, attacher could still guess out the hash val
 ![conllision-resistant-hash](../img/conllision-resistant-hash.png)
 
 ![HMAC](../img/Hmac.png)
+
+# Week4 Authentication
+
+Authentication = Integrity + Confidentiality
+
+![Authentication](../img/Authentication.png)
+
+![Authentication-implication1](../img/Authentication-implication1.png)
+
+![Authentication-implication2](../img/Authentication-implication2.png)
