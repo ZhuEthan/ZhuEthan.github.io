@@ -116,3 +116,21 @@ Authentication = Integrity + Confidentiality
 ![Authentication-implication1](../img/Authentication-implication1.png)
 
 ![Authentication-implication2](../img/Authentication-implication2.png)
+
+![AE](../img/AE.png)
+
+![Combining-MAC-ENC](../img/Combining-MAC-ENC.png)
+
+![CCS-attack](../img/CCS-attack.png)
+
+![Key-Derivation](../img/Key-Derivation.png)
+
+![Deterministic-CPA-security-rule](../img/Deterministic-CPA-security-rule.png)
+
+![Password-Based-KDF](../img/Password-Based-KDF.png)
+
+![Deterministic-CPA-security](../img/Deterministic-CPA-security.png)
+
+# Week5 
+
+
