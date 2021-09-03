@@ -125,9 +125,9 @@ Authentication = Integrity + Confidentiality
 
 ![Key-Derivation](../img/Key-Derivation.png)
 
-![Deterministic-CPA-security-rule](../img/Deterministic-CPA-security-rule.png)
-
 ![Password-Based-KDF](../img/Password-Based-KDF.png)
+
+![Deterministic-CPA-security-rule](../img/Deterministic-CPA-security-rule.png)
 
 ![Deterministic-CPA-security](../img/Deterministic-CPA-security.png)
 
