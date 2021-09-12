@@ -129,6 +129,8 @@ Authentication = Integrity + Confidentiality
 
 ## Searching on encrypted data
 
+![CPA-unsafe-deterministic-encryption](../img/CPA-unsafe-deterministic-encryption.png)
+
 ![Deterministic-CPA-security-rule](../img/Deterministic-CPA-security-rule.png)
 
 ![Deterministic-CPA-security](../img/Deterministic-CPA-security.png)
