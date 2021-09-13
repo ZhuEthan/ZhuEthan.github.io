@@ -139,6 +139,14 @@ Authentication = Integrity + Confidentiality
 
 ![Deterministic-CPA-security](../img/Deterministic-CPA-security.png)
 
+## Disk encryption: no expansion. 
+
+![disk-encryption](../img/disk-encryption.png)
+
+![SIV-DAE](../img/SIV-DAE.png)
+
+![SIV-DAE-EXP](../img/SIV-DAE-EXP.png)
+
 # Week5 
 
 
