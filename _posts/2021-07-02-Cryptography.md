@@ -121,6 +121,10 @@ Authentication = Integrity + Confidentiality
 
 ![Combining-MAC-ENC](../img/Combining-MAC-ENC.png)
 
+![Chosen-ciphertext-security](../img/Chosen-ciphertext-security.png)
+
+![Chosen-ciphertext-security-standard](../img/Chosen-ciphertext-security-standard.png)
+
 ![CCS-attack](../img/CCS-attack.png)
 
 ![Key-Derivation](../img/Key-Derivation.png)
