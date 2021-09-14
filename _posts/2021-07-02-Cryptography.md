@@ -151,4 +151,6 @@ Authentication = Integrity + Confidentiality
 
 Eavesdropper attack: no tampering, no dropping, no replaying, just intercept and try to get the shared key between Alice and Bob. 
 
+Public-Key Encryption: 
+
 
