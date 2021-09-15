@@ -153,4 +153,16 @@ Eavesdropper attack: no tampering, no dropping, no replaying, just intercept and
 
 Public-Key Encryption: 
 
+![pk-encryption](../img/pk-encryption.png)
+
+![kerberos-system](../img/Kerberos-system.png)
+
+![asyn-semantic-security](../img/asyn-semantic-security.png)
+
+![establish-shared-key](../img/establish-shared-key.png)
+
+![Pub-Sec-Insecure-Against](../img/Pub-Sec-Insecure-Against.png)
+
+![pub-sec-secure-eavesdropping](../img/pub-sec-secure-eavesdropping.png)
+
 
