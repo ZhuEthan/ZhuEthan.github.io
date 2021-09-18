@@ -190,7 +190,8 @@ TDF:
 ![RSA-crpyto-in-practice](../img/RSA-crpyto-in-practice.png)
 
 
+How does SSL work? 
 
-
+The server sends its public key to the browser, the browser chooses a secret and then encrypts the secret using the server's public key, sends it back to the server, the server decrypts and now both the borwser and the server have a common secret that they can then use to encrypt data, going backand forth, between them. 
 
 
