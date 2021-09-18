@@ -165,6 +165,12 @@ Public-Key Encryption:
 
 ![pub-sec-secure-eavesdropping](../img/pub-sec-secure-eavesdropping.png)
 
+![Asyn-CCS-definition](../img/Asyn-CCS-definition.png)
+
+![Asyn-CCA-example](../img/Asyn-CCA-example.png)
+
+![Secure-trapdoor-function](../img/Secure-trapdoor-function.png)
+
 How to avoid eavesdropping risk? How to construct CCS asyn algo:
 
 TDF: 
