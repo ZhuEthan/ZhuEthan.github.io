@@ -171,7 +171,7 @@ Public-Key Encryption:
 
 ![Secure-trapdoor-function](../img/Secure-trapdoor-function.png)
 
-How to avoid eavesdropping risk? How to construct CCS asyn algo:
+How to construct CCS asyn algo: (doesn't avoid active attack risk)
 
 TDF: 
 
@@ -194,4 +194,12 @@ How does SSL work?
 
 The server sends its public key to the browser, the browser chooses a secret and then encrypts the secret using the server's public key, sends it back to the server, the server decrypts and now both the borwser and the server have a common secret that they can then use to encrypt data, going backand forth, between them. 
 
+![public-key-encryption-app1](../img/public-key-encryption-app1.png)
 
+![public-key-encryption-app2](../img/public-key-encryption-app2.png)
+
+![GIGamal-protocal](../img/GIGamal-protocal.png)
+
+## Week 7 Digital Signatures
+
+* Even after observing signatures on multiple messages, an attacker should be unable to forge a valid signature on a new message. 
