@@ -67,6 +67,8 @@ Semantic secure: Adversary cannot tell mapping relationships after receiving enc
 
 What confidentiality doesn't guarantee is adversary tempering packages on the transfer period. That will be week 4 -- Authenticated
 
+The following also defends the replay attack. 
+
 ![Many-Time-Key-Randomized-encryption](../img/Many-Time-Key-Randomized-encryption.png)
 
 ![nonce-based-Encryption](../img/nonce-based-Encryption.png)
