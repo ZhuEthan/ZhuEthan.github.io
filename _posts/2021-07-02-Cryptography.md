@@ -205,3 +205,10 @@ The server sends its public key to the browser, the browser chooses a secret and
 ## Week 7 Digital Signatures
 
 * Even after observing signatures on multiple messages, an attacker should be unable to forge a valid signature on a new message. 
+
+
+## SSL/TLS:
+
+* How can you securely send your credit card to Coursera? 
+
+
