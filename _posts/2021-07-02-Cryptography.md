@@ -206,9 +206,26 @@ The server sends its public key to the browser, the browser chooses a secret and
 
 * Even after observing signatures on multiple messages, an attacker should be unable to forge a valid signature on a new message. 
 
+![Digital-Signatures-graph](../img/Digital-Signatures-graph.png)
+
+![Digital-signature-exp](../img/Digital-signature-exp.png)
+
+![Digital-Signature-app](../img/Digital-Signature-app.png)
+
+![Digital-Signature-Security-Definition](../img/Digital-Signature-Security-Definition.png)
+
+![replay-attack](../img/replay-attack.png)
+
+![identification-signature](../img/identification-signature.png)
+
+![certificate](../img/certificate.png)
 
 ## SSL/TLS:
 
 * How can you securely send your credit card to Coursera? 
 
+![SSL/TLS-Two-phases](../img/SSLTLS-Two-phases.png)
 
+![Handshake-protocol](../img/Handshake-protocol.png)
+
+![Record-layer-protocol](../img/Record-layer-protocol.png)
