@@ -196,6 +196,8 @@ How does SSL work?
 
 The server sends its public key to the browser, the browser chooses a secret and then encrypts the secret using the server's public key, sends it back to the server, the server decrypts and now both the borwser and the server have a common secret that they can then use to encrypt data, going backand forth, between them. 
 
+In fact, to avoid middleman attack, the `public key` sent by server is a digital certificate (a public key with origin name encrypted by Certificate Authority's private key). The web browser has the paired CA's public key to decrpyte the digital certificate to get the server public key and do the following. 
+
 ![public-key-encryption-app1](../img/public-key-encryption-app1.png)
 
 ![public-key-encryption-app2](../img/public-key-encryption-app2.png)
