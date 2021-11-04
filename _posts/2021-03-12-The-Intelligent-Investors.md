@@ -27,4 +27,46 @@ Some interesting facts:
 2. Looking at fave decades of data, 10% of the large US companies had increased their earnings by 20% for at least 5 consecutive years; only 3% had grown by 20% for at least 10 year straight; and not a single one had done it for 15 years in a row. -
 
 
+## Charpter 11: Security Analysis for the Lay Investor
+
+What are the primary tests of safety of a corporate bond or preferred stock? 
+* Coporate bonds: The number of times that total interest charges have been covered by available earnings for some years in the past. 
+* In the case of prefered stock. it is the number of times that bond interest and preferred dividents combined have been covered. 
+
+What are the chief factors entering into the valuation of a common stock? 
+* General Long term Prospects (might be wrong)
+* Management
+* Financial Strength and Capital Structure
+* Dividend Record
+* Current Dividend Rate
+
+Composite or group estimates are likely to be a good deal more dependable than those for individual companies. 
+
+`Value = Current Earning * (8.5 plus twice the expected annual growth)`
+
+The expected annual growth rate should be that expected over the next seven to 10 years. 
+
+What the valuer actually does in these cases is to introduce a margin of safety into his calculations. 
+
+Questions to be answered from financial statement:
+
+1. What makes this company grow? 
+2. Where do its profits come from? 
+
+Specifically: 
+
+**Negative:**
+* The company is a "serial acquirer". An average of more than two or three acquisitions a year is a sign of potential trouble. After all, if the company itself would rather buy the stock of other busincessesthan invest in its own, shouldn't you take the hint and look elsewhere, too? 
+* The company is an OPM addict (Other people's money). Borrowing debt or seeling stock to raise boatloads of other people's money. Cash flow statement: operating activities is always negative, financing activity is always positive. 
+* The Company is Johnny-One-Note, relying on one customer for most of its revenues. 
+
+**Positive:** 
+* Wide "moat". Several foces can widen a company's moat: 
+	* A strong brand identiy; 
+	* A monopoly or near-monopoly on the market; 
+	* Economies of scale, or the ability to supply huge amounts of goods or services cheaply. 
+	* A unique intangible asset
+	* A resistance to substituion. 
+* The company is a marathoner. earning as grown smoonthly and steadily over the previous 10 years. 
+* The company sows and reaps: spend some money on R&D. 
 
