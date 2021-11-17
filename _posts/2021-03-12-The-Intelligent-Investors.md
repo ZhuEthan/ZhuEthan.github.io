@@ -5,6 +5,11 @@ title: The Intelligent Investor
 ---
 
 
+**Some key words:**
+* Working Capital: Working capital, also known as net working capital (NWC), is the difference between a company’s current assets—such as cash, accounts receivable/customers’ unpaid bills, and inventories of raw materials and finished goods—and its current liabilities, such as accounts payable and debts.
+
+* Book Value: The book value of a company is the net difference between that company's total assets and total liabilities, where book value reflects the total value of a company's assets that shareholders of that company would receive if the company were to be liquidated.
+
 
 
 It is worth recording some essence from "The Intelligent Investors". I will focus on "enterprising investors" first, complete the "passive investors" later.
