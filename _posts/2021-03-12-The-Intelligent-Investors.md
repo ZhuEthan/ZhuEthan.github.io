@@ -75,3 +75,19 @@ Specifically:
 * The company is a marathoner. earning as grown smoonthly and steadily over the previous 10 years. 
 * The company sows and reaps: spend some money on R&D. 
 
+## Charpter 12: Earning per share
+
+**The margin of the market's pricing errors is often not wide enough to justify the expense of trading on them.**
+* Corporate accounting is often tricky
+* Security analysis can be complicated
+* Stock valuations are really dependable only in exceptional cases
+
+**Use of Average earnings**
+* The special charges and credits are included in the average earnings. 
+
+*We suggest that the growth rate itself be calculated by comparing the average of the last three years with. corresponding figures ten years earlier*
+
+Why earning on capital funds is the decisive factor for ALCOA? 
+
+* Intelligent investor must always be on a guard for "nonrecurring" costs just keep going. 
+
