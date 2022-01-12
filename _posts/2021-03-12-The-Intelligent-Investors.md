@@ -106,9 +106,11 @@ Why earning on capital funds is the decisive factor for ALCOA?
 6. Moderate P/E Ratio: Current price should not be more than 15 times average earnings of the past three years. 
 7. Moderate Ratio of Price to Assets: Current price should be no more than 1.5 times the book value last reported. However, a multiplier of earnings below 15 could justify correspondingly higher multiplier of assets (**cyclical stock, During downturns, their earnings drop and PE rises, while assets and equity are usually stable. Prices go down so P/B looks very low. This is the best time to buy these stocks.** ). As a rule of thumb we suggest that the product of the PE and the PB should not exceed 22.5 (15 * 1.5)
 
-**Public Utility:** For the public-utility stocks at this time should be their availability at a moderate price in relation to book value. 
-**Financial Enterprises**: the same as the public utility
-**rail road station** airline stocks today: The carriers have suffered severely from a combination of severe competition and strict regulation. Automobiles, buese, and airlines have drawn off most of their passengerbusiness and left the rest highly unprofitable (labor cost and etc). There is no compelling reason for the investor to own railroad shares; before he buys any he should make sure that he is getting so much value for his money that it would be unreasonable to look for something else instead. 
+* **Public Utility:** For the public-utility stocks at this time should be their availability at a moderate price in relation to book value. 
+
+* **Financial Enterprises**: the same as the public utility
+
+* **rail road station** airline stocks today: The carriers have suffered severely from a combination of severe competition and strict regulation. Automobiles, buese, and airlines have drawn off most of their passengerbusiness and left the rest highly unprofitable (labor cost and etc). There is no compelling reason for the investor to own railroad shares; before he buys any he should make sure that he is getting so much value for his money that it would be unreasonable to look for something else instead. 
 
 yahoo.com could tell what percentage of a company's shares are owned by institutions. 
 
