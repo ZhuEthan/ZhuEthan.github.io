@@ -91,6 +91,8 @@ Why earning on capital funds is the decisive factor for ALCOA?
 
 * Intelligent investor must always be on a guard for "nonrecurring" costs just keep going. 
 
+https://medium.com/the-intelligent-investor-series/chapter-12-things-to-consider-about-per-share-earnings-8411a6a6b18b
+
 ## Charpter 13: A comparison of 4 listed companies. 
 
 **What perspervtive to consider of listed companies?**
