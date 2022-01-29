@@ -148,3 +148,7 @@ To be researched more.
 * interest rate coverage ( EBIT / interest expense ) at least 5 times, 
 * 10 years earning. 
 
+## Charpter 18: A comparison of eight pairs of companies
+
+* Net/Sales too low is a bad signal
+
