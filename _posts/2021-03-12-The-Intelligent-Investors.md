@@ -144,3 +144,7 @@ ROIC has the virtue of showing, after all legitimate expenses, what the company 
 ## Charpter 16: Convertible Issues and Warrants: 
 To be researched more. 
 
+## Charpter 17: Four extermely Instructive Case histories:
+* interest rate coverage ( EBIT / interest expense ) at least 5 times, 
+* 10 years earning. 
+
