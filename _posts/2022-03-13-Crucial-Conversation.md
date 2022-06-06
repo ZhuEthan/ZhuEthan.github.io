@@ -62,3 +62,88 @@ In summary: always on my first, ask what do I want for myself, don't want; what 
 	* Invent a Mutual Purpose: if after clarifying everyone's purposes you are still at odds, see if you can invent a higher or longer-term purpose that is more motivating thant the ones that keep you in conflict. 
 		* I certainly don't want to make winners and losers here. It's far better if we can come up with something that doesn't make one team resetn the other one. We've voted before or flipped a coin, and the losers just ended up resenting the wineners. I am more worried about how we feel about each other than anything else. Let's make sure that whatever we do, we don't drive a wedge in our working relationship. 
 * Brainstorm New Strategies: 
+
+
+## Master My Stories
+
+* Others don't make you mad. You make you mad. You make you scared, annoyed, or insulted. You and only you create your emotions. 
+* Once you've created your upset emotions, you have only two options: You can act on them or be acted on by them.
+
+The good at dialogue realize that if they don't control their emotions, matters will get worse. So they try somethings lese, they fake it. They choke down reactions and then do their best to get back to dialogue. 
+
+#### Stories Create Fellings
+
+See&Hear -> **Tell a Story** -> Feel -> Act. 
+
+#### Our Stories
+Nothing in this world is good or bad, but thinking makes it so. 
+
+If we take control of our stories, they won't control us. People who excel at dialogue are able to influence their emotions during crucial conversations. 
+
+Any set of facts can be used to tell an infinite number of stories; 
+
+#### Analyze your stories: 
+* Question your feelings and stories. 
+
+#### Skills for mastering our stories: 
+
+Don't confuse stories with facts. 
+
+#### Get back to the facts: 
+* Separate fact from story by focusing on behavior
+* Spot the story by watching for "hot" words. 
+	* scowl at me -> nervous, concerned or unsure of himself. 
+* Watch For Three "Clever" stories: 
+	* Victim Stories -- It is not my fault. 
+	* villains Stories -- It is all your faluts. 
+	* Helpless Stories -- "There is nothing else I can do"
+
+#### Retrace your path: 
+* Am I in some form of silence or violence? 
+* What emotions are encouraging me to act this way? 
+* What story is creating these emotions? 
+* What evidence do I have to support this story? 
+
+
+#### Tell the Rest of the Story
+* Turn victims into actors: Am I pretending not to notice my role in the problem? 
+* Tun villains into humans: Why would a reasonable, rational, and decent person do what this person is doing? -- To allow healthy dialogue. 
+* Turn the helpless into the able: 
+	* What do I really want? For me? For others? For the relationship? 
+	* What would I do right now if I really wanted these results? 
+
+## State My Path
+
+The best at dialogue speak their minds completely and do it in a way that **makes it safe for others to hear** what they have to say and respond to it as well. They are both totally frank and completely respectful. 
+
+
+- Confidence
+- Humility
+- Skill
+
+1. Share your facts: Facts are the least controversial. Facts are the most persuasive. Facts are the least insulting. 
+2. Tell your story: 
+e.g. When I first heard your recommendation, my initial reaction was to oppose your decision. But after thinking about it, I've realized I could be wrong. I realized I don't really have any experience about what's best for Debbie in this situation -- only fears about the stigma of being held back. I know it is a complex issue. I'd like to talk about how both of us can more objectively weigh this decision. 
+I know you care a great deal about my daughter, and I am confident you are well-trained. That's not my concern at all. I know you want to do what's best for Debbie, and I I do too. My only issue is that this is an ambiguous decision with huge implications for the rest of her life. 
+3. Ask for other's path
+4. Talk tentatively
+e.g. I am starting to feel like you don't trust me. Is that what's going on here? If so, I'd like to know what I did to lose your trust. 
+I don't think you are intending this, but I am beginning to feel rejected. 
+it is leading me to conclude that you are startingto use drugs. DO you have another explanation that I am missing here? 
+it is starting to look like you are taking this home for your own use. Is that right? 
+5. Encourage testing. (Invite opposing views; Mean it; Play devil's advocate; Do it until your motive becomes obvious) 
+
+
+Ex: I was checking our credit card bill, and I noticed a charge of forty-eight $ for the Good night motel down the street (shares facts)
+
+It is a motel down the street. You know that's how my sister found out that Phil was having an affair. She found a suspicious hotel bill. [Shares story -- tentatively] I don't have anything to worry about, do I? what do you think is going on with this bill? (asks for other's path)
+
+I know that you have given me no reason to question your fidelity. I don't really believe that you are having an affair (contrasting). It is just that it might help put my mind to rest if we were to check on this right now. Would that bother you? [Encourages testing] 
+
+
+#### Strong belief  ---> Soften your approach. 
+1. Learn to look: (when the dialogue goes into crucial)
+The more you care about an issue, the less likely you are to be on your best behavior. 
+2. Torn down your approach: Open yourself up to the belief that others might have something to say, and better still, they might even hold a piece of the puzzle, and ask them for their views.
+
+
