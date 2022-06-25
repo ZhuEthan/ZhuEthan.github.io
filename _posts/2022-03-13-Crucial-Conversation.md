@@ -146,4 +146,69 @@ I know that you have given me no reason to question your fidelity. I don't reall
 The more you care about an issue, the less likely you are to be on your best behavior. 
 2. Torn down your approach: Open yourself up to the belief that others might have something to say, and better still, they might even hold a piece of the puzzle, and ask them for their views.
 
+## Explore Others' Paths
+
+How to listen when others blow up or clam up. A new tool to help others feel safe. 
+
+When people feel unsafe, he has been in `Act`phase. You need to break the cycle, help people retrace the path. 
+
+* Be sincere
+* Be curious
+* Be patient
+
+#### Encourage others to retrace their path
+
+See&Hear -> Tell a story -> **Feel** -> Act
+
+* Every sentence has a history. 
+* Break the cycle
+
+#### Inquiry Skills
+When: Others are going to silence or violence. We can see that they are feeling upset, fearful, or angry. We can see that if we don't get at the source of their feelings. 
+
+How: We ve also suggested that whatever we do to invite the other person to open up and share his or her path, our invitation must be sincere. 
+
+ ,What: what are we supposed to actually do? **listening**, they must believe that when they share their thoughts, they won't offend others or be punished for speaking frankly. 
+
+To encourage others to share their paths we'll use four power listening tools that can help make it safe for other people to speak franky. 
+* Ask: 
+* Mirror: If asking others to share their path doesn't open things up, mirroring can help build more safety. You say you are OK. 
+* Paraphrase: Let's see if I've got this right. You are upset because I ve voiced my concern about some of the clothes you wear. And this seems controlling or old-fashioned to you. 
+* Prime: Pour some meaning into the pool before the other person will respond in kind. 
+
+How to change people's path? 
+
+**Agrees:** Most arguments consist of battles over the 5 to 10 percents of the facts and stories that people disagree over. Start with areas of agreement. 
+
+**Build:** Point out areas of agreement, and then add elements that were left out of the discussion. 
+
+**Compare:** If you disagree, compare your path with the other person's. That is, rather than suggesting that he or she is wrong, suggest that you differ. __I think I see things differently. Let me describe how.__ 
+
+## Move to action
+
+The two riskiest times in crucial conversation
+
+* Make it cear how decisions will be made -- who will be involved and why. 
+* who should make the final desicion, in to the talk. 
+
+The 4 methods of decision making: 
+**Command**; 
+**Consult**
+**Vote**
+**Consesus**: it should only be used with 1) high-stakes and complex issues 2) issues where everyone absolutely must support the final choice. 
+
+How to choose: 
+
+1. Who cares. 
+2. Who knows. 
+3. Who must agree? 
+4. Ho many people is it worth involving. your gola should be to involve the **fewest** number of people while still considering the quality of the decision along with the support that people will give it. 
+
+
+**Who does what by when? How will you follow up? **
+
+E.g. Call me on my cell phone when you finish your homework. Then you can go play with friends. Okay? 
+Let me know as a soon as you ve completed the research component of this project. You've got until the last week in november, but if you finish earlier, give me a call. 
+
+
 
