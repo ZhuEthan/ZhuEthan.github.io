@@ -8,6 +8,9 @@ But the Scrooge-Coin doesn't solve the "centralization" problem: What if Scrooge
 
 ![Q2BitCoin](https://user-images.githubusercontent.com/9986222/183686689-22529000-6cfb-44a0-8427-866dbe94154e.png)
 ![Bitcoint-Consensus](https://user-images.githubusercontent.com/9986222/183686705-0245e600-528d-4d9a-a17a-11daf7e4d169.png)
+
+The `Random` is not actually how it is working in bitcoin, the node to broadcast its block is the one who solved the puzzle. 
+
 ![Double-spend](https://user-images.githubusercontent.com/9986222/183686729-1e4d06b0-e95f-43a3-a8df-5d6af46a60df.png)
 
 Bob wait for 6 nodes confirming the blocks he is intestered in and then complete the transaction. 
