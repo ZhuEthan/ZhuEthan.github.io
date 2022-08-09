@@ -17,3 +17,4 @@ Bob wait for 6 nodes confirming the blocks he is intestered in and then complete
 
 ![Proof-of-work](https://user-images.githubusercontent.com/9986222/183701320-56223b40-68a4-4203-a9ec-1eb68acdd355.png)
 ![parameterizable-cost](https://user-images.githubusercontent.com/9986222/183701352-42c7da44-1b2a-4c62-8ac1-430b35996b8f.png)
+![51-attack](https://user-images.githubusercontent.com/9986222/183710131-ce2d1e9c-87ba-4603-bc51-5b90ab9d9933.png)
