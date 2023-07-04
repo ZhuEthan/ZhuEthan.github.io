@@ -224,6 +224,8 @@ In fact, to avoid middleman attack, the `public key` sent by server is a digital
 
 ## SSL/TLS:
 
+* https://www.youtube.com/watch?v=ZkL10eoG1PY
+
 * How can you securely send your credit card to Coursera? 
 
 ![SSL/TLS-Two-phases](../img/SSLTLS-Two-phases.png)
