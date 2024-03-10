@@ -17,5 +17,6 @@ I will / I won't / I want;
 3. Put first things first in morning to avoid exhaustion (The willpower can drain)
 4. Thinking about the benefits;
 5. To avoid licencing effect: how committed do you feel to your goal rather than focusing too much on the progress.  
-
+6. If there is something you have been putting off, motivate yourself by linking it with something that gets your dopamine neurons firing.
+   
 ### 
