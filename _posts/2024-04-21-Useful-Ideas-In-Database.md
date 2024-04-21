@@ -4,7 +4,7 @@ image: /img/hello_world.jpeg
 title: Useful Ideas in Database
 ---
 
-This section will record some big ideas in database; 
+This section will record some useful ideas in database; 
 
 Transaction ACID:
 
