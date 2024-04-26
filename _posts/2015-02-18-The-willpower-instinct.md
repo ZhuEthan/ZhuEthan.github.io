@@ -18,5 +18,8 @@ I will / I won't / I want;
 4. Thinking about the benefits;
 5. To avoid licencing effect: how committed do you feel to your goal rather than focusing too much on the progress.  
 6. If there is something you have been putting off, motivate yourself by linking it with something that gets your dopamine neurons firing.
+7. Stress-relief strategies that work.
+8. Forgiveness when you fail.
+9. Optimistic pessimism for successfuly resolution. 
    
 ### 
