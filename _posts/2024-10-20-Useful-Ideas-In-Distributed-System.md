@@ -9,7 +9,7 @@ Client is a lib that has complex logic like combing chunks and etc;
 
 Writing: 
 
-Client asks Master which chunk to append -> Master needs to designate a primary -> Master needs to find the chunks which have up-to-date replica -> Pick Primary / Secondary -> Increment V# -> Tells P/S V# 
+Client asks Master which chunk to append -> Master needs to designate a primary -> Master needs to find the chunks which have up-to-date replica -> Pick Primary / Secondary -> Increment V# -> Tells P/S V# -> Master writes VN to disk, 
 
 
 ![the-birthday-paradox](../img/The-Birthday-paradox.png)
