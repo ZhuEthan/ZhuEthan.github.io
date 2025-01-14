@@ -4,7 +4,7 @@ title: About me
 subtitle: Why you'd want to go on a date with me
 ---
 
-Born on 2.14 (valentine day) --> Enough
+Born on 2.14 (valentine day) 
 
 https://www.16personalities.com/esfj-personality
 
